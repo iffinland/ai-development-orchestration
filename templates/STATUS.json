@@ -2,6 +2,8 @@
   "schema_version": 2,
   "project": "",
   "task": "",
+  "executing_agent": null,
+  "report_writer": null,
   "state": "planned",
   "state_revision": 0,
   "previous_state": null,

@@ -51,3 +51,33 @@ remote report link when available. For local-only Qortium reports, publish an
 explicitly approved, sanitized evidence snapshot in the handoff; record its local
 source and SHA-256. A local path alone is not a GitHub-readable handoff.
 Never include credentials, wallet data, secrets or private infrastructure details.
+
+## Agent identity in reports and handoffs
+
+Every report, handoff, status artifact and commit-message body MUST name the
+agent that actually executed the work — the implementer or validator that
+produced the evidence — using its registered role name (`ChatGPT`, `Codex
+Local`, `DeepSeek`, or a future explicitly registered role).
+
+- Identity is evidence, never a default. Never infer the author from a template
+  placeholder, a role's nominal responsibilities, the agent a task controller is
+  addressed to, the orchestrator that dispatched the work, or whoever committed
+  the file.
+- Orchestrator/dispatcher and executing agent are recorded separately. When
+  Codex Local writes or curates an artifact on behalf of DeepSeek (or another
+  implementer), the artifact states `executing agent = DeepSeek` and
+  `report/handoff writer = Codex Local`. The executing agent is the author of the
+  work; the writer is not.
+- An executor that cannot be established is recorded as `unknown` with the
+  reason and the missing evidence. It is never guessed to make the field look
+  complete.
+- A correction of a prior misattribution is itself recorded — date, corrected
+  field, the prior value and the evidence that establishes the real executor — so
+  downstream readers can detect stale copies carrying the wrong attribution.
+- [`templates/HANDOFF.md`](templates/HANDOFF.md), [`templates/TASK.md`](templates/TASK.md)
+  and [`templates/STATUS.json`](templates/STATUS.json) carry explicit
+  executing-agent fields for this purpose.
+
+This rule is universal across platforms and agents. Platform report policies may
+add their own disclosure requirements but MUST NOT replace the executed-agent
+identity with an orchestration role.

@@ -86,6 +86,12 @@ Preserve owner work. Do not reset, clean, automatically stash, remove duplicate
 files, or relocate linked worktrees. Record unresolved conflicts and propose a
 recoverable consolidation plan before destructive cleanup.
 
+Reports, handoffs and status artifacts must name the agent that actually
+executed the work, never the orchestrator, the committing writer or a template
+default. Identity is evidence, not a default: it is never inferred from a role or
+placeholder, and an unestablished executor is recorded as `unknown` rather than
+guessed. See [GIT-AND-HANDOFF.md](GIT-AND-HANDOFF.md).
+
 No commit, push, merge, tag, release, deploy, QDN publication, signing,
 transaction, issue mutation or server change is authorized merely because an
 agent has filesystem/network access. Exact authorization stays task-scoped.

@@ -100,8 +100,10 @@ cheaper when the solved knowledge is actually reusable.
 
 Return a truthful handoff with exact application SHA, evidence by validation
 layer, missing evidence, owner acceptance, external-write state and skill
-harvest result. Only verified acceptance permits completion.
-Publishing/merging/releasing is a separate authorized step.
+harvest result. The handoff must name the agent that actually executed the work;
+identity is never inferred from a template or an orchestration role (see
+[GIT-AND-HANDOFF.md](GIT-AND-HANDOFF.md)). Only verified acceptance permits
+completion. Publishing/merging/releasing is a separate authorized step.
 
 Use [GIT-AND-HANDOFF.md](GIT-AND-HANDOFF.md) for machine-readable state. Platform
 application reports stay in their platform-defined canonical locations;
