@@ -1,0 +1,605 @@
+Snapshot 2026-09-13; remote relations are cached, no fetch performed.
+
+=== /home/iffi/VsCodec-Projects/AI-Orchestration ===
+HEAD: UNAVAILABLE: fatal: Needed a single revision
+## No commits yet on agent/orchestration/bootstrap
+?? AGENTS.md
+?? ENVIRONMENT.md
+?? GIT-AND-HANDOFF.md
+?? PROJECT-REGISTRY.md
+?? README.md
+?? WORKFLOW.md
+?? reports/2026-09-13-document-inventory.json
+?? reports/2026-09-13-duplicates-and-conflicts.md
+?? reports/2026-09-13-files-changed.txt
+?? reports/2026-09-13-git-baseline.json
+?? reports/2026-09-13-git-final.txt
+?? reports/2026-09-13-phase-1-audit.md
+?? roles/CHATGPT.md
+?? roles/CODEX.md
+?? roles/DEEPSEEK.md
+?? templates/HANDOFF.md
+?? templates/STATUS.json
+?? templates/TASK.md
+
+=== /home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace ===
+HEAD: 91b664b9747c18f9e51cfbbd6165cd918e6c5bdc
+## main...origin/main
+ M AGENTS.md
+ M README.md
+ M agents/00-SESSION-START.md
+ M agents/live-qdn-validation.md
+ M agents/qortal-qdn-and-bridge.md
+ M agents/roles/CODEX.md
+ M agents/roles/DEEPSEEK.md
+ M docs/architecture/qortal-dapp-development-standard.md
+ M docs/workflows/deepseek-primary-work-model.md
+ M docs/workflows/report-storage-policy.md
+ M docs/workflows/workflow-v2.md
+ M tools/validate-workspace.sh
+?? docs/ai-orchestration/audits/2026-09-13-universal-orchestration-audit.md
+?? docs/shadow-archives-webportal/implementation/2026-09-11-owner-runtime-visual-correction-report.md
+
+=== /home/iffi/VsCodec-Projects/Qortium ===
+HEAD: 36bac59d6aa680053d3c14a6c8a667c9ee98031e
+## main
+ D agents/00-SESSION-START.md
+ D agents/01-QORTIUM-ARCHITECTURE.md
+ D agents/02-DEVELOPMENT-RULES.md
+ D agents/03-REFERENCE-REPOS.md
+ D agents/04-WORKFLOW.md
+ D agents/05-TESTING-AND-VALIDATION.md
+ D agents/06-GITHUB-WORKFLOW.md
+ D agents/deepseek/00-DEEPSEEK-SESSION-START.md
+ D agents/deepseek/01-DEEPSEEK-OPERATING-RULES.md
+ D agents/deepseek/02-INVESTIGATION-PROTOCOL.md
+ D agents/deepseek/05-RUNTIME-EVIDENCE.md
+ D agents/deepseek/06-REPORTING.md
+ D agents/deepseek/README.md
+ D agents/deepseek/projects/Blogs.md
+ D agents/deepseek/templates/ANALYSIS-TASK.md
+ D agents/deepseek/templates/BUGFIX-TASK.md
+ D agents/deepseek/templates/PROJECT-ONBOARDING.md
+ D agents/projects/Blogs.md
+ D agents/projects/Discssion-Boards.md
+ D agents/projects/Qortium-United-Community.md
+ D agents/projects/Video-Center.md
+ D agents/projects/iffi_vaba_mees.md
+ D agents/projects/my-private-room.md
+ M github-clones/qortium-core
+ M github-clones/qortium-home
+ M projects/Blogs
+ M projects/Discssion-Boards
+ M projects/Qortium-United-Community
+ M projects/Video-Center
+ M projects/iffi_vaba_mees
+ M projects/my-private-room
+ D projects/nodefm-station.md
+?? AGENTS.md
+?? WORKSPACE.md
+?? docs/README.md
+?? docs/ai-orchestration/audits/2026-09-13-universal-orchestration-audit.md
+?? docs/architecture/qortium-dapp-development-standard.md
+?? docs/blogs/implementations/2026-07-24-blog-delete-and-post-redirect-bugfix.md
+?? docs/blogs/implementations/2026-07-24-qdn-rich-embed-implementation.md
+?? docs/blogs/implementations/2026-07-26-editor-comments-mobile-branding-bugfix.md
+?? docs/blogs/implementations/2026-07-26-featured-image-shared-taxonomy-implementation.md
+?? docs/blogs/implementations/2026-07-26-home-post-filters-implementation.md
+?? docs/blogs/implementations/2026-07-26-pdf-native-qortium-viewer-bugfix.md
+?? docs/blogs/implementations/2026-07-26-pdfjs-qdn-preview-bugfix.md
+?? docs/blogs/implementations/2026-07-26-qdn-pdf-audio-preview-bugfix.md
+?? docs/blogs/implementations/2026-07-26-qdn-quick-preview-implementation.md
+?? docs/blogs/implementations/2026-07-26-qdn-search-result-ux-bugfix.md
+?? docs/blogs/implementations/2026-07-26-richtext-block-spacing-bugfix.md
+?? docs/blogs/implementations/2026-07-26-thumbs-up-reaction-animation-bugfix.md
+?? docs/community-discussion-boards/architecture/2026-08-03-architecture-decision-round-v1.md
+?? docs/community-discussion-boards/architecture/2026-08-03-boards-aligned-architecture-decision-v2.md
+?? docs/community-discussion-boards/audits/2026-08-03-legacy-reusable-code-audit.md
+?? docs/community-discussion-boards/implementation/2026-08-03-milestone-1-initial-build.md
+?? docs/deepseek/Blogs/BLOGS-BUGFIX-BLOG-DEEP-LINK-IDENTITY-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-BUGFIX-CROSS-PUBLISHER-IDENTITY-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-BUGFIX-LINK-NAVIGATION-AND-AUTOLINK-2026-07-24.md
+?? docs/deepseek/Blogs/BLOGS-BUGFIX-POST-DELETE-2026-07-24.md
+?? docs/deepseek/Blogs/BLOGS-BUGFIX-QDN-ERROR-ENVELOPE-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-BUGFIX-QDN-READ-READINESS-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-CROSS-PUBLISHER-RUNTIME-FAILURE-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-MVP-ARCHITECTURE-CLOSURE-AUDIT-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-ONBOARDING-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-QDN-IMAGE-LOADING-INVESTIGATION-2026-07-24.md
+?? docs/deepseek/Blogs/BLOGS-QDN-IMAGE-RECOVERY-CHALLENGE-2026-07-24.md
+?? docs/deepseek/Blogs/BLOGS-QDN-PARTIAL-AVAILABILITY-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-READ-READINESS-CHALLENGE-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-RUNTIME-CROSS-PUBLISHER-IDENTITY-2026-07-23.md
+?? docs/deepseek/Blogs/BLOGS-STATIC-FINDINGS-CHALLENGE-2026-07-23.md
+?? docs/deepseek/IFFI-VABA-MEES-BUGFIX-14-VIDEO-SOURCE-SELECTION-2026-08-03.md
+?? docs/deepseek/IFFI-VABA-MEES-BUGFIX-15-OWNER-CONTENT-DELETE-2026-08-03.md
+?? docs/deepseek/IFFI-VABA-MEES-BUGFIX-22-GALLERY-EDIT-BATCH-ROUTING-2026-08-04.md
+?? docs/deepseek/IFFI-VABA-MEES-BUGFIX-23-GALLERY-EDIT-MODAL-CLOSE-2026-08-04.md
+?? docs/deepseek/IFFI-VABA-MEES-BUGFIX-25-COMPLETE-BLOGS-RICH-TEXT-PORT-2026-08-04.md
+?? docs/deepseek/IFFI-VABA-MEES-BUGFIX-26-QDN-EMBED-RENDERING-2026-08-05.md
+?? docs/deepseek/IFFI-VABA-MEES-BUGFIX-27-RICH-TEXT-FORMATTING-RENDERING-2026-08-05.md
+?? docs/deepseek/IFFI-VABA-MEES-BUGFIX-28-INLINE-BLOG-EDITOR-UX-2026-08-05.md
+?? docs/deepseek/IFFI-VABA-MEES-BUGFIX-29-UNICODE-UPLOAD-FILENAMES-2026-08-05.md
+?? docs/deepseek/IFFI-VABA-MEES-FEATURE-16-PROJECT-MAIN-PROJECT-FILTER-2026-08-03.md
+?? docs/deepseek/IFFI-VABA-MEES-FEATURE-17-PROJECT-CARD-DETAIL-METADATA-2026-08-03.md
+?? docs/deepseek/IFFI-VABA-MEES-FEATURE-19-GALLERY-TWO-STAGE-BATCH-PUBLISH-2026-08-03.md
+?? docs/deepseek/IFFI-VABA-MEES-FEATURE-20-PUBLISH-PROGRESS-MODAL-2026-08-04.md
+?? docs/deepseek/IFFI-VABA-MEES-FEATURE-21-GALLERY-EDIT-BATCH-PROGRESS-2026-08-04.md
+?? docs/deepseek/IFFI-VABA-MEES-FEATURE-24-BLOG-BATCH-PROGRESS-2026-08-04.md
+?? docs/deepseek/IFFI-VABA-MEES-FEATURE-24-RICH-TEXT-MODAL-BLOG-INTEGRATION-2026-08-04.md
+?? docs/deepseek/IFFI-VABA-MEES-FEATURE-31-DISCOVERY-COMMENT-COUNTERS-2026-08-05.md
+?? docs/deepseek/IFFI-VABA-MEES-FEATURE-32-BLOG-TAG-SYSTEM-2026-08-05.md
+?? docs/deepseek/IFFI-VABA-MEES-QDN-PUBLICATION-ARCHITECTURE-AUDIT-2026-08-03.md
+?? docs/deepseek/Qortium-Unified-Community/00-audit-scope-and-baseline.md
+?? docs/deepseek/Qortium-Unified-Community/01-architecture-and-runtime-map.md
+?? docs/deepseek/Qortium-Unified-Community/02-qdn-resource-and-state-model-audit.md
+?? docs/deepseek/Qortium-Unified-Community/03-security-identity-and-authorization-audit.md
+?? docs/deepseek/Qortium-Unified-Community/04-bridge-routing-ui-and-qortium-integration.md
+?? docs/deepseek/Qortium-Unified-Community/05-scaling-indexing-and-resilience-audit.md
+?? docs/deepseek/Qortium-Unified-Community/06-code-quality-build-and-dependencies.md
+?? docs/deepseek/Qortium-Unified-Community/07-findings-register.md
+?? docs/deepseek/Qortium-Unified-Community/08-refactor-roadmap.md
+?? docs/deepseek/Qortium-Unified-Community/09-executive-summary.md
+?? docs/deepseek/Qortium-Unified-Community/10-phase-0-safety-baseline.md
+?? docs/deepseek/Qortium-Unified-Community/11-target-qdn-architecture.md
+?? docs/deepseek/Qortium-Unified-Community/12-resource-schema-and-identifier-plan.md
+?? docs/deepseek/Qortium-Unified-Community/13-refactor-implementation-plan.md
+?? docs/deepseek/Qortium-Unified-Community/14-qucp-ref-001-shared-qdn-foundation.md
+?? docs/deepseek/Qortium-Unified-Community/15-qucp-ref-002-core-entity-schemas-and-policies.md
+?? docs/deepseek/Qortium-Unified-Community/16-qucp-ref-003-comments-replies-and-strict-schemas.md
+?? docs/deepseek/Qortium-Unified-Community/17-qucp-ref-003a-child-identifier-and-thread-integrity.md
+?? docs/deepseek/Qortium-Unified-Community/18-qucp-ref-004-reactions-and-owner-tombstones.md
+?? docs/deepseek/Qortium-Unified-Community/19-qucp-ref-004a-operation-identifier-collision-resistance.md
+?? docs/deepseek/Qortium-Unified-Community/20-qucp-ref-004b-compact-operation-identifiers.md
+?? docs/deepseek/Qortium-Unified-Community/21-qucp-ref-005-role-registry-and-moderation.md
+?? docs/deepseek/Qortium-Unified-Community/22-qucp-ref-005a-historical-role-authorization.md
+?? docs/deepseek/Qortium-Unified-Community/23-qucp-ref-006-native-poll-architecture.md
+?? docs/deepseek/Qortium-Unified-Community/24-qucp-ref-007-notification-system-removal.md
+?? docs/deepseek/Qortium-Unified-Community/25-qucp-ref-008-user-preferences.md
+?? docs/deepseek/Qortium-Unified-Community/26-qucp-ref-008a-remove-speculative-preferences.md
+?? docs/deepseek/Qortium-Unified-Community/27-qucp-ref-009-media-references.md
+?? docs/deepseek/Qortium-Unified-Community/28-qucp-ref-009a-media-integrity-and-removal.md
+?? docs/deepseek/Qortium-Unified-Community/29-qucp-ref-009b-media-policy-test-verification.md
+?? docs/deepseek/Qortium-Unified-Community/30-qucp-ref-009c-media-pipeline-quarantine.md
+?? docs/deepseek/Qortium-Unified-Community/31-qucp-stabilization-001-zero-finding-audit.md
+?? docs/deepseek/Qortium-Unified-Community/32-qucp-runtime-migration-001.md
+?? docs/deepseek/Qortium-Unified-Community/33-qucp-session-onboarding-001.md
+?? docs/deepseek/Qortium-Unified-Community/34-qucp-runtime-phase-001.md
+?? docs/deepseek/Qortium-Unified-Community/35-qucp-runtime-phase-001a-completion.md
+?? docs/deepseek/Qortium-Unified-Community/36-qucp-runtime-phase-001b-final-completion.md
+?? docs/deepseek/Qortium-Unified-Community/Qortium-Unified-Community-raport-10-13.zip
+?? docs/deepseek/README.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-01-OWNER-AUTHORITY-2026-07-23.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-02-PERSISTENCE-READBACK-2026-07-23.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-03-GUESTBOOK-PERFORMANCE-2026-07-23.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-04-SOCIAL-ACTIONS-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-05-ENGAGEMENT-DATA-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-06-GALLERY-PUBLISH-EDIT-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-07-GALLERY-MODAL-MULTISELECT-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-08-GALLERY-EDIT-AUTH-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-09-VIDEO-EDIT-AUTH-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-10-VIDEO-PAGINATION-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-11-MEDIA-PUBLICATION-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-12-VIDEO-SOURCE-INTEGRITY-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-13-VIDEO-MODAL-SOURCE-UX-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-E2E-REGRESSION-AUDIT-2026-07-24.md
+?? docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-INITIAL-AUDIT-2026-07-23.md
+?? docs/discussion-boards/audit/issue-17-post-edit-independent-audit.md
+?? docs/discussion-boards/implementations/2026-05-14-empty-content-fix-implementation.md
+?? docs/discussion-boards/investigations/2026-05-14-empty-content-analysis.md
+?? docs/discussion-boards/issues/issue-17-post-edit-correction-report.md
+?? docs/discussion-boards/issues/issue-17-post-edit.md
+?? docs/discussion-boards/issues/issue-18-sysop-role-bootstrap.md
+?? docs/discussion-boards/issues/issue-20-main-topic-refresh.md
+?? docs/discussion-boards/issues/issue-23-tip-recipient-resolution.md
+?? docs/iffi-vaba-mees/audits/2026-08-26-existing-qdn-edit-delete-recovery-audit.md
+?? docs/iffi-vaba-mees/issues/2026-08-25-iffi-vaba-mees-identity-correction-edit-delete-recovery.md
+?? docs/iffi-vaba-mees/issues/2026-08-25-iffi-vaba-mees-qdn-edit-delete-mutation-remediation.md
+?? docs/iffi-vaba-mees/issues/2026-09-08-app-wide-qdn-loading-audit.md
+?? docs/iffi-vaba-mees/issues/2026-09-08-qdn-image-loading-stage-1.md
+?? docs/iffi-vaba-mees/issues/2026-09-09-app-wide-optional-edit-forms.md
+?? docs/iffi-vaba-mees/issues/2026-09-09-guestbook-bounded-loading.md
+?? docs/iffi-vaba-mees/issues/2026-09-09-html-table-rendering-stage-2.md
+?? docs/mx-linux-workstation/implementations/2026-08-25-borgbackup-implementation.md
+?? docs/mx-linux-workstation/implementations/2026-08-25-vscode-projects-boot-backup-implementation.md
+?? docs/my-private-room/2026-08-07-phase-a-1-report.md
+?? docs/my-private-room/2026-08-07-phase-b-1-report.md
+?? docs/my-private-room/2026-08-07-phase-b-report.md
+?? docs/nodefm-station/2026-08-11-nodefm-phase2-music-library-playlists.md
+?? docs/nodefm-station/2026-08-12-nodefm-qdn-publication-reference-audit.md
+?? docs/nodefm-station/2026-08-12-nodefm-qortium-integration-reference-audit.md
+?? docs/nodefm-station/audits/2026-08-20-independent-codex-beta-audit.md
+?? docs/nodefm-station/audits/2026-08-20-independent-codex-remediation-reaudit.md
+?? docs/nodefm-station/audits/2026-08-21-independent-codex-bulk-import-a1-audit.md
+?? docs/nodefm-station/audits/2026-08-21-independent-codex-bulk-import-a1-final-reaudit.md
+?? docs/nodefm-station/audits/2026-08-21-independent-codex-bulk-import-a1-freeze-gate.md
+?? docs/nodefm-station/audits/2026-08-21-independent-codex-bulk-import-a1-remediation-reaudit.md
+?? docs/nodefm-station/audits/2026-09-01-android-audio-playback-audit.md
+?? docs/nodefm-station/implementations/2026-08-11-nodefm-phase1-corrective.md
+?? docs/nodefm-station/implementations/2026-08-11-nodefm-phase1-foundation.md
+?? docs/nodefm-station/implementations/2026-08-18-phase-2-autonomous-completion.md
+?? docs/nodefm-station/implementations/2026-08-18-phase-2-closure-preparation.md
+?? docs/nodefm-station/implementations/2026-08-18-phase-2-closure.md
+?? docs/nodefm-station/implementations/2026-08-18-phase-2-qdn-contract-remediation.md
+?? docs/nodefm-station/implementations/2026-08-18-phase-2-state-persistence-integrity-remediation.md
+?? docs/nodefm-station/implementations/2026-08-18-phase-3-autonomous-implementation.md
+?? docs/nodefm-station/implementations/2026-08-19-phase-3-closure.md
+?? docs/nodefm-station/implementations/2026-08-19-phase-4-autonomous-implementation.md
+?? docs/nodefm-station/implementations/2026-08-19-phase-4-closure.md
+?? docs/nodefm-station/implementations/2026-08-19-phase-5-autonomous-implementation.md
+?? docs/nodefm-station/implementations/2026-08-19-phase-5-closure.md
+?? docs/nodefm-station/implementations/2026-08-19-phase-6-autonomous-implementation.md
+?? docs/nodefm-station/implementations/2026-08-19-phase-6-closure.md
+?? docs/nodefm-station/implementations/2026-08-19-phase-7-autonomous-implementation.md
+?? docs/nodefm-station/implementations/2026-08-19-phase-7-closure.md
+?? docs/nodefm-station/implementations/2026-08-20-beta-8a-identity-share-playback.md
+?? docs/nodefm-station/implementations/2026-08-20-beta-8b-listener-track-submissions.md
+?? docs/nodefm-station/implementations/2026-08-20-beta-8b1-tags-cover-batch-publication.md
+?? docs/nodefm-station/implementations/2026-08-20-beta-8b2-unicode-upload-schedule-copy.md
+?? docs/nodefm-station/implementations/2026-08-20-beta-8c-public-visual-design.md
+?? docs/nodefm-station/implementations/2026-08-20-beta-baseline-closure.md
+?? docs/nodefm-station/implementations/2026-08-20-beta-release-candidate-hardening.md
+?? docs/nodefm-station/implementations/2026-08-20-independent-audit-remediation.md
+?? docs/nodefm-station/implementations/2026-08-21-admin-dashboard-and-extended-track-metadata.md
+?? docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-audit-remediation.md
+?? docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-boundary-integrity-final.md
+?? docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-final-boundary-remediation.md
+?? docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-final-closure.md
+?? docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-foundation.md
+?? docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-freeze-gate-validator-remediation.md
+?? docs/nodefm-station/implementations/2026-08-21-bulk-music-import-feasibility.md
+?? docs/nodefm-station/implementations/2026-08-21-home2-a2-native-audio-publication.md
+?? docs/nodefm-station/implementations/2026-08-21-home2-release-a2-contract-audit.md
+?? docs/nodefm-station/implementations/2026-08-21-library-discovery-filtering.md
+?? docs/nodefm-station/implementations/2026-08-21-listener-submission-like-moderation-bugfix.md
+?? docs/nodefm-station/implementations/2026-08-21-metadata-intelligence-track-detail.md
+?? docs/nodefm-station/implementations/2026-08-22-home2-a2-image-json-publication.md
+?? docs/nodefm-station/implementations/2026-08-22-workflow-a2-paused-home2-platform-stability.md
+?? docs/nodefm-station/implementations/2026-08-27-deterministic-playback-shuffle-and-playlist-reorder.md
+?? docs/nodefm-station/implementations/2026-08-27-listener-uploads-post-moderation-refresh-bugfix.md
+?? docs/nodefm-station/implementations/2026-08-28-nodefm-beta-development-closure.md
+?? docs/nodefm-station/implementations/2026-08-28-station-time-ux-and-schedule-duration.md
+?? docs/nodefm-station/implementations/2026-08-28-utc-pagination-and-station-music-scope.md
+?? docs/nodefm-station/implementations/2026-08-29-listener-owned-playlists-v1.md
+?? docs/nodefm-station/implementations/2026-08-29-listener-playlist-create-blank-screen-bugfix.md
+?? docs/nodefm-station/implementations/2026-08-29-listener-track-authority-and-station-moderation.md
+?? docs/nodefm-station/implementations/2026-08-29-live-radio-missing-track-resilience-bugfix.md
+?? docs/nodefm-station/implementations/2026-08-30-listener-playlist-visibility-unified-transaction-ux.md
+?? docs/nodefm-station/implementations/2026-08-30-nodefm-app-wide-unified-transaction-chunk-ux.md
+?? docs/nodefm-station/implementations/2026-09-02-android-audio-stream-url-fix.md
+?? docs/nodefm-station/implementations/2026-09-02-android-route-chunks-and-cover-fix.md
+?? docs/nodefm-station/implementations/2026-09-04-core-stream-disconnect-and-android-background-audio.md
+?? docs/nodefm-station/issues/2026-08-18-phase-2-live-runtime-regressions.md
+?? docs/nodefm-station/issues/2026-08-18-phase-2-multi-resource-persistence.md
+?? docs/nodefm-station/issues/2026-08-19-phase-3-1-runtime-polish.md
+?? docs/nodefm-station/issues/2026-08-31-nodefm-reuse-admin-transaction-modal-app-wide.md
+?? docs/nodefm-station/issues/2026-08-31-nodefm-upload-audio-approval-batching.md
+?? docs/nodefm-station/runtime/2026-08-30-nodefm-cold-start-profiling-initial-load-optimization.md
+?? docs/nodefm-station/runtime/2026-09-02-bring-me-to-life-live-playback-report.md
+?? docs/nodefm-station/runtime/2026-09-03-cambodia-schedule-boundary-playback-report.md
+?? docs/nodefm-station/validation/2026-08-30-nodefm-radio-autodj-deploy-owner-runtime-validation.md
+?? docs/qortium-dev-workspace/audits/2026-08-30-qortium-workspace-governance-workflow-v2-audit.md
+?? docs/qortium-dev-workspace/handoffs/2026-08-30-workspace-governance-migration-final-handoff.md
+?? docs/qortium-dev-workspace/implementations/2026-07-27-report-storage-policy-implementation.md
+?? docs/qortium-dev-workspace/implementations/2026-08-20-autonomous-development-workflow-v2.md
+?? docs/qortium-dev-workspace/implementations/2026-08-20-qortium-home-unicode-sourceToken-transport-filename.md
+?? docs/qortium-dev-workspace/implementations/2026-08-30-application-report-migration-phase-4.md
+?? docs/qortium-dev-workspace/implementations/2026-08-30-phase-4-report-migration-manifest.md
+?? docs/qortium-dev-workspace/implementations/2026-08-30-project-context-canonicalization-phase-2.md
+?? docs/qortium-dev-workspace/implementations/2026-08-30-project-entrypoints-durable-docs-phase-3.md
+?? docs/qortium-dev-workspace/implementations/2026-08-30-root-legacy-agent-retirement-manifest.md
+?? docs/qortium-dev-workspace/implementations/2026-08-30-root-router-reference-inventory-phase-5.md
+?? docs/qortium-dev-workspace/implementations/2026-08-30-workflow-v2-source-of-truth-foundation-implementation.md
+?? docs/qortium-home/audits/2026-09-01-android-qdn-publishing-compression-audit.md
+?? docs/qortium-mail/audits/2026-09-10-qortium-mail-alpha-architecture-audit.md
+?? docs/qortium-united-community/audit/2026-07-27-QUCP-AUDIT-001-baseline-reconciliation.md
+?? docs/qortium-united-community/audit/2026-07-27-QUCP-POLLS-AUDIT-001-domain-foundation.md
+?? docs/qortium-united-community/audit/2026-07-27-QUCP-PROJECTS-AUDIT-001-domain-foundation.md
+?? docs/qortium-united-community/audit/2026-07-27-QUCP-SUPPORT-AUDIT-002-post-001A-verification.md
+?? docs/qortium-united-community/audit/2026-07-28-QUCP-DONATIONS-AUDIT-001-domain-foundation.md
+?? docs/qortium-united-community/audit/2026-07-28-QUCP-WIKI-AUDIT-001-complete-domain-audit.md
+?? docs/qortium-united-community/audits/2026-08-24-qortium-united-community-final-pre-beta-high-closure-report.md
+?? docs/qortium-united-community/audits/2026-08-24-qortium-united-community-final-targeted-pre-beta-high-re-audit.md
+?? docs/qortium-united-community/audits/2026-08-24-qortium-united-community-independent-pre-beta-release-audit.md
+?? docs/qortium-united-community/audits/2026-08-24-qortium-united-community-targeted-pre-beta-release-re-audit.md
+?? docs/qortium-united-community/audits/2026-08-25-qortium-united-community-final-residual-high-release-gate.md
+?? docs/qortium-united-community/beta/2026-08-22-QUCP-BETA-HARDENING-001.md
+?? docs/qortium-united-community/beta/2026-08-22-QUCP-BETA-READINESS-AUDIT-001.md
+?? docs/qortium-united-community/beta/2026-08-22-QUCP-BETA-SMOKE-BUGFIX-001.md
+?? docs/qortium-united-community/bugfix/2026-07-27-QUCP-BUGFIX-001-typescript-build.md
+?? docs/qortium-united-community/bugfix/2026-07-27-QUCP-FORUM-001A-runtime-integrity.md
+?? docs/qortium-united-community/bugfix/2026-07-27-QUCP-FORUM-001B-diagnostics-completeness-tests.md
+?? docs/qortium-united-community/checkpoints/2026-07-28-QUCP-CHECKPOINT-001-canonical-domains.md
+?? docs/qortium-united-community/checkpoints/2026-07-28-QUCP-CHECKPOINT-002-commit-push-tag.md
+?? docs/qortium-united-community/checkpoints/2026-07-28-QUCP-DONATIONS-CHECKPOINT-001.md
+?? docs/qortium-united-community/closure/2026-07-28-QUCP-DONATIONS-001D-final-domain-closure.md
+?? docs/qortium-united-community/closure/2026-07-28-QUCP-WIKI-001-C-exact-lookup-and-final-verification.md
+?? docs/qortium-united-community/closure/2026-07-28-QUCP-WIKI-001-R-final-remediation-and-closure.md
+?? docs/qortium-united-community/closure/2026-07-28-QUCP-WIKI-001-complete-domain-rewrite-and-closure.md
+?? docs/qortium-united-community/documentation/2026-07-27-QUCP-DOC-001-owner-decisions.md
+?? docs/qortium-united-community/documentation/2026-07-27-QUCP-DOC-002-license-statement-correction.md
+?? docs/qortium-united-community/handoffs/2026-08-25-beta-1-release-commit-push-handoff.md
+?? docs/qortium-united-community/handoffs/2026-08-25-release-preparation-beta-1-handoff.md
+?? docs/qortium-united-community/handoffs/2026-08-26-home-text-size-integration-handoff.md
+?? docs/qortium-united-community/implementation/2026-07-27-QUCP-ARCH-001-identifier-namespace.md
+?? docs/qortium-united-community/implementation/2026-07-27-QUCP-FORUM-001-forum-qdn-migration.md
+?? docs/qortium-united-community/implementation/2026-07-27-QUCP-POLLS-001-canonical-poll-vote.md
+?? docs/qortium-united-community/implementation/2026-07-27-QUCP-SUPPORT-001-support-qdn-categories.md
+?? docs/qortium-united-community/implementation/2026-07-27-QUCP-SUPPORT-001A-support-ui-admin-tests.md
+?? docs/qortium-united-community/implementation/2026-07-28-QUCP-DONATIONS-001-core-wallet-baseline.md
+?? docs/qortium-united-community/implementation/2026-07-28-QUCP-PROJECTS-001-canonical-projects.md
+?? docs/qortium-united-community/implementations/2026-08-22-admin-panel-content-management.md
+?? docs/qortium-united-community/implementations/2026-08-23-dashboard-stats-activity-implementation.md
+?? docs/qortium-united-community/implementations/2026-08-23-events-domain-implementation.md
+?? docs/qortium-united-community/implementations/2026-08-23-wiki-accordion-support-close-lifecycle-implementation.md
+?? docs/qortium-united-community/implementations/2026-08-24-pre-beta-high-remediation.md
+?? docs/qortium-united-community/implementations/2026-08-24-qortium-united-community-pre-beta-repair-round-1.md
+?? docs/qortium-united-community/implementations/2026-08-24-qortium-united-community-pre-beta-repair-round-2.md
+?? docs/qortium-united-community/implementations/2026-08-24-qortium-united-community-pre-beta-repair-round-3.md
+?? docs/qortium-united-community/implementations/2026-08-30-responsive-layout-density-pass.md
+?? docs/qortium-united-community/implementations/2026-08-31-posts-grid-responsive-fix-implementation.md
+?? docs/qortium-united-community/implementations/2026-09-02-form-entry-typography-implementation.md
+?? docs/qortium-united-community/issues/2026-08-22-owner-smoke-bugfix-round-implementation.md
+?? docs/qortium-united-community/issues/2026-08-22-richtext-image-system-integration.md
+?? docs/qortium-united-community/issues/2026-08-23-pre-audit-critical-bugfix-round-implementation.md
+?? docs/qortium-united-community/issues/2026-08-27-typography-alignment-lexend.md
+?? docs/qortium-united-community/runtime/2026-09-01-support-page-regression-investigation.md
+?? docs/qortium-united-community/security/2026-07-27-QUCP-FORUM-001C-publisher-authority-determinism.md
+?? docs/qortium-united-community/security/2026-07-27-QUCP-POLLS-001A-runtime-authority-timeline-closure.md
+?? docs/qortium-united-community/security/2026-07-27-QUCP-POLLS-001B-contextual-vote-authorization.md
+?? docs/qortium-united-community/security/2026-07-27-QUCP-SUPPORT-001B-category-authority-contract-closure.md
+?? docs/qortium-united-community/security/2026-07-27-QUCP-SUPPORT-001C-category-historical-authorization.md
+?? docs/qortium-united-community/security/2026-07-28-QUCP-DONATIONS-001A-transaction-contract-completeness-closure.md
+?? docs/qortium-united-community/security/2026-07-28-QUCP-DONATIONS-001B-type-diagnostics-pagination-finalization.md
+?? docs/qortium-united-community/security/2026-07-28-QUCP-DONATIONS-001C-V-independent-address-verification.md
+?? docs/qortium-united-community/security/2026-07-28-QUCP-DONATIONS-001C-address-diagnostic-test-inventory-closure.md
+?? docs/qortium-united-community/security/2026-07-28-QUCP-PROJECTS-001A-runtime-authority-lifecycle-closure.md
+?? docs/qortium-united-community/security/2026-07-28-QUCP-PROJECTS-001B-discovery-publication-pagination-closure.md
+?? docs/video-center/implementations/2026-07-22-cold-start-discovery-fix.md
+?? docs/video-center/implementations/2026-07-22-concurrent-discovery.md
+?? docs/video-center/implementations/2026-07-22-initial-route-fix.md
+?? docs/video-center/implementations/2026-07-22-progressive-discovery.md
+?? docs/video-center/implementations/2026-07-22-publish-flow-repair.md
+?? docs/video-center/implementations/2026-07-22-thumbnail-mvp-final.md
+?? docs/video-center/investigations/2026-07-22-homepage-feed-investigation.md
+?? docs/video-center/runtime/2026-07-22-performance-baseline.md
+?? github-clones/Q-Music-v_2.0/
+?? github-clones/discussion-boards-reference/
+?? github-clones/qortium-boards/
+?? github-clones/qortium-core-android-stream-fix/
+?? github-clones/qortium-home-auth-reference/
+?? github-clones/qortium-home-background-audio/
+?? github-clones/qortium-home-v2.0.0/
+?? projects/community-discussion-boards/.gitignore
+?? projects/community-discussion-boards/AGENTS.md
+?? projects/community-discussion-boards/README.md
+?? projects/community-discussion-boards/docs/RELEASE.md
+?? projects/community-discussion-boards/index.html
+?? projects/community-discussion-boards/package-lock.json
+?? projects/community-discussion-boards/package.json
+?? projects/community-discussion-boards/public/favicon.ico
+?? projects/community-discussion-boards/src/App.tsx
+?? projects/community-discussion-boards/src/Reference.tsx
+?? projects/community-discussion-boards/src/appConfig.ts
+?? projects/community-discussion-boards/src/boardModel.test.ts
+?? projects/community-discussion-boards/src/boardModel.ts
+?? projects/community-discussion-boards/src/boardService.test.ts
+?? projects/community-discussion-boards/src/boardService.ts
+?? projects/community-discussion-boards/src/clipboard.ts
+?? projects/community-discussion-boards/src/deepLink.ts
+?? projects/community-discussion-boards/src/displaySettings.ts
+?? projects/community-discussion-boards/src/main.tsx
+?? projects/community-discussion-boards/src/pendingWrite.ts
+?? projects/community-discussion-boards/src/qdnRequest.ts
+?? projects/community-discussion-boards/src/styles.css
+?? projects/community-discussion-boards/src/types.ts
+?? projects/community-discussion-boards/src/vite-env.d.ts
+?? projects/community-discussion-boards/tsconfig.json
+?? projects/community-discussion-boards/vite.config.ts
+?? projects/nodefm-station/
+?? qortium-dev-workspace/
+
+=== /home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core ===
+HEAD: 0983309bf982798cbad086d354fefa492474deda
+## main...origin/main
+
+=== /home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix ===
+HEAD: 4beaecb44d679237951c9d38a4533be86d35d8df
+## codex/android-stream-disconnect-fix
+ M src/main/java/org/qortium/arbitrary/ArbitraryDataRenderer.java
+ M src/test/java/org/qortium/arbitrary/ArbitraryDataRendererTests.java
+
+=== /home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-boards ===
+HEAD: e4a1becf02e35255e48239a2ca1c7ada10556b15
+## main...origin/main
+
+=== /home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference ===
+HEAD: dd42a2373af0e1a52b9c047acf8689b8daf21d23
+## main...origin/main
+
+=== /home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0 ===
+HEAD: 5606faaa68bbd9521d84d6e8cb4d9d93676c7ee4
+## HEAD (no branch)
+
+=== /home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home ===
+HEAD: 927d932bdf29e9641e15519ff0309316ac6afe46
+## main...origin/main [behind 241]
+ M electron/qdn.ts
+ M src/platform.ts
+?? electron/qdn-publish-filename.test.ts
+?? electron/qdn-publish-filename.ts
+?? qdn-app-actions.js
+?? qdn-app-preload.cjs
+?? qdn-bridge-error.js
+?? qdn-publish-routing.js
+?? qdn-request-values.js
+?? qdn-write-route.js
+?? qdn.js
+
+=== /home/iffi/VsCodec-Projects/Qortium/github-clones/Q-Music-v_2.0 ===
+HEAD: 681a4da63eb3e181237ada819b3156d0ffbc9664
+## main...origin/main
+
+=== /home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio ===
+HEAD: e8d58fac51e0309ca768eb270f93e17005e68371
+## codex/android-background-audio
+ M android/app/build.gradle
+ M android/app/src/main/AndroidManifest.xml
+ M android/app/src/main/java/org/qortium/home/MainActivity.java
+ M electron/home-v2-app-actions.ts
+ M electron/home-v2-app-runtime.ts
+ M src/home-v2-live/HomeV2LiveApp.tsx
+ M src/home-v2-live/android-app-host.ts
+?? android/app/src/main/java/org/qortium/home/QdnBackgroundAudioPlugin.java
+?? android/app/src/main/java/org/qortium/home/QdnBackgroundAudioService.java
+?? electron/home-v2-background-audio-contract.test.ts
+?? electron/home-v2-background-audio-contract.ts
+
+=== /home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference ===
+HEAD: 4d2d9089f54697303dcc99a1b43216c520a5e39e
+## HEAD (no branch)
+
+=== /home/iffi/VsCodec-Projects/Qortium/projects/iffi_vaba_mees ===
+HEAD: cfcd1b7fdb7b7473f6c741ebc38d39474f2125db
+## main...origin/main
+ M src/components/blog/BlogCard.jsx
+ M src/components/blog/BlogPublishModal.jsx
+ M src/components/editor/QdnEmbedCard.jsx
+ M src/components/editor/QdnEmbedModal.jsx
+ M src/components/editor/RichTextContent.jsx
+ M src/components/gallery/GalleryCard.jsx
+ M src/components/gallery/GalleryPublishModal.jsx
+ M src/components/preview/QdnPreviewModal.jsx
+ M src/components/projects/ProjectCard.jsx
+ M src/components/projects/ProjectPublishModal.jsx
+ M src/components/storybook/StoryEntryCard.jsx
+ M src/components/storybook/StoryEntryPublishModal.jsx
+ M src/components/videos/VideoCard.jsx
+ M src/components/videos/VideoPublishModal.jsx
+ M src/hooks/useBlogPosts.js
+ M src/hooks/useGalleries.js
+ M src/hooks/useLifeStoryEntries.js
+ M src/hooks/useProjects.js
+ M src/hooks/useVideos.js
+ M src/pages/BlogDetailPage/BlogDetailPage.jsx
+ M src/pages/GalleryDetailPage/GalleryDetailPage.jsx
+ M src/pages/GuestbookPage/GuestbookPage.jsx
+ M src/pages/GuestbookPage/GuestbookPage.module.css
+ M src/pages/ProjectDetailPage/ProjectDetailPage.jsx
+ M src/pages/StoryEntryDetailPage/StoryEntryDetailPage.jsx
+ M src/pages/VideoDetailPage/VideoDetailPage.jsx
+ M src/services/blogService.js
+ M src/services/galleryService.js
+ M src/services/guestbookService.js
+ M src/services/lifeStoryService.js
+ M src/services/projectService.js
+ M src/services/qdn/previewService.js
+ M src/services/qdn/useQdnImageUrl.js
+ M src/services/qdnResourceService.js
+ M src/services/qortium/identityService.js
+ M src/services/videoService.js
+ M src/utils/htmlSanitizer.js
+ M src/utils/siteConfig.js
+?? src/components/common/HtmlContent.module.css
+?? src/components/common/QdnImage.css
+?? src/components/common/QdnImage.jsx
+?? src/components/common/SanitizedHtmlContent.jsx
+?? src/services/qdn/imageLoading.js
+?? src/utils/editForm.js
+?? tests/edit-form.test.mjs
+?? tests/guestbook-loading.test.mjs
+?? tests/html-sanitizer.browser.js
+?? tests/html-sanitizer.html
+?? tests/image-loading.test.mjs
+
+=== /home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards ===
+HEAD: 0a52d5dedd8c1dba7d86e3dad61522bbd527fde1
+## main...origin/main
+ M src/features/forum/components/QortTipModal.tsx
+ M src/features/forum/hooks/useThreadActions.ts
+ M src/pages/ThreadPage.tsx
+ M src/services/qortium/walletService.ts
+
+=== /home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station ===
+HEAD: 4cb57292608e58d704ceab992c07b09612847a4b
+## main...origin/main
+ M src/features/radio/hooks/useRadioTimeline.ts
+ M src/features/radio/player/useLiveRadioPlayer.ts
+ M src/qortium/bridge.ts
+ M src/qortium/qdn.ts
+?? src/__tests__/backgroundAudio.test.ts
+?? src/features/radio/player/backgroundAudio.ts
+
+=== /home/iffi/VsCodec-Projects/Qortium/projects/Qortium-United-Community ===
+HEAD: 703a5ac353c79910e8260b39db01207dc5d57122
+## main...origin/main
+ M src/App.tsx
+ M src/components/forum/CommentForm.tsx
+ M src/components/forum/NewThreadForm.tsx
+ M src/components/forum/ReplyForm.tsx
+ M src/components/layout/Layout.tsx
+ M src/components/support/NewTicketForm.tsx
+ M src/pages/PollsPage.tsx
+ M src/services/qdn/qdnImageService.ts
+ M src/services/qortium/qdnService.ts
+ M src/services/qortium/qortiumClient.ts
+ M src/services/qortium/walletService.ts
+ M src/store/slices/authSlice.ts
+ M src/test/authInitialization.test.ts
+ M src/test/eventApiRoundTrip.test.ts
+ M src/test/helpers/mockQdnBridge.ts
+ M src/test/postDeleteRoundTrip.test.ts
+ M src/test/publishConfirmation.test.ts
+ M src/test/qortiumTimeout.test.ts
+ M src/test/supportAdminCloseRoleDegradation.test.ts
+ M src/test/supportCategoryRoundTrip.test.ts
+ M src/test/supportCloseBoundary.test.ts
+ M src/test/supportPageRender.test.tsx
+ M src/test/supportTicketClose.test.ts
+ M src/types/index.ts
+?? src/components/common/AccountAccessButton.tsx
+?? src/components/common/AccountAccessNotice.tsx
+?? src/services/auth/writeAccount.ts
+?? src/test/accountAccessNotice.test.tsx
+?? src/test/writeAccount.test.ts
+
+=== /home/iffi/VsCodec-Projects/Qortium/projects/my-private-room ===
+HEAD: 59c0f45321a03801a245604465413a2eb579e895
+## main...origin/main
+ M src/pages/DashboardPage/DashboardPage.css
+ M src/pages/DashboardPage/DashboardPage.tsx
+ M src/services/fileService.ts
+ M src/types/index.ts
+?? src/components/QdnSearch/QdnSearchModal.css
+?? src/components/QdnSearch/QdnSearchModal.tsx
+?? src/services/qdn/searchService.test.ts
+?? src/services/qdn/searchService.ts
+?? src/services/referenceStoreService.test.ts
+?? src/services/referenceStoreService.ts
+
+=== /home/iffi/VsCodec-Projects/Qortium/projects/Video-Center ===
+HEAD: ef9232656ff3ce6ba78a38de95be32bdea264be4
+## main...origin/main
+
+=== /home/iffi/VsCodec-Projects/Qortium/projects/Blogs ===
+HEAD: 8ac557e751e84ebaf99ef13b1b97864af31e649c
+## master...origin/master
+ M src/App.tsx
+ M src/i18n.ts
+ M src/services/blog/blogService.ts
+ M src/styles.css
+?? src/services/blog/taxonomyService.test.ts
+?? src/services/blog/taxonomyService.ts
+
+=== /home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace ===
+HEAD: 4115dcb8a4a6c470a2f2791ea4d11f5b2dfc2eff
+## main...origin/main
+ M AGENTS.md
+ M agents/00-SESSION-START.md
+ M docs/governance/source-of-truth-and-lifecycle.md
+ M docs/workflows/deepseek-primary-work-model.md
+
+=== /home/iffi/VsCodec-Projects/shadow-archives/shadow-archives-webportal/QORTAL ===
+HEAD: 6ec2915a47b8310348daf537ac83caf5ff625959
+## main...origin/main
+?? AGENTS.md

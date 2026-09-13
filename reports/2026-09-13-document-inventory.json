@@ -1,0 +1,3002 @@
+[
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/AGENTS.md",
+    "sha256": "65fdfd70d559c583359b29506d95343e370b747b346e65638f2bf7896bfb6b1a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/README.md",
+    "sha256": "86b4fc62a61e5893f0bf486e08886389b0492e613cb05b91e96a870dca77f87d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/projects/shadow-archives-webportal.md",
+    "sha256": "b140d9102bf78e09399f2a9ce1104a5f0824056e242b943f96433b5ff1112e6e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/templates/TASK-CONTROLLER.md",
+    "sha256": "2975a6e74accb9529aeb052c5fece721f1a7ef0b92086f2f8517b8135df06087"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/templates/AUDIT-ISSUE.md",
+    "sha256": "3c548668983e4d60cf3e4cef985c97721a6e6ec6ebd0c72ad5dd4cf75406d54e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/templates/OWNER-HANDOFF.md",
+    "sha256": "a917ecb158a68fe2469d958d6674fd8a3660e7862560f9e359b907ddb1e61fdc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/templates/DEEPSEEK-REVIEW.md",
+    "sha256": "e0be41ace5891f1f2bf8c42bae0851a263d820b4e12db127e9cfe19784b58ad4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/templates/IMPLEMENTATION-ISSUE.md",
+    "sha256": "5beb8ba8808d16407883c7577a112cdbe0d213ec2ffbd9f2b95884e70ce6a8a4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/templates/PROJECT-CONTEXT.md",
+    "sha256": "084bd76d25bfe04d7c0159b0ffcfb8dc36a59674df4abe68bfab28b45db14189"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/templates/DEEPSEEK-TASK.md",
+    "sha256": "3adf9d9c09987b771797e6520519e94fb2d8eaaa5a43bcc44900494bbdf7470f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/handoffs/2026-09-11-shadow-archives-phase-1a-handoff.md",
+    "sha256": "edda0a833db9e43702700095b9b2649b6f90c1dbfd8996047eb5c028ffe7c54e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/release/2026-09-11-first-app-publication-readiness-report.md",
+    "sha256": "94c566d95426736598cd51c949627489345b4e30092678de3140d8179a521fb7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/remediation/2026-09-11-workflow-v2-audit-remediation-report.md",
+    "sha256": "c8859daf24019dd4d6b67f37c210310828f4d89f87f196d3a2a8da34e690050f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/architecture/2026-09-11-responsive-appshell-and-design-tokens.md",
+    "sha256": "251e9c840f11b69f7c452cdb1c69478a76e67d0e2c548021c314b05fa2c3ef49"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/architecture/2026-09-11-qdn-data-contracts.md",
+    "sha256": "20fbc23dff98268331b41afbe85277f6a5ae728531b980df4d33fe9dc17e41db"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/architecture/2026-09-11-phase-1a-architecture-report.md",
+    "sha256": "736330877de0f0a72573203a32426b6510d4fd902226f1e48f9ba4b3b8811949"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/architecture/2026-09-11-performance-reference-comparison.md",
+    "sha256": "037e4a7dcb2e7abcf76921af7a64e05d3dac722a56350c2bb2cd34e8e955528a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/architecture/2026-09-11-phase-1b-implementation-plan.md",
+    "sha256": "db4d185fa26378b6e2bd028cd72e9bfd5ada332704262fd59650487988aa7520"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/implementation/2026-09-11-phase-2a-qdn-read-pipeline-report.md",
+    "sha256": "93d90cb9b89a474a4abf1775c4dc907d971f6b00c401e48f4ce4da9d48a7fc67"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/implementation/2026-09-11-owner-runtime-visual-correction-followup-report.md",
+    "sha256": "cec6bc8748524a270581a916a0dd7a435faa786b5821352f4f0c8b45c5768c8b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/implementation/2026-09-11-phase-2b-owner-capability-host-validation-report.md",
+    "sha256": "60c68614c94cf7b3c980193dc00b2575af3e21a0724aaf9c82c3e30c9c950939"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/implementation/2026-09-11-phase-1b-appshell-implementation-report.md",
+    "sha256": "6b87e2ba88bdc1261e68b3879c72b9e2415c030160f6fc8cbb6f343cd69a19ae"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/implementation/2026-09-11-owner-runtime-visual-correction-report.md",
+    "sha256": "8eded7a11d6eb5bbf54e58ceaedf9aaf07f57d1d4be113766d8301b4752ca3fd"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/implementation/2026-09-12-phase-3a-gallery-publishing-report.md",
+    "sha256": "7d1e588545e6dce9a7d01b9b51677ee04df91e789708dfaec354c1ca97adc800"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/audits/2026-09-11-independent-workflow-v2-pre-commit-audit.md",
+    "sha256": "49d73dc04bb1c8aa5dcf1903a0353228c103513b38fe587ef36ab4215c76d61b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/validation/2026-09-12-published-runtime-remediation-report.md",
+    "sha256": "6df0264c7cc373745be7183be87fbc9429176a132738d1ccdf11ca8e4b47262f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/validation/2026-09-12-real-qortal-host-validation-report.md",
+    "sha256": "645f3d7915ab0d51c507beec645a97ddb20867a2b26bbed2a067f2e7db72b482"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/shadow-archives-webportal/bootstrap/2026-09-11-qortal-workflow-v2-bootstrap-report.md",
+    "sha256": "ebefb35e2ca5e13fbb74c3ddd58f750835284d7cc9232d95c91b5fc6a1bd996b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/architecture/qortal-dapp-development-standard.md",
+    "sha256": "a28fa9b4ef0f143e06fd03e07d9bbf0315b0916a63c74c96f4513cf8e281a01d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/workflows/workflow-v2.md",
+    "sha256": "fdcdcb6c40efb136e1100c00b85813da5a9fa2917d5ba5ada1c1385f617e2823"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/workflows/report-storage-policy.md",
+    "sha256": "8429916bd7fc28b28973d3caeb5c9f1be826530cc1c7d3dded5a45828f55551a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/workflows/deepseek-primary-work-model.md",
+    "sha256": "ec7e89afeb9a292c2b09bc28598b0fccb3ab91398abc6c9ad50d25efbe1f7a3d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/governance/source-of-truth-and-lifecycle.md",
+    "sha256": "1c69d401263f24b85527b5d12dc91273122709f710e53e6a9d00c8edbd875916"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/runtime-diagnostics-and-performance.md",
+    "sha256": "407f3724a5b4046173cbf0bbbebb74f061235d24094b433afe551b2e82fa9069"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/qortal-qdn-and-bridge.md",
+    "sha256": "3b8b5b3d131f8ea84dee0a8674b83ec5ad5276d7d4c55b6a0f989a12b7814854"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/qortal-native-app-workflow.md",
+    "sha256": "a6784f0dd334d964e3fa3c4536d9049d836ebfae109a7b4c79aba36f3b54649b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/qdn-publication-discovery-and-scaling.md",
+    "sha256": "cdac04eba4ce5b43cefa24e6e402dc62f237a5a4c8fe421311fe1d103846b8e0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/final-report-and-owner-handoff.md",
+    "sha256": "0d40b05f1156a8eeaf10ab17c0e9e02af467959c8f9e69d0179ce2a15a338ec3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/qortal-architecture-and-data-integrity.md",
+    "sha256": "c7366f3283e3db5d0d25027cea7d99a70b108a7aa5e7784fcc5f4624284c5cae"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/issue-driven-audit-and-refactor.md",
+    "sha256": "16f2df72f93d88849972b3ee495e1ca701cd03e022765142b592de6e206baa5f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/git-generated-files-and-hygiene.md",
+    "sha256": "3e28dc702f4f6a4728198563ae86c0a42a1c1d407752ec0f5cc46c11a7f366ba"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/README.md",
+    "sha256": "917eb1b489b4b56a2545ffd3ad3cd1fd4a9cb450ac3a880575f31198d977f9f7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/00-SESSION-START.md",
+    "sha256": "39c6d76451ebf70c6d329eb3714cf33e7ed6491b6ed35d38a9f9bcacee9c469d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/01-TASK-CLASSIFICATION.md",
+    "sha256": "ad1a7ae68af1c183e46a0d9aea60e5bbee5bfa7f4644873548983fea6be168fa"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/app-release-and-provenance.md",
+    "sha256": "8f0ebb910b80cf1653fe3059a88ae538ee3a33d587ea7f2e20c81079a5cc3a9e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/live-qdn-validation.md",
+    "sha256": "c94fd128f08a4585ceee9a859959e81ba17a34e7eca91f44636a9dad366a82b6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/roles/DEEPSEEK.md",
+    "sha256": "34679898c02dd57e4d4fe991667466f5f60219af7e3504d8ae28e4ba1e393e9b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/roles/CODEX.md",
+    "sha256": "a16bef3b63f92fa4b4746324cf6b2ed9033a096de1859aa3bd9a71088c2600a0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/agents/roles/CHATGPT.md",
+    "sha256": "5ef7c96936fae5024316f8f959d12900a68d9f05237e0186f6107cbc1e6c1c8f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/WORKSPACE.md",
+    "sha256": "3c936fada0f17f96fb4bc4510dfea693ffbd8a47421a2bab70e3bcd41c4e2bed"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/AGENTS.md",
+    "sha256": "b89d8400b3fa8a90816bdd99286f61b37bcb32b18718824d02888f0fdb2bd333"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/QORTIUM-CHANGELOG.md",
+    "sha256": "d5793db05da94956f3ac89c8faf87152e411d258bed739d180fd696de6f073c8"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/README.md",
+    "sha256": "10b35234c72637bb4e6c96c4ce60e508fea635338eb5da93705060cc5522fbe1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/preview/TESTER-GUIDE.md",
+    "sha256": "deb8b01574fb6b73530f7f2045c3834ebcb8bb41b3e86f3f4aeee47143dee945"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/preview/OPERATOR-RUNBOOK.md",
+    "sha256": "90af95b2c8f57f6487f0c041acc4c2bc631ab3a6b51e94d33c1a1d91ccaade92"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/preview/README.md",
+    "sha256": "851a71e38a249e5d4d3db7dc6fb3ef5a808f4d7adf65ca73de25defd2d137a93"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/src/test/resources/chat/interop/README.md",
+    "sha256": "5f6fffe51e4a2dd6fe72f6f1efe96570d53eb2bf58c3c3ccf5870e46a5ace91f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/README.md",
+    "sha256": "7366ac6c5de19e68c8fde7a863ffc37dd1ec7618f551d05f49726caa1cd8f177"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/development/database.md",
+    "sha256": "3875f620c07505db7a04b2e4c9688e59caf1e656eff086d3a43fce3e46851e33"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/development/testing.md",
+    "sha256": "d7ff4cd0e3e32a7e34b54b3b25a11a277382f82c043096c6362e0e561c179082"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/development/developer-proxy.md",
+    "sha256": "67ff6d1cfcf9d4ba48696d4cb15bcd3822f96ef7be33b9eef4e6402f095153eb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/development/public-api-allowlist.md",
+    "sha256": "de470cb71737c1cfc2c5879f379ef7272a69358e6ae43466ccf9d7942ddf5e42"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/development/notifications.md",
+    "sha256": "a6a92aa2dceb9ef98e009bf1856c8da005b92bcaa14e692a4d42bc1b7d7f3f1d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/development/ultra-review-remediation-plan.md",
+    "sha256": "2133eb218f58887275f2a4d6a244b99b7adf3418113a4caa8c7ac9d8780d62fe"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/dependencies/dependency-provenance.md",
+    "sha256": "3fd5b7388c2205853b65c8d5c3a36ae71b4df4e8a9b4c64787f3ba2e58a1709f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/dependencies/code-scanning-triage.md",
+    "sha256": "1b46a085fe2e888b0b283b0a4be3ceba35923b0fed7c8ccec1f5d729652a4233"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/dependencies/dependency-security-review.md",
+    "sha256": "4c205eda406142bb5e50515299e78f0d07e12523a07eb1f177b2f7f001ed1535"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/chain-design/at-map-storage.md",
+    "sha256": "ea6ac5729f64a74554ffda1cd4fc6a61f6c4fd710413266447398848b0679144"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/chain-design/on-chain-chain-parameters.md",
+    "sha256": "0cc0ed97942a61f73ddcf729f0998863d08bf2bf57f862200567f6e452348b00"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/chain-design/chain-parameter-audit.md",
+    "sha256": "849e8fb4ee1dbde7ca5232cf9a2f671725b17fcc8df3f23245face9ae4bc3e17"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/releases/v1.0.0-preview.11.md",
+    "sha256": "1a300a551fbf05de12a29ebdf96d860cc19a6c86340a6621eb5949a92a892bc1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/releases/v1.0.0-preview.9.md",
+    "sha256": "13cdad0204d0f29d1f0aedfbd110cbc3d69d85c768c81cd6f5a8b6961f3ea5d6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/releases/v1.0.0-preview.8.md",
+    "sha256": "9899a35941d4f280f835edd10f2404f4c4714cdfe3fa4a4f34ea1feaa4d2567d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/releases/v1.0.0-preview.12.md",
+    "sha256": "7922d5a9afc278dbb2d78539a9a3ac76f26947ce777f1aa73bf8cac4a0a439cb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/releases/v1.2.1.md",
+    "sha256": "951e914561d818a6411947af08b04bd8b87f0d99891f7a5147a54ce0b42104ff"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/releases/v1.0.0-preview.14.md",
+    "sha256": "0ceede61077796735abc334e622dfcc99d8f16fb37544f80732598ab82edf296"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/releases/v1.0.0-preview.13.md",
+    "sha256": "5964901669d42a78de4f7b985982428c7e99fa69e1b8a33cc8683a0d0eef51fc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/releases/v1.0.0-preview.15.md",
+    "sha256": "d2f2b28f62304feb238145c13cc38ffba13dd01be0ba6f521795cc2f9fa38af0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/networking/peer-maintenance.md",
+    "sha256": "5be653e4ef85ed086496fe5ee2f0bf8deb3f50839c59d6c59fe5d0f543cc215d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/networking/i2p-fallback-operator-guide.md",
+    "sha256": "e623a72c6bdb4ef2399c80de97616c04ab48f103c17985c4651a4f647dd04b95"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/cross-chain/electrum-server-refresh.md",
+    "sha256": "81a402f611a1d3e1b0f8ff4db25a65eac94d91028e2dfb9a93a56f03e4c87612"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/cross-chain/crosschain-reverse-trades.md",
+    "sha256": "8f7b294e4f001a89c40ba2e133608fe8a2f9a0a1bb798b422dce9ce4ef80a838"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/cross-chain/pirate-unified-wallet-acceptance.md",
+    "sha256": "20f7c841a1c00b7970840ca81e56ae3031655d624707a11e75cd9dc7f6b31e5a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/cross-chain/crosschain-foreign-foreign-trades.md",
+    "sha256": "3603aa7e03498f75e16e5cea048b1c67e21a7764097d480e683799576166ea50"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/cross-chain/bitcoiny-chain-specs.md",
+    "sha256": "79b97bc2b7ff0b1ea5f2b750e8b87b0e3c2fab8ca8ea3e35bb2150a583351d1e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/cross-chain/zcash-family-chain-support.md",
+    "sha256": "98ee015ed8580b2d8fe51ce21ec667c1251f9f532d9398ff7ced5271e97a8848"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/cross-chain/electrum-tls-trust.md",
+    "sha256": "4d74d33b4dd293c41f72c80b2ab6661691ff0d436e8232f57d389503a8fd0655"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/chat/chat-portability-roadmap.md",
+    "sha256": "b8f407039d4b43b7f53fa6c2e90c82ad09cfa441f93d0393d2a91c0b6c3f0550"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/chat/private-group-chat-encryption.md",
+    "sha256": "b37d9bd803fc17ff154bbec910aad9ee9f238810628bd7147eb2594bef2f012a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/qdn/q-apps.md",
+    "sha256": "f7efa4e9c78f036d837e097167a4e7fc73f1be999fde497093e30926d8123119"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/qdn/multi-file-resources.md",
+    "sha256": "d9241f92782abbb9451bb1e3a89a7faac8f0aa87dfae78b7be75becfdbed1f0c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/qdn/encrypted-data-envelope.md",
+    "sha256": "ab085a64105abe91215c2cf1da7ebf2f67e9417e864703c8703f12279f5b14de"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/design/networkdata-capacity.md",
+    "sha256": "79e4607584f9c5e8acb83f3cadea5aaaa0628339beb1b628104f64f13c3e98ff"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/design/i2p-fallback-transport.md",
+    "sha256": "8b9443752ac794c041c3402bc1a3aa0d9a0a62399c1c0cd79b2d7600f4b3e7f7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/design/dev-group-approval-split.md",
+    "sha256": "44e4fc5c92b690dd069ad18d5769df9fc951a85ddc02fefbbfc1e98c1e7fa620"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/design/node-minting-reward-bundles.md",
+    "sha256": "af680b87931c72f5ce5c06ed97708cbfbb5d60c327c6c4465f47dff88ffc0f1b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/trust/aura-trust-tier-minting.md",
+    "sha256": "ec83f703b9c251ed25d19abda57178f7da462a65ef8d9852e948a690bc552c0b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/trust/trust-network-client-integration.md",
+    "sha256": "7dde99227a26d776c0a1f268e526be07acf2a415a81570c9720af348a249a553"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/trust/trust-network-launch-readiness.md",
+    "sha256": "bd8601ca2eee09e91b1bd966449c62120b3f72609847b4c288d40817a5c7ffb0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/trust/account-trust-network.md",
+    "sha256": "c67eb3dfdb4b315dcf6a241a29357390fc7328017a771276dd46b0aec4659e5b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/upstream/qortal-6.1.8-comparison.md",
+    "sha256": "61da848eb3fdc2eddc2c5af29a934716bf74c18ecdf967d2c447d22ed130ad75"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/upstream/qortal-v6-network-notes.md",
+    "sha256": "d79b71397afcebfd71302a4141ac643e518ca7590b5b3fa14e4d9af4e2d4c359"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/upstream/qortal-6.1.6-comparison.md",
+    "sha256": "5bc2737ad2c67befff5d6869e20580877932446db429c6dea0a92a731776de7e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/upstream/qortal-6.1.9-comparison.md",
+    "sha256": "4acec8b04538701fc2a7a57d8a32b2ace4b0e7074a64734883de89528e97291f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/upstream/qortal-6.1.5-comparison.md",
+    "sha256": "7f5605d6bc8d2730aa5b917533c691a2d58a3eb8de7c8ee740232b16ecb3d242"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/upstream/qortal-6.1.7-comparison.md",
+    "sha256": "f4bc9be57deac6c32c76db2827deb83301b3d4bb03ac10f522a115b5df8cb114"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/lite-node/lite-node-proof-anchoring.md",
+    "sha256": "812f0f133c1c72aedb879acefe62de1b16d5c2018bba338d1986fb9c12e1fca4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/lite-node/lite-node-state-root-design.md",
+    "sha256": "7306c9fd804fb4ccc8d428abe05e0beec1a391cd55fab002ed73e667d3369035"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/docs/lite-node/lite-node-plan.md",
+    "sha256": "4dd2551746635d172bab572813911a43ef415bb4606fab57a559be3d6f61a173"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/WindowsInstaller/README.md",
+    "sha256": "2a51f6ad8141b03afd7ac7cd1ada53ec9379a34b9945cefd4ef44db158b35b5b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/testnet/README.md",
+    "sha256": "9072504160e365d6722db66db0c21208836c2bd9a8b84804c522250475ba1aba"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core/tools/auto-update-scripts/README.md",
+    "sha256": "57b63c97513ebac942b2e3b96fbb5ae8e1e0a56c5e23110c31c08bdf8cf805a2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/QORTIUM-CHANGELOG.md",
+    "sha256": "fc066cb548e86b7e024ad79d7b20537aeae748037f6d0b8f0ff3b7ce1ebb61e2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/README.md",
+    "sha256": "10b35234c72637bb4e6c96c4ce60e508fea635338eb5da93705060cc5522fbe1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/preview/TESTER-GUIDE.md",
+    "sha256": "deb8b01574fb6b73530f7f2045c3834ebcb8bb41b3e86f3f4aeee47143dee945"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/preview/OPERATOR-RUNBOOK.md",
+    "sha256": "90af95b2c8f57f6487f0c041acc4c2bc631ab3a6b51e94d33c1a1d91ccaade92"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/preview/README.md",
+    "sha256": "851a71e38a249e5d4d3db7dc6fb3ef5a808f4d7adf65ca73de25defd2d137a93"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/src/test/resources/chat/interop/README.md",
+    "sha256": "5f6fffe51e4a2dd6fe72f6f1efe96570d53eb2bf58c3c3ccf5870e46a5ace91f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/README.md",
+    "sha256": "7366ac6c5de19e68c8fde7a863ffc37dd1ec7618f551d05f49726caa1cd8f177"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/development/database.md",
+    "sha256": "3875f620c07505db7a04b2e4c9688e59caf1e656eff086d3a43fce3e46851e33"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/development/testing.md",
+    "sha256": "d7ff4cd0e3e32a7e34b54b3b25a11a277382f82c043096c6362e0e561c179082"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/development/developer-proxy.md",
+    "sha256": "67ff6d1cfcf9d4ba48696d4cb15bcd3822f96ef7be33b9eef4e6402f095153eb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/development/public-api-allowlist.md",
+    "sha256": "de470cb71737c1cfc2c5879f379ef7272a69358e6ae43466ccf9d7942ddf5e42"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/development/notifications.md",
+    "sha256": "a6a92aa2dceb9ef98e009bf1856c8da005b92bcaa14e692a4d42bc1b7d7f3f1d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/development/ultra-review-remediation-plan.md",
+    "sha256": "2133eb218f58887275f2a4d6a244b99b7adf3418113a4caa8c7ac9d8780d62fe"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/dependencies/dependency-provenance.md",
+    "sha256": "3fd5b7388c2205853b65c8d5c3a36ae71b4df4e8a9b4c64787f3ba2e58a1709f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/dependencies/code-scanning-triage.md",
+    "sha256": "1b46a085fe2e888b0b283b0a4be3ceba35923b0fed7c8ccec1f5d729652a4233"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/dependencies/dependency-security-review.md",
+    "sha256": "4c205eda406142bb5e50515299e78f0d07e12523a07eb1f177b2f7f001ed1535"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/chain-design/at-map-storage.md",
+    "sha256": "ea6ac5729f64a74554ffda1cd4fc6a61f6c4fd710413266447398848b0679144"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/chain-design/on-chain-chain-parameters.md",
+    "sha256": "0cc0ed97942a61f73ddcf729f0998863d08bf2bf57f862200567f6e452348b00"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/chain-design/chain-parameter-audit.md",
+    "sha256": "849e8fb4ee1dbde7ca5232cf9a2f671725b17fcc8df3f23245face9ae4bc3e17"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/releases/v1.0.0-preview.11.md",
+    "sha256": "1a300a551fbf05de12a29ebdf96d860cc19a6c86340a6621eb5949a92a892bc1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/releases/v1.0.0-preview.9.md",
+    "sha256": "13cdad0204d0f29d1f0aedfbd110cbc3d69d85c768c81cd6f5a8b6961f3ea5d6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/releases/v1.0.0-preview.8.md",
+    "sha256": "9899a35941d4f280f835edd10f2404f4c4714cdfe3fa4a4f34ea1feaa4d2567d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/releases/v1.0.0-preview.12.md",
+    "sha256": "7922d5a9afc278dbb2d78539a9a3ac76f26947ce777f1aa73bf8cac4a0a439cb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/releases/v1.2.1.md",
+    "sha256": "951e914561d818a6411947af08b04bd8b87f0d99891f7a5147a54ce0b42104ff"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/releases/v1.0.0-preview.14.md",
+    "sha256": "0ceede61077796735abc334e622dfcc99d8f16fb37544f80732598ab82edf296"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/releases/v1.0.0-preview.13.md",
+    "sha256": "5964901669d42a78de4f7b985982428c7e99fa69e1b8a33cc8683a0d0eef51fc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/releases/v1.0.0-preview.15.md",
+    "sha256": "d2f2b28f62304feb238145c13cc38ffba13dd01be0ba6f521795cc2f9fa38af0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/networking/peer-maintenance.md",
+    "sha256": "5be653e4ef85ed086496fe5ee2f0bf8deb3f50839c59d6c59fe5d0f543cc215d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/networking/i2p-fallback-operator-guide.md",
+    "sha256": "e623a72c6bdb4ef2399c80de97616c04ab48f103c17985c4651a4f647dd04b95"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/cross-chain/electrum-server-refresh.md",
+    "sha256": "81a402f611a1d3e1b0f8ff4db25a65eac94d91028e2dfb9a93a56f03e4c87612"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/cross-chain/crosschain-reverse-trades.md",
+    "sha256": "8f7b294e4f001a89c40ba2e133608fe8a2f9a0a1bb798b422dce9ce4ef80a838"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/cross-chain/pirate-unified-wallet-acceptance.md",
+    "sha256": "882af7719bf51249a436e33a1f735c430be0e98612a8400a4d624c6697565e8b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/cross-chain/crosschain-foreign-foreign-trades.md",
+    "sha256": "3603aa7e03498f75e16e5cea048b1c67e21a7764097d480e683799576166ea50"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/cross-chain/bitcoiny-chain-specs.md",
+    "sha256": "79b97bc2b7ff0b1ea5f2b750e8b87b0e3c2fab8ca8ea3e35bb2150a583351d1e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/cross-chain/zcash-family-chain-support.md",
+    "sha256": "98ee015ed8580b2d8fe51ce21ec667c1251f9f532d9398ff7ced5271e97a8848"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/cross-chain/electrum-tls-trust.md",
+    "sha256": "4d74d33b4dd293c41f72c80b2ab6661691ff0d436e8232f57d389503a8fd0655"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/chat/chat-portability-roadmap.md",
+    "sha256": "b8f407039d4b43b7f53fa6c2e90c82ad09cfa441f93d0393d2a91c0b6c3f0550"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/chat/private-group-chat-encryption.md",
+    "sha256": "b37d9bd803fc17ff154bbec910aad9ee9f238810628bd7147eb2594bef2f012a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/qdn/q-apps.md",
+    "sha256": "f7efa4e9c78f036d837e097167a4e7fc73f1be999fde497093e30926d8123119"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/qdn/multi-file-resources.md",
+    "sha256": "d9241f92782abbb9451bb1e3a89a7faac8f0aa87dfae78b7be75becfdbed1f0c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/qdn/encrypted-data-envelope.md",
+    "sha256": "ab085a64105abe91215c2cf1da7ebf2f67e9417e864703c8703f12279f5b14de"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/design/networkdata-capacity.md",
+    "sha256": "79e4607584f9c5e8acb83f3cadea5aaaa0628339beb1b628104f64f13c3e98ff"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/design/i2p-fallback-transport.md",
+    "sha256": "8b9443752ac794c041c3402bc1a3aa0d9a0a62399c1c0cd79b2d7600f4b3e7f7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/design/dev-group-approval-split.md",
+    "sha256": "44e4fc5c92b690dd069ad18d5769df9fc951a85ddc02fefbbfc1e98c1e7fa620"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/design/node-minting-reward-bundles.md",
+    "sha256": "af680b87931c72f5ce5c06ed97708cbfbb5d60c327c6c4465f47dff88ffc0f1b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/trust/aura-trust-tier-minting.md",
+    "sha256": "ec83f703b9c251ed25d19abda57178f7da462a65ef8d9852e948a690bc552c0b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/trust/trust-network-client-integration.md",
+    "sha256": "7dde99227a26d776c0a1f268e526be07acf2a415a81570c9720af348a249a553"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/trust/trust-network-launch-readiness.md",
+    "sha256": "bd8601ca2eee09e91b1bd966449c62120b3f72609847b4c288d40817a5c7ffb0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/trust/account-trust-network.md",
+    "sha256": "c67eb3dfdb4b315dcf6a241a29357390fc7328017a771276dd46b0aec4659e5b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/upstream/qortal-6.1.8-comparison.md",
+    "sha256": "61da848eb3fdc2eddc2c5af29a934716bf74c18ecdf967d2c447d22ed130ad75"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/upstream/qortal-v6-network-notes.md",
+    "sha256": "d79b71397afcebfd71302a4141ac643e518ca7590b5b3fa14e4d9af4e2d4c359"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/upstream/qortal-6.1.6-comparison.md",
+    "sha256": "5bc2737ad2c67befff5d6869e20580877932446db429c6dea0a92a731776de7e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/upstream/qortal-6.1.9-comparison.md",
+    "sha256": "4acec8b04538701fc2a7a57d8a32b2ace4b0e7074a64734883de89528e97291f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/upstream/qortal-6.1.5-comparison.md",
+    "sha256": "7f5605d6bc8d2730aa5b917533c691a2d58a3eb8de7c8ee740232b16ecb3d242"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/upstream/qortal-6.1.7-comparison.md",
+    "sha256": "f4bc9be57deac6c32c76db2827deb83301b3d4bb03ac10f522a115b5df8cb114"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/lite-node/lite-node-proof-anchoring.md",
+    "sha256": "812f0f133c1c72aedb879acefe62de1b16d5c2018bba338d1986fb9c12e1fca4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/lite-node/lite-node-state-root-design.md",
+    "sha256": "7306c9fd804fb4ccc8d428abe05e0beec1a391cd55fab002ed73e667d3369035"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/docs/lite-node/lite-node-plan.md",
+    "sha256": "4dd2551746635d172bab572813911a43ef415bb4606fab57a559be3d6f61a173"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/WindowsInstaller/README.md",
+    "sha256": "2a51f6ad8141b03afd7ac7cd1ada53ec9379a34b9945cefd4ef44db158b35b5b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/testnet/README.md",
+    "sha256": "9072504160e365d6722db66db0c21208836c2bd9a8b84804c522250475ba1aba"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-core-android-stream-fix/tools/auto-update-scripts/README.md",
+    "sha256": "57b63c97513ebac942b2e3b96fbb5ae8e1e0a56c5e23110c31c08bdf8cf805a2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-boards/README.md",
+    "sha256": "2456c80c086aa81c8c257be20c6155a84c7a74c7add4ed06712bc60df81b21a3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/IMPLEMENTATION-SUMMARY.md",
+    "sha256": "1a7a768f3e34e8be4dca01e8f62b8141b357826abde6654face91adad349c052"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/ANALYSIS-REPORT.md",
+    "sha256": "ddcfa00ac34b8ad2019e45025c559734e977a1f91aa216a1443bb5381a03bba5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/README.md",
+    "sha256": "cbf78c787383bb94139b2907d27d83ad29b8287c4f7722c740153d4b6b99589e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/THIRD_PARTY_NOTICES.md",
+    "sha256": "cbc500089d2e361c0a0ed3f79af703afc7dcf5781cb4204e92d44e3d8bda4f57"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/src/features/forum/README.md",
+    "sha256": "2d423968aead6af2bfb1572b23ff7ce6680a058a383e8d2b1154d97585cc6fe4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/docs/RELEASE.md",
+    "sha256": "883af61c0e084b3fad6a7ef922117ee120730e568253e745e61435ead7596838"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/docs/QORTIUM-HOME-DISPLAY.md",
+    "sha256": "de47aa84c83bc77bc64829d2c17cc2e081928d7afd013d2a0da603553300e26a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/docs/ARCHITECTURE-V2.md",
+    "sha256": "db78c6fe221bafdd649d4684150b4e1afb2a57484396ba7424f41934fe270830"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/docs/QORTIUM-BRIDGE-PUBLICATION.md",
+    "sha256": "7cd6223365ac467904e1a57b0cda0a261197053526ed12a18755dcb7f486fdbc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/docs/STARTUP-DIAGNOSTICS.md",
+    "sha256": "26aaba0ac01049b51ecdcf78bfc45db3bb91719b55d7f37d75ff390a761a0d61"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/docs/DEPENDENCY-BASELINE.md",
+    "sha256": "06b39958a95ebb817e5740ff5fcc825e76b64190ca4b19a8fc0efbc95150850d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/docs/releases/ARCHITECTURE-V2-RC1.md",
+    "sha256": "1907ba6ab189ab68717c1255f1423e088950962a363816c277f8c6e61bc5577a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/docs/migration/LEGACY-CANONICAL-PUBLISHER-REVIEW.md",
+    "sha256": "5dfbb34c21df8019c925ff272a8eb9c714fffbbf84b706d254c251a2c57a44cf"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/docs/migration/HIGH-RISK-DECISION-SHEET.md",
+    "sha256": "3920789bd82d37b9ff0fb4e471849cb60a316968a44a927e7854d28fab7b8147"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/runtime-diagnostics-and-performance.md",
+    "sha256": "909851a8c132f6e9cad0f45acaade1fe6a230d05172556dc643e8d6652cc4c15"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/qdn-publication-discovery-and-scaling.md",
+    "sha256": "3be9ae5f49f7242a82bb83443674196c50accd565d0bd722749ff889d3efeb33"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/qortium-architecture-and-data-integrity.md",
+    "sha256": "8aeee3a74839558c60bbbb6e11dd7fd1ad17bd019b2e3f9978be0237b684571d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/qortium-home-and-bridge.md",
+    "sha256": "16aa325a809e98d42623ff6bc5c037acd25f0fe439545ce92c6843146d38186b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/final-report-and-owner-handoff.md",
+    "sha256": "f6f732cad95afde9195fdcefa51d992c7c3ab8375d94ef80066df263649c6a33"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/issue-driven-audit-and-refactor.md",
+    "sha256": "f7ed0e270e9854a5bf9eafc36578fdc5b96f5a74b76aa37c301c742a1a81736c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/git-generated-files-and-hygiene.md",
+    "sha256": "f3bd7317d5f4d389db2dcc815408f68bb0f5d930685febb3ed0b6a40ebcec6d9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/README.md",
+    "sha256": "01c7a974433046fc0feb78e5d27fd2c517dd8de1928f0848223ecf3f30c256de"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/00-SESSION-START.md",
+    "sha256": "11c3ccadec1bdc38dd7d80a73a205c4d52b837774916a6aaf73a92cc96f21c12"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/qortium-native-app-workflow.md",
+    "sha256": "848fe6f7853b62f04bc3e93f946099ad46b8305eff5be0e9000eff7cb10b4cfc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/01-TASK-CLASSIFICATION.md",
+    "sha256": "a02cc91240f69f759c51e7f6231690d214e34745d12bfb8e1df439e8ec25d1e9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/live-qdn-validation.md",
+    "sha256": "5f047dc9f5d3003c128e00f0a00862822bed1a562475be5eb072e954f496555a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/qavs-versioning-and-release.md",
+    "sha256": "eb5e4b4ad55d658525108c5a561ba014daf6ed92322b1db0b078e6d40de59d8f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/agents/projects/Discssion-Boards.md",
+    "sha256": "975f5c886d4662d7765169d109b83fcd0356d1ce560fde6fe073e8150c0726b5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/discussion-boards-reference/scripts/BACKUP-RESTORE.md",
+    "sha256": "35ae2b3e94d9d5bf4da7b1e6b34fbc1279ac665a5986c9efda5d51ae1b491b2d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/QORTIUM-HOME-CHANGELOG.md",
+    "sha256": "b8ee2584b4acdd7f996216c7c5063450358c1868c5f3659901970edc05364afc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/README.md",
+    "sha256": "d1b1e379ff651296c5a2ef8af4f4af0e0d2c3ed743ba2a82dbe0b9fd123e8458"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/src/v2/assets/marks/README.md",
+    "sha256": "b6f855ca1e203ab14d04f5807b1297d9a7d22a203c328803868685a040d745e9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/QDN_PUBLIC_PUBLISHING.md",
+    "sha256": "48ebf0c2d081ccb20cf32f3741a13dcad3353f3d7e6b4b4fd7086a4e6e7f471e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_DATA_MANAGERS.md",
+    "sha256": "bb849402fbcae66f6745aacd34dffcfca9820f9f4c6d1cb5e1eff4c62d87c7fc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_V2_DISPLAY_SETTINGS_MIGRATION.md",
+    "sha256": "fcd0ad45a2f4a248a29a3ac0661630864b385bb49b40829e6dc38a61bf61d421"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/REMOTE_MAC_BUILDS.md",
+    "sha256": "e9ba6c412b388cd64414fb8877e1a96e2bf3597aede708384aa370a1d93820ca"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/QDN_WIDGETS.md",
+    "sha256": "3c34098a3b48ef3a653f2bffe33cd20f557b6424156e49397073bcee0c34756a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_V2_LIVE_NODE_APPIMAGE.md",
+    "sha256": "52e6b2146385407d088ab0d8d19b51eb55baeb367c7ec4e9742c0089b35cdf2d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/APP_VERSIONING.md",
+    "sha256": "494bbeb229b2a31be86edca1f50d7f99742583aa9bfd3a159ba44a2f68659ae7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_SETTINGS_BRIDGE.md",
+    "sha256": "90713ed12dd4352be8cb6458b867ea0acdebf0cefecbf2a0e973f8f8ff0bc020"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/BRIDGE_ACTIONS.md",
+    "sha256": "51f6fbdf95eb5965a738284bd9bafaad289312b02af7ac90f0075ea5efef5d8b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/CORE_MANAGEMENT.md",
+    "sha256": "db599b51af34647bb461e914b301468f1b066b05d8b0af6f4eb7b0b6335b51bb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_V2_APP_NOTIFICATIONS.md",
+    "sha256": "c65d447c717b68dfffa62cf119ca35def4fdba6da85327cd51e6b1e3803628d3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/COIN_SUPPORT_MATRIX.md",
+    "sha256": "dbab4d0d17293c5c41442f06e12c267d2c34429f4ce0ddf7024c912f29c56c45"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/PROVENANCE_LEDGER.md",
+    "sha256": "0dacf7acd8db97d3e76b705e412e78b008fb6bf7596d0b6b196a9073d6d5433b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_CHAT_INTEROP_VECTORS.md",
+    "sha256": "77739dfe504da86775dbd224a8db7decca1cd10d7f7b71412deeb959dceb287a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_CHAT_PORTABILITY_ROADMAP.md",
+    "sha256": "224aabf633a54d8aa623c038961b1f5701964403049f48dd595187650b67f1ce"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/APP_NOTIFICATIONS.md",
+    "sha256": "8b9a744f46f51a2ea3184a2c4602513334c3ce5014ef55c4fa5b2f5541e72489"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_APP_ASSIGNMENTS.md",
+    "sha256": "45b441f648e14b3aff883998f5657512922aba0953f727e3af54872eba3be823"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/OPEN_CURRENT_TAB.md",
+    "sha256": "a55c81ea3d2de3dafa7255e82ade4604f20c2a7df3563a8356d1265f86aa76ea"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_V2_BRIDGE_COMPATIBILITY.md",
+    "sha256": "8612fbbf4051507f2619b4583db24a3fadead2de01efcf04974bc47e5b85487a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/QDN_RESOURCE_VIEWER.md",
+    "sha256": "7c088f333445a6bbe963074b80de08f96d0a96918d817116c27dd7c380280be2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/CHAT_2_0_PLAN.md",
+    "sha256": "4934649b06a5e55531f07ba41774c6dfa133f45e1b00d5c29c2a7e5e2b2423e7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_CHAT_PRIVATE_ATTACHMENTS.md",
+    "sha256": "96bf8720f5827977ea6576f896191e4fbd48e9b0161d9adf81bbbda8e50b3c66"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_V2_OPERATIONAL_COMPLETION.md",
+    "sha256": "d5a6133761805e2a50c2d0d72b49325a682f7aa0f5a74a91c295a1f7414a381a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/HOME_V2_FIXTURE_APPIMAGE.md",
+    "sha256": "05c31ff96510fcafd6d906579936c30b7ccf75798816af74a923ac8b1b64ed9a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/PROJECT_PLAN.md",
+    "sha256": "ef88054491303c0a7b75e36c57beef0b6773059df78b41c44d6d979afa47f060"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0003-isolated-v2-fixture-appimage.md",
+    "sha256": "2f0527a43755274ad903f2a1afe742eb6ebd7c7dd54e522443cb721ac67ad925"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0008-home-v2-public-identity-lookup.md",
+    "sha256": "57a1395c348a413a70e2110ed0d440f51455af66aa75ecc1b57f520602611632"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0011-home-v2-production-account-shell.md",
+    "sha256": "6565b26a76a3a202b12bf00bc9e34939c6fc14a299e54538ff9d8a63a6435c5e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0007-home-v2-node-readiness-and-android.md",
+    "sha256": "91c9d99c83c0b539b8acd038e1e713ba639682874385a79297fd39edd566c38b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0009-home-v2-read-only-account-catalogue.md",
+    "sha256": "beac6bfc584692170062f9f3ce9b3ee59f29a4bedb51d16a9e97bf7c4556b8dc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0001-home-v2-foundation-boundaries.md",
+    "sha256": "f421316518bdbf0d74c5b93b08900d0a5ea10201251b46da3202df68618b98f1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0005-home-v2-live-node-preview.md",
+    "sha256": "fec759406189b086203ee6dc78b64ebdc274d316acad8f04ea847d288b4a2bea"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0004-browser-shell-startup-and-theme.md",
+    "sha256": "4338e3bdaef5951a648d9fb9a7e1c787b08f10f477b719df4d589c7da096066b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0002-fixture-bridge-permission-model.md",
+    "sha256": "12122e56b3b000f824eecabb305b3a458f10086fd56da9155d1776abf8990970"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0010-home-v2-persistent-shell-and-read-only-app-runtime.md",
+    "sha256": "bb3acdda6285830a0b912e07d23fe133907439bc922e34e8e2f207c28f7981f0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/docs/adr/0006-qortium-public-node-endpoints.md",
+    "sha256": "d6f149371c95d26aa650b374ce08afcf179d2ac9b2828f4208617bb18d59d483"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-v2.0.0/scripts/fixtures/README.md",
+    "sha256": "63872e8b055283a484394ac1fe8fb0130eb72c99b52a9e1ba850af8a4b185692"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/QORTIUM-HOME-CHANGELOG.md",
+    "sha256": "5dfd93aedbf8b7713942f895c4c6bc0c4b7142bde1e320931709b8fca00bd030"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/README.md",
+    "sha256": "d1b1e379ff651296c5a2ef8af4f4af0e0d2c3ed743ba2a82dbe0b9fd123e8458"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/src/v2/assets/marks/README.md",
+    "sha256": "b6f855ca1e203ab14d04f5807b1297d9a7d22a203c328803868685a040d745e9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/QDN_PUBLIC_PUBLISHING.md",
+    "sha256": "48ebf0c2d081ccb20cf32f3741a13dcad3353f3d7e6b4b4fd7086a4e6e7f471e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_DATA_MANAGERS.md",
+    "sha256": "bb849402fbcae66f6745aacd34dffcfca9820f9f4c6d1cb5e1eff4c62d87c7fc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_V2_DISPLAY_SETTINGS_MIGRATION.md",
+    "sha256": "fcd0ad45a2f4a248a29a3ac0661630864b385bb49b40829e6dc38a61bf61d421"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/REMOTE_MAC_BUILDS.md",
+    "sha256": "e9ba6c412b388cd64414fb8877e1a96e2bf3597aede708384aa370a1d93820ca"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/QDN_WIDGETS.md",
+    "sha256": "3c34098a3b48ef3a653f2bffe33cd20f557b6424156e49397073bcee0c34756a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_V2_LIVE_NODE_APPIMAGE.md",
+    "sha256": "52e6b2146385407d088ab0d8d19b51eb55baeb367c7ec4e9742c0089b35cdf2d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/APP_VERSIONING.md",
+    "sha256": "494bbeb229b2a31be86edca1f50d7f99742583aa9bfd3a159ba44a2f68659ae7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_SETTINGS_BRIDGE.md",
+    "sha256": "90713ed12dd4352be8cb6458b867ea0acdebf0cefecbf2a0e973f8f8ff0bc020"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/BRIDGE_ACTIONS.md",
+    "sha256": "451d66cbfcd5baf9b7eff6384cfe8099712a20de5fc3a9a5d4babb84e46cd47f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/CORE_MANAGEMENT.md",
+    "sha256": "db599b51af34647bb461e914b301468f1b066b05d8b0af6f4eb7b0b6335b51bb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_V2_APP_NOTIFICATIONS.md",
+    "sha256": "c65d447c717b68dfffa62cf119ca35def4fdba6da85327cd51e6b1e3803628d3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/COIN_SUPPORT_MATRIX.md",
+    "sha256": "dbab4d0d17293c5c41442f06e12c267d2c34429f4ce0ddf7024c912f29c56c45"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/PROVENANCE_LEDGER.md",
+    "sha256": "0dacf7acd8db97d3e76b705e412e78b008fb6bf7596d0b6b196a9073d6d5433b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_CHAT_INTEROP_VECTORS.md",
+    "sha256": "77739dfe504da86775dbd224a8db7decca1cd10d7f7b71412deeb959dceb287a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_CHAT_PORTABILITY_ROADMAP.md",
+    "sha256": "43be51acd8780b682d78f3d584831f49d19f6a1ba9d32d248bbf414e9ddb149e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/APP_NOTIFICATIONS.md",
+    "sha256": "8b9a744f46f51a2ea3184a2c4602513334c3ce5014ef55c4fa5b2f5541e72489"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_APP_ASSIGNMENTS.md",
+    "sha256": "45b441f648e14b3aff883998f5657512922aba0953f727e3af54872eba3be823"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/OPEN_CURRENT_TAB.md",
+    "sha256": "a55c81ea3d2de3dafa7255e82ade4604f20c2a7df3563a8356d1265f86aa76ea"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_V2_BRIDGE_COMPATIBILITY.md",
+    "sha256": "4cdc8c67a2ad79807097aee5234bae95d0467672b6e45bd668d29a6ea4ba9291"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/QDN_RESOURCE_VIEWER.md",
+    "sha256": "7c088f333445a6bbe963074b80de08f96d0a96918d817116c27dd7c380280be2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/CHAT_2_0_PLAN.md",
+    "sha256": "4934649b06a5e55531f07ba41774c6dfa133f45e1b00d5c29c2a7e5e2b2423e7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_CHAT_PRIVATE_ATTACHMENTS.md",
+    "sha256": "96bf8720f5827977ea6576f896191e4fbd48e9b0161d9adf81bbbda8e50b3c66"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_V2_OPERATIONAL_COMPLETION.md",
+    "sha256": "880e0832459ad7d767f4cb1e20c144076a9916b42b2fc56ab92a3a8a08aa9487"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/HOME_V2_FIXTURE_APPIMAGE.md",
+    "sha256": "05c31ff96510fcafd6d906579936c30b7ccf75798816af74a923ac8b1b64ed9a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/PROJECT_PLAN.md",
+    "sha256": "ef88054491303c0a7b75e36c57beef0b6773059df78b41c44d6d979afa47f060"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0003-isolated-v2-fixture-appimage.md",
+    "sha256": "2f0527a43755274ad903f2a1afe742eb6ebd7c7dd54e522443cb721ac67ad925"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0008-home-v2-public-identity-lookup.md",
+    "sha256": "57a1395c348a413a70e2110ed0d440f51455af66aa75ecc1b57f520602611632"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0011-home-v2-production-account-shell.md",
+    "sha256": "6565b26a76a3a202b12bf00bc9e34939c6fc14a299e54538ff9d8a63a6435c5e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0007-home-v2-node-readiness-and-android.md",
+    "sha256": "91c9d99c83c0b539b8acd038e1e713ba639682874385a79297fd39edd566c38b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0009-home-v2-read-only-account-catalogue.md",
+    "sha256": "beac6bfc584692170062f9f3ce9b3ee59f29a4bedb51d16a9e97bf7c4556b8dc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0001-home-v2-foundation-boundaries.md",
+    "sha256": "f421316518bdbf0d74c5b93b08900d0a5ea10201251b46da3202df68618b98f1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0005-home-v2-live-node-preview.md",
+    "sha256": "fec759406189b086203ee6dc78b64ebdc274d316acad8f04ea847d288b4a2bea"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0004-browser-shell-startup-and-theme.md",
+    "sha256": "4338e3bdaef5951a648d9fb9a7e1c787b08f10f477b719df4d589c7da096066b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0002-fixture-bridge-permission-model.md",
+    "sha256": "12122e56b3b000f824eecabb305b3a458f10086fd56da9155d1776abf8990970"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0010-home-v2-persistent-shell-and-read-only-app-runtime.md",
+    "sha256": "bb3acdda6285830a0b912e07d23fe133907439bc922e34e8e2f207c28f7981f0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/docs/adr/0006-qortium-public-node-endpoints.md",
+    "sha256": "d6f149371c95d26aa650b374ce08afcf179d2ac9b2828f4208617bb18d59d483"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home/scripts/fixtures/README.md",
+    "sha256": "63872e8b055283a484394ac1fe8fb0130eb72c99b52a9e1ba850af8a4b185692"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/Q-Music-v_2.0/README.md",
+    "sha256": "065d30b336e2742d57820d95110f5d33652c8e706de10bc4c94daab7a91d5717"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/Q-Music-v_2.0/scripts/README.md",
+    "sha256": "5af2f7deeadac28862b611179ec64f36921b746c8e8a7c49a1e14ac67980add6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/QORTIUM-HOME-CHANGELOG.md",
+    "sha256": "31e86d9dfb6ceec22e9158f31bb82e5f83a97fe04abeabb3f61f9cd7d36d5491"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/README.md",
+    "sha256": "7262eada19c556dce49f9572c3875580c193ae8378a86f2a56431a64b17b103a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/SECURITY.md",
+    "sha256": "93ec5d2338b66c957714f9aab9ccfde0968c6ffe1c7fd14178a0fa0fb4321f76"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/src/v2/assets/marks/README.md",
+    "sha256": "b6f855ca1e203ab14d04f5807b1297d9a7d22a203c328803868685a040d745e9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/QDN_PUBLIC_PUBLISHING.md",
+    "sha256": "e47b95d9b2ddd0795e69b5be4956c02b8805c0eefaf7cf41f765befd249c6dbb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_DATA_MANAGERS.md",
+    "sha256": "4ff42157cba29020bf3550c0826d77964d23591f4a8b1ed69b9688ce2beb3c3f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_V2_DISPLAY_SETTINGS_MIGRATION.md",
+    "sha256": "fcd0ad45a2f4a248a29a3ac0661630864b385bb49b40829e6dc38a61bf61d421"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/REMOTE_MAC_BUILDS.md",
+    "sha256": "e9ba6c412b388cd64414fb8877e1a96e2bf3597aede708384aa370a1d93820ca"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/QDN_WIDGETS.md",
+    "sha256": "137530209bd1a05baeea9132fb176856d65201ae599fa0172f0f5a54791e5c88"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_V2_LIVE_NODE_APPIMAGE.md",
+    "sha256": "52e6b2146385407d088ab0d8d19b51eb55baeb367c7ec4e9742c0089b35cdf2d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/APP_VERSIONING.md",
+    "sha256": "ccfc195bcfb3666ec750bdc370117d8c40f89f287eba328cc543a4b45fbf85e3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_SETTINGS_BRIDGE.md",
+    "sha256": "7e9492efc99eac3cc5383fafef0e59183632f3b8ebfd848cc574f6197b298943"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/BRIDGE_ACTIONS.md",
+    "sha256": "7c4be7060ad1820595303afa6b31d6fcbec8b9a4f03849d18533290892178201"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/CORE_MANAGEMENT.md",
+    "sha256": "5ba5d269e9a60540985300d6030691ef2a12f1c303526872dbb6bef74e05d789"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_V2_APP_NOTIFICATIONS.md",
+    "sha256": "88ce503caa644fa9848564e9da81a28c5e94f82c22d67f10281875eb95f1334c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/COIN_SUPPORT_MATRIX.md",
+    "sha256": "d684d4fb60f535c22574e6ec9317f3551df04360cbcae9a366bbb422ab77eb07"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/PROVENANCE_LEDGER.md",
+    "sha256": "0dacf7acd8db97d3e76b705e412e78b008fb6bf7596d0b6b196a9073d6d5433b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_2_1_PLAN.md",
+    "sha256": "46575a2de4632e4e395c9dc4ada2f4d7c9dc3f60485456b35fe24b9cd8a9b209"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_CHAT_INTEROP_VECTORS.md",
+    "sha256": "77739dfe504da86775dbd224a8db7decca1cd10d7f7b71412deeb959dceb287a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_CHAT_PORTABILITY_ROADMAP.md",
+    "sha256": "224aabf633a54d8aa623c038961b1f5701964403049f48dd595187650b67f1ce"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/APP_NOTIFICATIONS.md",
+    "sha256": "b9bfd4efcee8687265cba8313344c4517e049d76f19685d18ead0ec489e99366"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_V2_IMAGE_CACHE.md",
+    "sha256": "75464c11b7825a80055d24d9c0753753f4e3c504582a22ed4f8973526aa80198"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_APP_ASSIGNMENTS.md",
+    "sha256": "392fc37d3151c7fa75b3c3815438fa8676761c8240222946d821f116752a9aad"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/OPEN_CURRENT_TAB.md",
+    "sha256": "51a09713ea97d5688c9df986c6774af07e67f557606cc842abeba8916f17085f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_V2_BRIDGE_COMPATIBILITY.md",
+    "sha256": "f5911483a9260c2c6c00a3f66ac62fc2c3260d5f1255e53118f9bd278f3f8083"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/QDN_RESOURCE_VIEWER.md",
+    "sha256": "98f4ec3f9abc3bf47f51f82c9173874e4941cf05418d51f45f972a69203757f7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/RELEASE_RUNBOOK.md",
+    "sha256": "40f064ead8dc2c42c70ce6cc8e33134161a08fac892dbde4a0cd64de393a9a26"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_V2_CONTEXT_MENUS.md",
+    "sha256": "5745ac2cd5b6db2e9fe69ac15f4a26e44b0a9fa6d672be60098f2f70996dd8a6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/CHAT_2_0_PLAN.md",
+    "sha256": "4934649b06a5e55531f07ba41774c6dfa133f45e1b00d5c29c2a7e5e2b2423e7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_CHAT_PRIVATE_ATTACHMENTS.md",
+    "sha256": "96bf8720f5827977ea6576f896191e4fbd48e9b0161d9adf81bbbda8e50b3c66"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_V2_OPERATIONAL_COMPLETION.md",
+    "sha256": "d5a6133761805e2a50c2d0d72b49325a682f7aa0f5a74a91c295a1f7414a381a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/HOME_V2_FIXTURE_APPIMAGE.md",
+    "sha256": "05c31ff96510fcafd6d906579936c30b7ccf75798816af74a923ac8b1b64ed9a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/PROJECT_PLAN.md",
+    "sha256": "67886e89bee5d22a35b7698781e5f8bde770dc33fd144f1eb9db8898fd77fdf1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0003-isolated-v2-fixture-appimage.md",
+    "sha256": "2f0527a43755274ad903f2a1afe742eb6ebd7c7dd54e522443cb721ac67ad925"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0008-home-v2-public-identity-lookup.md",
+    "sha256": "57a1395c348a413a70e2110ed0d440f51455af66aa75ecc1b57f520602611632"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0011-home-v2-production-account-shell.md",
+    "sha256": "6565b26a76a3a202b12bf00bc9e34939c6fc14a299e54538ff9d8a63a6435c5e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0007-home-v2-node-readiness-and-android.md",
+    "sha256": "91c9d99c83c0b539b8acd038e1e713ba639682874385a79297fd39edd566c38b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0009-home-v2-read-only-account-catalogue.md",
+    "sha256": "beac6bfc584692170062f9f3ce9b3ee59f29a4bedb51d16a9e97bf7c4556b8dc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0001-home-v2-foundation-boundaries.md",
+    "sha256": "f421316518bdbf0d74c5b93b08900d0a5ea10201251b46da3202df68618b98f1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0005-home-v2-live-node-preview.md",
+    "sha256": "fec759406189b086203ee6dc78b64ebdc274d316acad8f04ea847d288b4a2bea"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0004-browser-shell-startup-and-theme.md",
+    "sha256": "4338e3bdaef5951a648d9fb9a7e1c787b08f10f477b719df4d589c7da096066b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0002-fixture-bridge-permission-model.md",
+    "sha256": "12122e56b3b000f824eecabb305b3a458f10086fd56da9155d1776abf8990970"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0010-home-v2-persistent-shell-and-read-only-app-runtime.md",
+    "sha256": "bb3acdda6285830a0b912e07d23fe133907439bc922e34e8e2f207c28f7981f0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/docs/adr/0006-qortium-public-node-endpoints.md",
+    "sha256": "d6f149371c95d26aa650b374ce08afcf179d2ac9b2828f4208617bb18d59d483"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-background-audio/scripts/fixtures/README.md",
+    "sha256": "63872e8b055283a484394ac1fe8fb0130eb72c99b52a9e1ba850af8a4b185692"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/QORTIUM-HOME-CHANGELOG.md",
+    "sha256": "e4928c90af4c3379a7be7f8c05cb937f54c81ac5af2b02cf9aeded2e9112f36b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/README.md",
+    "sha256": "11ddb9d7a83a33fed075eb3f05a273d37857c4d8f0fd799c5a74db3a810c9318"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/SECURITY.md",
+    "sha256": "93ec5d2338b66c957714f9aab9ccfde0968c6ffe1c7fd14178a0fa0fb4321f76"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/src/v2/assets/marks/README.md",
+    "sha256": "b6f855ca1e203ab14d04f5807b1297d9a7d22a203c328803868685a040d745e9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/QDN_PUBLIC_PUBLISHING.md",
+    "sha256": "67251a69eb3882cbb37501d43d7a60e4606435baeac8c1c3dd3683d0ba255bff"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_V2_ACCOUNT_LAUNCH.md",
+    "sha256": "adec0f2d1b43f17bbf97882a18ebf175b9fd8092f4236262778b3f17b1cfb765"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_DATA_MANAGERS.md",
+    "sha256": "77158b607b921976661ea4836aa27be70c4062b95c5a0e3e6b19b387de2444c1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_V2_DISPLAY_SETTINGS_MIGRATION.md",
+    "sha256": "fcd0ad45a2f4a248a29a3ac0661630864b385bb49b40829e6dc38a61bf61d421"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/REMOTE_MAC_BUILDS.md",
+    "sha256": "e9ba6c412b388cd64414fb8877e1a96e2bf3597aede708384aa370a1d93820ca"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/QDN_WIDGETS.md",
+    "sha256": "137530209bd1a05baeea9132fb176856d65201ae599fa0172f0f5a54791e5c88"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_V2_LIVE_NODE_APPIMAGE.md",
+    "sha256": "52e6b2146385407d088ab0d8d19b51eb55baeb367c7ec4e9742c0089b35cdf2d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/APP_VERSIONING.md",
+    "sha256": "ccfc195bcfb3666ec750bdc370117d8c40f89f287eba328cc543a4b45fbf85e3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_SETTINGS_BRIDGE.md",
+    "sha256": "7e9492efc99eac3cc5383fafef0e59183632f3b8ebfd848cc574f6197b298943"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/BRIDGE_ACTIONS.md",
+    "sha256": "b5c2d93526bb49cb2d8a0541c97fba4cb535680c263967a95833abf29611b3f1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/CORE_MANAGEMENT.md",
+    "sha256": "5ba5d269e9a60540985300d6030691ef2a12f1c303526872dbb6bef74e05d789"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_V2_APP_NOTIFICATIONS.md",
+    "sha256": "88ce503caa644fa9848564e9da81a28c5e94f82c22d67f10281875eb95f1334c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/COIN_SUPPORT_MATRIX.md",
+    "sha256": "035619c6ba0b35406ec4a35b28541f4b6950e0aee77db73505c16b95cabf60aa"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/PROVENANCE_LEDGER.md",
+    "sha256": "0dacf7acd8db97d3e76b705e412e78b008fb6bf7596d0b6b196a9073d6d5433b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_2_1_PLAN.md",
+    "sha256": "6f4fa2a3cd0d357f5daad207709117bc1080cc2d878a47807373fd7f56a62323"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_CHAT_INTEROP_VECTORS.md",
+    "sha256": "77739dfe504da86775dbd224a8db7decca1cd10d7f7b71412deeb959dceb287a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_CHAT_PORTABILITY_ROADMAP.md",
+    "sha256": "224aabf633a54d8aa623c038961b1f5701964403049f48dd595187650b67f1ce"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/APP_NOTIFICATIONS.md",
+    "sha256": "b9bfd4efcee8687265cba8313344c4517e049d76f19685d18ead0ec489e99366"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_V2_IMAGE_CACHE.md",
+    "sha256": "75464c11b7825a80055d24d9c0753753f4e3c504582a22ed4f8973526aa80198"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_APP_ASSIGNMENTS.md",
+    "sha256": "392fc37d3151c7fa75b3c3815438fa8676761c8240222946d821f116752a9aad"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/OPEN_CURRENT_TAB.md",
+    "sha256": "51a09713ea97d5688c9df986c6774af07e67f557606cc842abeba8916f17085f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_V2_BRIDGE_COMPATIBILITY.md",
+    "sha256": "c1129a98e0310b9e1e1bb4b4bd9a743dd030c1cffa90c77e19c00e30ed0ef0fb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/QDN_RESOURCE_VIEWER.md",
+    "sha256": "98f4ec3f9abc3bf47f51f82c9173874e4941cf05418d51f45f972a69203757f7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/RELEASE_RUNBOOK.md",
+    "sha256": "7ce1b133c6b53e6da9b09b7bcae3865e4b81c535cea718f180a4fefa9944f102"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_V2_CONTEXT_MENUS.md",
+    "sha256": "5745ac2cd5b6db2e9fe69ac15f4a26e44b0a9fa6d672be60098f2f70996dd8a6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/CHAT_2_0_PLAN.md",
+    "sha256": "4934649b06a5e55531f07ba41774c6dfa133f45e1b00d5c29c2a7e5e2b2423e7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_CHAT_PRIVATE_ATTACHMENTS.md",
+    "sha256": "96bf8720f5827977ea6576f896191e4fbd48e9b0161d9adf81bbbda8e50b3c66"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_V2_OPERATIONAL_COMPLETION.md",
+    "sha256": "d5a6133761805e2a50c2d0d72b49325a682f7aa0f5a74a91c295a1f7414a381a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_2_1_BETA_TESTING.md",
+    "sha256": "8cc6b661de20ff19ddd214d1d8118f2cd90f96c70d434e6a1bf42b81523b4c9d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/HOME_V2_FIXTURE_APPIMAGE.md",
+    "sha256": "05c31ff96510fcafd6d906579936c30b7ccf75798816af74a923ac8b1b64ed9a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/PROJECT_PLAN.md",
+    "sha256": "67886e89bee5d22a35b7698781e5f8bde770dc33fd144f1eb9db8898fd77fdf1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0003-isolated-v2-fixture-appimage.md",
+    "sha256": "2f0527a43755274ad903f2a1afe742eb6ebd7c7dd54e522443cb721ac67ad925"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0008-home-v2-public-identity-lookup.md",
+    "sha256": "57a1395c348a413a70e2110ed0d440f51455af66aa75ecc1b57f520602611632"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0011-home-v2-production-account-shell.md",
+    "sha256": "6565b26a76a3a202b12bf00bc9e34939c6fc14a299e54538ff9d8a63a6435c5e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0007-home-v2-node-readiness-and-android.md",
+    "sha256": "91c9d99c83c0b539b8acd038e1e713ba639682874385a79297fd39edd566c38b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0009-home-v2-read-only-account-catalogue.md",
+    "sha256": "beac6bfc584692170062f9f3ce9b3ee59f29a4bedb51d16a9e97bf7c4556b8dc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0001-home-v2-foundation-boundaries.md",
+    "sha256": "f421316518bdbf0d74c5b93b08900d0a5ea10201251b46da3202df68618b98f1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0005-home-v2-live-node-preview.md",
+    "sha256": "fec759406189b086203ee6dc78b64ebdc274d316acad8f04ea847d288b4a2bea"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0004-browser-shell-startup-and-theme.md",
+    "sha256": "4338e3bdaef5951a648d9fb9a7e1c787b08f10f477b719df4d589c7da096066b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0002-fixture-bridge-permission-model.md",
+    "sha256": "12122e56b3b000f824eecabb305b3a458f10086fd56da9155d1776abf8990970"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0010-home-v2-persistent-shell-and-read-only-app-runtime.md",
+    "sha256": "bb3acdda6285830a0b912e07d23fe133907439bc922e34e8e2f207c28f7981f0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/docs/adr/0006-qortium-public-node-endpoints.md",
+    "sha256": "d6f149371c95d26aa650b374ce08afcf179d2ac9b2828f4208617bb18d59d483"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/github-clones/qortium-home-auth-reference/scripts/fixtures/README.md",
+    "sha256": "63872e8b055283a484394ac1fe8fb0130eb72c99b52a9e1ba850af8a4b185692"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/iffi_vaba_mees/AGENTS.md",
+    "sha256": "d64b42932c7f24658576de7557ecb0657e33ef85b0297eba624c20bd2d7e9796"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/iffi_vaba_mees/README.md",
+    "sha256": "ea360d6ed0dec8c9c72efba45b81d697ed753fc8a931edc0d86a7cbcbfc64686"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/iffi_vaba_mees/docs/RELEASE.md",
+    "sha256": "e5ab134d9ecac57401ccb6bfa08371a61bd9de2875f3216e1e8e5cdd29fb9f75"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/AGENTS.md",
+    "sha256": "d01bab1b8eff48899d0b603108afd3fd6ce24366bcbfe0f8a94efc98ba1ef013"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/README.md",
+    "sha256": "cbf78c787383bb94139b2907d27d83ad29b8287c4f7722c740153d4b6b99589e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/THIRD_PARTY_NOTICES.md",
+    "sha256": "cbc500089d2e361c0a0ed3f79af703afc7dcf5781cb4204e92d44e3d8bda4f57"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/src/features/forum/README.md",
+    "sha256": "2d423968aead6af2bfb1572b23ff7ce6680a058a383e8d2b1154d97585cc6fe4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/docs/RELEASE.md",
+    "sha256": "883af61c0e084b3fad6a7ef922117ee120730e568253e745e61435ead7596838"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/docs/QORTIUM-HOME-DISPLAY.md",
+    "sha256": "de47aa84c83bc77bc64829d2c17cc2e081928d7afd013d2a0da603553300e26a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/docs/ARCHITECTURE-V2.md",
+    "sha256": "db78c6fe221bafdd649d4684150b4e1afb2a57484396ba7424f41934fe270830"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/docs/QORTIUM-BRIDGE-PUBLICATION.md",
+    "sha256": "7cd6223365ac467904e1a57b0cda0a261197053526ed12a18755dcb7f486fdbc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/docs/STARTUP-DIAGNOSTICS.md",
+    "sha256": "26aaba0ac01049b51ecdcf78bfc45db3bb91719b55d7f37d75ff390a761a0d61"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/docs/DEPENDENCY-BASELINE.md",
+    "sha256": "06b39958a95ebb817e5740ff5fcc825e76b64190ca4b19a8fc0efbc95150850d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/docs/releases/ARCHITECTURE-V2-RC1.md",
+    "sha256": "1907ba6ab189ab68717c1255f1423e088950962a363816c277f8c6e61bc5577a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/docs/migration/LEGACY-CANONICAL-PUBLISHER-REVIEW.md",
+    "sha256": "5dfbb34c21df8019c925ff272a8eb9c714fffbbf84b706d254c251a2c57a44cf"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/docs/migration/HIGH-RISK-DECISION-SHEET.md",
+    "sha256": "3920789bd82d37b9ff0fb4e471849cb60a316968a44a927e7854d28fab7b8147"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Discssion-Boards/scripts/BACKUP-RESTORE.md",
+    "sha256": "35ae2b3e94d9d5bf4da7b1e6b34fbc1279ac665a5986c9efda5d51ae1b491b2d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/AGENTS.md",
+    "sha256": "8bbce0e61eefc70aece23f4312ef240a790ea1077220079acd758c8160267963"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/README.md",
+    "sha256": "e1c2bcafcdda20988520e7979762f4827bf28385991047fc3ca3be5c84773a75"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/docs/ROADMAP.md",
+    "sha256": "a63857f6a989444862fe2b1badf4837d2e202497c2a21a4435b61f5c999956c0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/docs/RELEASE.md",
+    "sha256": "cc63ce07355b877199d0dfa478b1ca7d42e9783135851a3921070a49eb882867"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/docs/PLAYER-SPEC.md",
+    "sha256": "3d493a333e8a5b88542dcf7c6bfe53cb01c84f830b1b3884dc7883e781adb208"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/docs/RADIO-TIMELINE-SPEC.md",
+    "sha256": "1135bb270b2cce616596d48ff39c73db5f11dcce66cd387b8c126ff8f4c5a9f7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/docs/ADMIN-SPEC.md",
+    "sha256": "3572347d5ede0628e21d78ce6c8902c409df3d2e7736041f3b9b599a2558bf04"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/docs/ARCHITECTURE.md",
+    "sha256": "34a77a4532a5d1b43d84821c297cd7b368f75c5a441280ac6c8f4639528d0e45"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/docs/QORTIUM-DATA-MODEL.md",
+    "sha256": "4eef3b8fc0646e9e25c909f73c92d8fb243048616864301845ea3396041b2bb3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/nodefm-station/docs/PROJECT-VISION.md",
+    "sha256": "83625266ea75006d771e80faa0229b0014f8e756935fcc01bd0cd531ea9dad7a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Qortium-United-Community/ROADMAP.md",
+    "sha256": "417237f3c2e0d67b41743be0dc2b3ac1b43fc4683a68a77a9380928e0c421059"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Qortium-United-Community/CHANGELOG.md",
+    "sha256": "2694e6d29d51455f2b5ed54d36435b7f1ce4b835d49d98465fcc2cd3f466afd3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Qortium-United-Community/AGENTS.md",
+    "sha256": "ce7ee44b26dfb5c0abb82df91607d7878151c6ea8d08df7ca60a4dbc94ddd46e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Qortium-United-Community/README.md",
+    "sha256": "4a356d456119a22f6a99effa3f7d222891bce71f668eb45b26ba182d79ca5254"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Qortium-United-Community/docs/RELEASE.md",
+    "sha256": "43fa8f73764e8bec8e28cb7a069ed917148282b6eb32338296fb4f8fcdcb0ef3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Qortium-United-Community/docs/HOME-TEXT-SIZE-INTEGRATION.md",
+    "sha256": "b67c552aadc38792754ff8378dbc664ca3aa5162e3f8f169c9dd3149c6c1cf29"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Qortium-United-Community/docs/KNOWN-LIMITATIONS.md",
+    "sha256": "407e61121bdfb459863d27e410eb6922f08f6053f479aca191484bb336a32b65"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Qortium-United-Community/scripts/README.md",
+    "sha256": "57248bd5eed0f209fddd69c4f3149f846e5ab5fbf176ea8bbe41e718e0838d7f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/my-private-room/AGENTS.md",
+    "sha256": "845b713f9eb7607c34db45692994ca7d543426adffa06e5410f7030d1dcb1ae1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/my-private-room/README.md",
+    "sha256": "008cb2a5a01769f1bb9bf1c7678ea09ee3ad4969a754057fa4c5266a01758d6c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/my-private-room/docs/RELEASE.md",
+    "sha256": "64f4c1d49998ed9ed2902ef7ab8ab506c92a01f15ccb53204599b2fc76f429a3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/my-private-room/scripts/README.md",
+    "sha256": "787db21fc4bcfed989dbd60f4f15798f8334c0fd99dac49345f2a1b0af55f3c7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Video-Center/AGENTS.md",
+    "sha256": "a8ac9ea1a5d07c36fdacfb617aae10ae2d657541525c3de0de41d9b6615bd2ba"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Video-Center/README.md",
+    "sha256": "dc3eb9d654d6d79b2e392366edccc91ad5364963006e283b88a469bede65bb66"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Video-Center/docs/RELEASE.md",
+    "sha256": "85662905b4330465d68d24cdc02464e21ff2ed66f75a89d3b800709e3a0fa66c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/community-discussion-boards/AGENTS.md",
+    "sha256": "9340d2c9e55422e5de062370a0011d8752a300573e2f8d4f75c9ac721b13804b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/community-discussion-boards/README.md",
+    "sha256": "ec5a7ce603add06b354ab9a5e84acaf71dcaf8daa238698bcb1ec25a1a995eba"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/community-discussion-boards/docs/RELEASE.md",
+    "sha256": "0630af3032348afc4c879e0237fb1fb0230f83cfe1b530bb0aced57dd339bf67"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Blogs/AGENTS.md",
+    "sha256": "e8695d8910b7d5fcdb46a34f6dcb3dcda2d4bad68957110bd0bf76f5a1ab7403"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Blogs/README.md",
+    "sha256": "62703e6260ef95ae63cffcde3dd5552656869f7ef29e487eafe79ce6806efb3d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Blogs/docs/RELEASE.md",
+    "sha256": "a92d2868254cee93464e70bbe8a12f0c1397c013b1bfa253d9fdb63a6eadedfb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/projects/Blogs/scripts/BACKUP-RESTORE.md",
+    "sha256": "6f2dc7ae7088d6cdea01c4b6dbd823b4ce28609f4937ff0a0ee1206cec1c63fe"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/README.md",
+    "sha256": "806863c5c0c039a17d7d04216e5afabb93450eb89144e1419dd90e4ff370527f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-mail/audits/2026-09-10-qortium-mail-alpha-architecture-audit.md",
+    "sha256": "f1960764ada73d1c5ce8f4f7c14f2902a723040e467940b4c487f37e635da102"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-featured-image-shared-taxonomy-implementation.md",
+    "sha256": "58e132d24a811dd625f2de765b5fa0f91d63c7145bfc073684b185735cdda6e0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-qdn-search-result-ux-bugfix.md",
+    "sha256": "94ea7f1350b81e575743f8a7c5e53edfb51131ae80cf03071de5e56b52faf276"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-home-post-filters-implementation.md",
+    "sha256": "1e0c095f7427fdd44464263c872ec4da593bf21b1ba1695db440bfd12c679ca2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-qdn-quick-preview-implementation.md",
+    "sha256": "9c9aa5e13358d6902e6cd620fb38b69528cd0b4651bc69fcff86e407bde7ef5f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-24-qdn-rich-embed-implementation.md",
+    "sha256": "7918fe6cf24c99c6539aebfd6c610e9b058b06dab168afae0a82a36cb14c2b74"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-richtext-block-spacing-bugfix.md",
+    "sha256": "c1aa01e41166e7bcae77e4a31f5d81416e42b32f2836a3dcfbe0a4b06b920c8a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-editor-comments-mobile-branding-bugfix.md",
+    "sha256": "022504af285a97a0c08ab19c989cad602d2ff05136c9f12f546b86a4a7b71f95"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-pdfjs-qdn-preview-bugfix.md",
+    "sha256": "758cddc7520a9020d57d1ef59bf5ea717cf58a54b5a001982809ceb8bdfd70a8"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-qdn-pdf-audio-preview-bugfix.md",
+    "sha256": "f40ae596979c1bb8aacfae312414103be2b4854635dc8f19e17385a1f7b4d580"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-thumbs-up-reaction-animation-bugfix.md",
+    "sha256": "60edf179ea9c454aa3cdb0512c6a76cef3051de7b5780deb5ec14a22b588d97e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-26-pdf-native-qortium-viewer-bugfix.md",
+    "sha256": "0d0db6ff9653006f18d5e06b519c69bcb7093b41370117d020ae09583dafe465"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/blogs/implementations/2026-07-24-blog-delete-and-post-redirect-bugfix.md",
+    "sha256": "af14669c315977a44d22214327be60e5bb59664afc12b76b09bdf5db8fc33b7c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/iffi-vaba-mees/audits/2026-08-26-existing-qdn-edit-delete-recovery-audit.md",
+    "sha256": "d20c0d68aea5c876539897ac21c032226b509d056d82bd3cffabfb23a48b8daf"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/iffi-vaba-mees/issues/2026-08-25-iffi-vaba-mees-identity-correction-edit-delete-recovery.md",
+    "sha256": "dec802207229e4734b2778378d4d435e156b0d08068cd6993f5e4978e3c070b9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/iffi-vaba-mees/issues/2026-09-09-app-wide-optional-edit-forms.md",
+    "sha256": "7f0e74c08abbf5881c345d93a5f2c80e7668306e51bbb8604ab2dd00cae5502c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/iffi-vaba-mees/issues/2026-08-25-iffi-vaba-mees-qdn-edit-delete-mutation-remediation.md",
+    "sha256": "26162db2164864da5509b68279d3b88e1feb53ec77e4f4eab4ca7d60aee3b909"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/iffi-vaba-mees/issues/2026-09-08-app-wide-qdn-loading-audit.md",
+    "sha256": "d1d9f4e7f400a268c88fee278c1a350620391b6751d7b33c3f59d67a645dfcf8"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/iffi-vaba-mees/issues/2026-09-09-guestbook-bounded-loading.md",
+    "sha256": "e5b8678d31116d0f060e7750e93280318e6b59d9b81c1e22f18d8f75ba324705"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/iffi-vaba-mees/issues/2026-09-08-qdn-image-loading-stage-1.md",
+    "sha256": "084071c71230a572cb81d9d94d2f580ea4955f5b210d02f392594d607607e6de"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/iffi-vaba-mees/issues/2026-09-09-html-table-rendering-stage-2.md",
+    "sha256": "39491c4c8ecfcafa555e3605b2f32e158dd272a99f8a122b5db92c2259f392da"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/2026-08-12-nodefm-qdn-publication-reference-audit.md",
+    "sha256": "970cc17a876fd0dfcb65d3d13804eaee3b2ef4e06c13e8b7559fadf1ac0ed1ea"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/2026-08-12-nodefm-qortium-integration-reference-audit.md",
+    "sha256": "ddcbc139f81ae57587119630c266e4921232b9e3ba86e81e78e98cc20dae17bd"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/2026-08-11-nodefm-phase2-music-library-playlists.md",
+    "sha256": "b82a7f890cc6fbcf23f6b8c0ff15624bd937d436e935213f5a297e5f3cad4b78"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-listener-submission-like-moderation-bugfix.md",
+    "sha256": "b73f74a50392cada5132602ccadce569ce137823e50d324e2809f7284242e8f4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-29-listener-track-authority-and-station-moderation.md",
+    "sha256": "715a93a23a405c7c7e60314e9e4922e4367d4255ca2263f99285bcba4d7f3594"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-09-02-android-route-chunks-and-cover-fix.md",
+    "sha256": "5410ee1c44e8be66c8cb29cdf593c004c057da8374160d8fa5f58e80dfdd2f13"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-20-independent-audit-remediation.md",
+    "sha256": "7c5eb7fed23cd3e08226ee97e9b642fa5f0280098de87b34e540e77a368720b1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-19-phase-5-autonomous-implementation.md",
+    "sha256": "1d62c418d0424277c7607998f2bc976cba39936a2850c5deb5c96f2c8bf30093"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-18-phase-2-state-persistence-integrity-remediation.md",
+    "sha256": "786678819db55cb55c68df1817bcb20532d0b8ae4c5e7f1aad2914ccead7eb88"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-19-phase-7-autonomous-implementation.md",
+    "sha256": "9b331d49345a2220de9fb6eb93fa7ee37dcdfbc95f12f0b1e2cb4b1b8c240b0c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-19-phase-3-closure.md",
+    "sha256": "e897e1ff6b8056514d69e695d9734c58012721a51194de78bf94043c5e62e935"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-home2-release-a2-contract-audit.md",
+    "sha256": "793bccf7d1879fccb586c0d0d4a978881ad051eca344c2ac8bbbd022984bc5b6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-22-workflow-a2-paused-home2-platform-stability.md",
+    "sha256": "3448c2aaac8ed76e4e25c58a6fe9fdcbee622421531b3aad877c10150031fd2d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-28-station-time-ux-and-schedule-duration.md",
+    "sha256": "5eaf1bfac78bb9b4ba28fe2163f2a6d6b82ad37b33f90514f5192bcfe8f875ee"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-29-listener-playlist-create-blank-screen-bugfix.md",
+    "sha256": "aa3dde4e3cd1caceb8bb7580fcac91a47d8725d216e20893299b7d714aee81b8"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-foundation.md",
+    "sha256": "d311d042f05231f2143f4ea71e3179e10e756677f16d9e34e6537906fdc1dbdd"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-09-02-android-audio-stream-url-fix.md",
+    "sha256": "fb2b3ec04b1bb7454e0aa66002631851d85dc9688dae1241ae2a3f0c91ea5c68"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-19-phase-5-closure.md",
+    "sha256": "eabd28c8199701998e53476db5df517128f5b2236473a79dce27b4e65a754d33"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-20-beta-release-candidate-hardening.md",
+    "sha256": "dbdff835385c469e583f8bf3ae7f29a911eedf80ace95cde2593705d08aeb361"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-22-home2-a2-image-json-publication.md",
+    "sha256": "d8748e0857bdf22719f6d766c9c015aa418fde753f066ad891abccf043691b66"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-freeze-gate-validator-remediation.md",
+    "sha256": "55aa37d1b7df9eb40ea6aa5b657cd44c1113ebe26c1e08d2a81b4843b2a4ea68"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-boundary-integrity-final.md",
+    "sha256": "bc940d02bccac40c49387318a9ecf3475e4c2d73cdb831d3570e4989168ee98e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-11-nodefm-phase1-foundation.md",
+    "sha256": "51277a3dc83a0d68d39e3a7bda4662eb3290a32cb43f9f0f6b50b9c2c2193690"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-bulk-music-import-feasibility.md",
+    "sha256": "9fa5a9066ae96a54e92f5831195231f143f02570d351657b99dbb5a0dfe8e318"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-19-phase-6-autonomous-implementation.md",
+    "sha256": "2c963309ef687ce9291520bd3033b40a165f78c6a095465ed04be684b59be51f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-20-beta-8b-listener-track-submissions.md",
+    "sha256": "c5d04771436a25367b8cf9229fb67e631a023827f641ca1202e031cca37b7a38"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-final-boundary-remediation.md",
+    "sha256": "61ce1ed86d7a71d4e8a173951ff819ad1130b28aade3b7d0d45e862298f4b89f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-18-phase-2-closure.md",
+    "sha256": "37f2a23ef01fb3875dc00f44b075874742c35cb794548443dc8ce2fd77e16b51"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-29-live-radio-missing-track-resilience-bugfix.md",
+    "sha256": "44ab5ae2b45ebe6b93f7fcf8e674a4c015de5f1e17bfc213f85278bd01ea77ce"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-final-closure.md",
+    "sha256": "693ad40085d69aba5080dd1afd6da4a8c545fb9627ad3a7636146e79d9d06515"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-09-04-core-stream-disconnect-and-android-background-audio.md",
+    "sha256": "e7569d9bd57bd6e5bff3995265d07feb32d8d21f7c217b4a6ef899f2e97df447"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-bulk-import-a1-audit-remediation.md",
+    "sha256": "5a3f71fcf7862f458a7b278208daa5d51db92c8ff4496027a2a991fb35e4b4f5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-11-nodefm-phase1-corrective.md",
+    "sha256": "f1305842cf525a64aba96b94d60eadbe544fb11f3b4c57a1b85a3b66b4ccba46"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-19-phase-7-closure.md",
+    "sha256": "513f9dc57fa6528e5f6e7ec92c58e5a3fc54ed4c132c14e6200d8b56e788b153"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-29-listener-owned-playlists-v1.md",
+    "sha256": "d4c07118d72136c0f046978b890ecad8cdc5e32e558f3d7dc43a98bb89d7d682"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-30-listener-playlist-visibility-unified-transaction-ux.md",
+    "sha256": "4ac37fe9b6c1845e36586ab30f0a5588428543db984b8637f20bf4c882d3a630"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-18-phase-2-closure-preparation.md",
+    "sha256": "52e63d72811e0491d788ecbab3e6bd90b83370f574edf2c17ec91d9a1d0d0a7f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-18-phase-3-autonomous-implementation.md",
+    "sha256": "dc9ab54ce01b610f7d271c8e20cf3a863c8b9596e608a560c48311a3115cda94"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-27-deterministic-playback-shuffle-and-playlist-reorder.md",
+    "sha256": "fb9dcfee2e823099216b0ccd1e559e50270b42010630d9ac9c7676e89bc6f300"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-metadata-intelligence-track-detail.md",
+    "sha256": "8328a86b9adaa6337bd308f9aec2aeaa45a4559e466027ba4e67fffe4e30e0ab"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-19-phase-6-closure.md",
+    "sha256": "66d8343aeb75a01e281e572827a62ffa64808e7cb2701adcc8a3c52491b36244"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-18-phase-2-qdn-contract-remediation.md",
+    "sha256": "be6535ec9cc1da7df8a1f335a30eadb65fabab7e09fc997ebda11b39596e7baa"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-30-nodefm-app-wide-unified-transaction-chunk-ux.md",
+    "sha256": "ac5ba8c360358b4bcb90a27d7a1970e1bccb10d7d18e423c02c283562ad38891"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-27-listener-uploads-post-moderation-refresh-bugfix.md",
+    "sha256": "95731520f6a078514476f97c0e2d528b0ae95798250ff105203eb89053093c30"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-admin-dashboard-and-extended-track-metadata.md",
+    "sha256": "805b16577a38027bd9f7e205192d4fbc34597d80028cdaa80b5da78c1d7fd40c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-20-beta-baseline-closure.md",
+    "sha256": "ad9016451d3b3c098331ea46daf92c72329b991bede7a4db9322c13a8887d713"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-20-beta-8a-identity-share-playback.md",
+    "sha256": "1f96d3a8d97db9d537836ce1e7ae33d2c29835f075ea5e4f280501cc1412c1a7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-19-phase-4-autonomous-implementation.md",
+    "sha256": "eb969cb8254f0de98e01d6b5773ecbaf2c53782d7cad69c79b006a1b44a69d9a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-19-phase-4-closure.md",
+    "sha256": "8e60b6b2d7b084afa091e64480e16f1a93449f4847ee982c7d9a11f0c6b38310"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-18-phase-2-autonomous-completion.md",
+    "sha256": "76b4d1f0a7843b359af111b48bf6182ebe69b19e6b501d36542f56d3dc95fc8b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-28-utc-pagination-and-station-music-scope.md",
+    "sha256": "f80b4fb0ceba0557cd7887a132505e0afeeebaf4580bc8fa712139ea62b8859a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-library-discovery-filtering.md",
+    "sha256": "7e6001e2706004524004e447eba914964a0b1bf56453bb01a45b11561b21903f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-20-beta-8b1-tags-cover-batch-publication.md",
+    "sha256": "0825283feafd01885b7468e978bbeafa69d5a34cab9e5f961f837be20c46db6c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-20-beta-8b2-unicode-upload-schedule-copy.md",
+    "sha256": "3e0bd418dbf1f88b758d728b8ba3b57d793515c86cacd510d630a80d929d243e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-20-beta-8c-public-visual-design.md",
+    "sha256": "1f80ed0cf869eebee3bde47268af7679394c32ed734ac92614cd684c33e31f59"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-28-nodefm-beta-development-closure.md",
+    "sha256": "e4b1e9b44843c8e667f7ca21a64a432bd333ef8efd4cb247db8ebb3068d76cbc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/implementations/2026-08-21-home2-a2-native-audio-publication.md",
+    "sha256": "5f78c2797e1b3cdcd66f586d8c652133386cfde0bbdd3c70b0b321ff45f46a22"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/runtime/2026-08-30-nodefm-cold-start-profiling-initial-load-optimization.md",
+    "sha256": "5e210ad6cbd600e4bb8ce22d10bf3dd3b6e0ed652547a22e9827eeb0546c1ba3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/runtime/2026-09-02-bring-me-to-life-live-playback-report.md",
+    "sha256": "1e59dc2696b694fae6b36545d56db537eaa70d20737a01be0b65753df428c7a1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/runtime/2026-09-03-cambodia-schedule-boundary-playback-report.md",
+    "sha256": "c07a1956bd84a9ed84184169adcf3b906c4e2ddbc0424ac061eca7d5dd7112a6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/audits/2026-08-21-independent-codex-bulk-import-a1-final-reaudit.md",
+    "sha256": "f34de9716e1da0ca9e8528fad52b44fddb74b9cf395f4e778a82111649009b5d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/audits/2026-08-21-independent-codex-bulk-import-a1-freeze-gate.md",
+    "sha256": "4c4f88be480c40ae40460ae2c7a014bc9eff0f2eab1afbac7076cfc55697357d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/audits/2026-09-01-android-audio-playback-audit.md",
+    "sha256": "bdd27c9593b84dd98f4b20088c8eb62f6f88898ff47b08f43a12d9d43dd36d85"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/audits/2026-08-21-independent-codex-bulk-import-a1-remediation-reaudit.md",
+    "sha256": "9fdd10b37879a7b78d61356fd19604566d1e0d2d9edbc37876405e715ed42e33"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/audits/2026-08-20-independent-codex-beta-audit.md",
+    "sha256": "03657a7dbca45f3961f0edbdf06ff83fa89df1d5482473b11618ba2fd781b8cc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/audits/2026-08-21-independent-codex-bulk-import-a1-audit.md",
+    "sha256": "03183766239c1522f977b00067daf86b6da8aab5652a062a6182e8ad08a63ab6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/audits/2026-08-20-independent-codex-remediation-reaudit.md",
+    "sha256": "95fc3f4e41ffd86e13547dbdaa04fd63604fb3544092acffc71989b82e65d6d7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/issues/2026-08-18-phase-2-multi-resource-persistence.md",
+    "sha256": "874571879f88eee2bbd6647720c4e78c9d33b563f63ce732df2446e4b96c9c9f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/issues/2026-08-31-nodefm-upload-audio-approval-batching.md",
+    "sha256": "4de13dfc7af3530b3c9c3a74e68477b6f97a70491d40ecfb4cfdd19e0d95d194"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/issues/2026-08-18-phase-2-live-runtime-regressions.md",
+    "sha256": "b7b93d331b94ddb9353bf721a33794e3b9822f3c4c5990e4a77940c4bb28f639"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/issues/2026-08-19-phase-3-1-runtime-polish.md",
+    "sha256": "b372db10c6e193dee899ef2db4cf77d939b65ffc5a35956d3c7e60a905ef5ef8"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/issues/2026-08-31-nodefm-reuse-admin-transaction-modal-app-wide.md",
+    "sha256": "e1a8229fea6427f1eca8a2fe83f63523d79e3ee06b6aac7887934f9511e5aeb0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/nodefm-station/validation/2026-08-30-nodefm-radio-autodj-deploy-owner-runtime-validation.md",
+    "sha256": "591ff58fe575221b09ce0d5f5b5783caed74f13600d09ceb670d04949885dc4c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/video-center/investigations/2026-07-22-homepage-feed-investigation.md",
+    "sha256": "2b3fc43f50ac329fc068bbb338b63621fe655ccb2c8739111fc14411dc0f978c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/video-center/implementations/2026-07-22-initial-route-fix.md",
+    "sha256": "c8a0fbe3d6b23b1a9c20e1c237261f2865ac2ab0c7bacfd99cfc1f7acde8f83d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/video-center/implementations/2026-07-22-progressive-discovery.md",
+    "sha256": "c4da9cd2f4c953f72c2813a7c49538a7bde29c69468ed754342e154cc8a15a0d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/video-center/implementations/2026-07-22-cold-start-discovery-fix.md",
+    "sha256": "fd0f80b397584bbf00c3a037b1322f64e1c01c6fc2af4900625f9974f44f3d78"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/video-center/implementations/2026-07-22-thumbnail-mvp-final.md",
+    "sha256": "ea8838434cd77366b93a07df2c13a7ab662711d878cd7671d9261bcdbd76db02"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/video-center/implementations/2026-07-22-publish-flow-repair.md",
+    "sha256": "c7390d4de89cc9484444d147c8554813b2dbfff1daa0d426b6f6df269b3066cb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/video-center/implementations/2026-07-22-concurrent-discovery.md",
+    "sha256": "b0ca1ca5e62d251a213bfc517fde6c88d5af9604a406dcda5d28a0a95d96b783"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/video-center/runtime/2026-07-22-performance-baseline.md",
+    "sha256": "c65c78810f88649e51f76eb2b66fe2a60fd20e573a40eccb67e4b84006a7448e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/discussion-boards/investigations/2026-05-14-empty-content-analysis.md",
+    "sha256": "ddcfa00ac34b8ad2019e45025c559734e977a1f91aa216a1443bb5381a03bba5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/discussion-boards/implementations/2026-05-14-empty-content-fix-implementation.md",
+    "sha256": "1a7a768f3e34e8be4dca01e8f62b8141b357826abde6654face91adad349c052"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/discussion-boards/issues/issue-18-sysop-role-bootstrap.md",
+    "sha256": "f6ede655ed0e217fbc383459a8bc1a7976c7f075d52fe0f1eff4efcbb8088cca"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/discussion-boards/issues/issue-17-post-edit-correction-report.md",
+    "sha256": "341f98a6d11b6a22f0a342dc4837ca8a3944a8a12556a961bce04eed8c7476c2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/discussion-boards/issues/issue-17-post-edit.md",
+    "sha256": "605ab59e559fddc413ac1f83a3a00c9128484d4a513cf72c230ec88bac584523"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/discussion-boards/issues/issue-20-main-topic-refresh.md",
+    "sha256": "bd7e07b95fcb60e5ca7df68846a1eaa4e40dae7b0958b784d89175a2f8c993eb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/discussion-boards/issues/issue-23-tip-recipient-resolution.md",
+    "sha256": "52588ec38b75c4f956ad251cd9cfa6c1c8402a01abfec5f1b330c82f7255f66b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/discussion-boards/audit/issue-17-post-edit-independent-audit.md",
+    "sha256": "912e81580a2b16734227d2be07fb03f6e6135063e60db0a978c8ae25416dbe8a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/my-private-room/2026-08-07-phase-b-1-report.md",
+    "sha256": "d21b9bef1ef1cfbacbbdd521a52632a778691449e34e9870e96180a86bfd99ca"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/my-private-room/2026-08-07-phase-a-1-report.md",
+    "sha256": "352dac7f4a6d5d008a525e5198573e3b6cd105492499d5568093a460a446c27d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/my-private-room/2026-08-07-phase-b-report.md",
+    "sha256": "fc1e4090f6eed822f291d27af1f461579d4770124fcede784af0fff8676dc887"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/architecture/qortium-dapp-development-standard.md",
+    "sha256": "487766f9f76160d5d50444c441effcd55ac4e99ef5022181ae6217a73ebbe450"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/mx-linux-workstation/implementations/2026-08-25-borgbackup-implementation.md",
+    "sha256": "9d69d72b976fff0f1ca59c3afa1d4df537aae63cf809814e5b96f7d06d3848cd"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/mx-linux-workstation/implementations/2026-08-25-vscode-projects-boot-backup-implementation.md",
+    "sha256": "8f1a87556a3ff938750688f538a230110247d1cbcd2d7016d73739deb4dee465"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-home/audits/2026-09-01-android-qdn-publishing-compression-audit.md",
+    "sha256": "43da37826564cb4f39128a0cdadfcf0f6e93ccfebc6c4e324c057ee59d1796d9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/community-discussion-boards/architecture/2026-08-03-architecture-decision-round-v1.md",
+    "sha256": "e13275f593b9a1793cc1f7a8c688a30a4f0dd2127e5dde56b788859249d3b87a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/community-discussion-boards/architecture/2026-08-03-boards-aligned-architecture-decision-v2.md",
+    "sha256": "9a14097198d4b1f62414cac0abd7641ac369d61164f2b3bba39fa05b91209cae"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/community-discussion-boards/implementation/2026-08-03-milestone-1-initial-build.md",
+    "sha256": "683530ab3a4ee2cc7d52128383da4c1ff027bf69bbbb1f3abad61e70d2ec9d0a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/community-discussion-boards/audits/2026-08-03-legacy-reusable-code-audit.md",
+    "sha256": "5eb6db9f740ec02a73e8f936bbc3680a4a11f9d566e629671a542b2cd9dfde36"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/handoffs/2026-08-30-workspace-governance-migration-final-handoff.md",
+    "sha256": "4dbf57d5dc8f3c58ba0fcafe1d577d45a8f1d0808d78f1e7a2bed196832d887c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-20-qortium-home-unicode-sourceToken-transport-filename.md",
+    "sha256": "23cbe52decaf7e543779ec1864d65d94d85626afc3e4623b3a1dcb86e24e67b9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-30-phase-4-report-migration-manifest.md",
+    "sha256": "cb4d1c2d41f3817f1b4bfb296581b4de9f14c440f773fe661172cd5bd5218e58"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-03-qortium-dapp-development-standard-implementation.md",
+    "sha256": "814cd5dc717dc4921c7e6327748abcb1de97e2e7129a750352245f3d4b757ed8"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-07-27-report-storage-policy-implementation.md",
+    "sha256": "feb80565d04806426534188b4a253fcdd2fdabfe7bc61f0d5e8ed63c6c23a6c0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-30-workflow-v2-source-of-truth-foundation-implementation.md",
+    "sha256": "b7f974a2c7d2ea7177633357cef134291a45081765239f462aa0b29a55594444"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-30-root-legacy-agent-retirement-manifest.md",
+    "sha256": "00f2c6de1b8a22ebac45270659c390a94ba41be02118635e7656b6d58c72282d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-20-autonomous-development-workflow-v2.md",
+    "sha256": "148bd8e7b290e0073ca5cf00178a2336b99e52d7ad75ed0dd05c9ab1967ebe35"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-30-application-report-migration-phase-4.md",
+    "sha256": "7f5e5916e6ea6a4394b2658b186fee58e54162d70c5f80c64d267d43903bc03a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-30-project-entrypoints-durable-docs-phase-3.md",
+    "sha256": "77963ae168822c7f77c52965de406a2cb73c34a5254b389b5e9f9ba8ebc25c0a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-30-root-router-reference-inventory-phase-5.md",
+    "sha256": "414df9fdbb7fd499b601a8691f285b0c817c2c30d8e2a02fbaf3a938e1ca17d0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/implementations/2026-08-30-project-context-canonicalization-phase-2.md",
+    "sha256": "909ee58b84651c90ee9a0e7a96be6dc3296d5f74de15cecfadcf637452071060"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-dev-workspace/audits/2026-08-30-qortium-workspace-governance-workflow-v2-audit.md",
+    "sha256": "c3679dbbaeeb4fdf5e65c162e69ca2a657b08ff0305516fa160268e88453e753"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-FEATURE-17-PROJECT-CARD-DETAIL-METADATA-2026-08-03.md",
+    "sha256": "37846bae3daa5d311ac62674d4f63df97a645cbbd4b0fc14aa7c0120290bac7f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-BUGFIX-29-UNICODE-UPLOAD-FILENAMES-2026-08-05.md",
+    "sha256": "e06a5cbbb08574e682452c07852dd2e8f696235efb916b3e28d944412de64035"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-FEATURE-24-BLOG-BATCH-PROGRESS-2026-08-04.md",
+    "sha256": "09c9b75feb17749ca3fa21bc4461989876a601a80edec616a4b1ea6e5b915cd6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-FEATURE-24-RICH-TEXT-MODAL-BLOG-INTEGRATION-2026-08-04.md",
+    "sha256": "b432eb8c8b71b3df6529e41823f229f6f7886ef0171d6416ceca507206233860"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-QDN-PUBLICATION-ARCHITECTURE-AUDIT-2026-08-03.md",
+    "sha256": "80522f94c10e8fb1e85cc9c9d428ea0be4212700ceefb11eb0fabc84bd90053b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-FEATURE-21-GALLERY-EDIT-BATCH-PROGRESS-2026-08-04.md",
+    "sha256": "f456d727e946d45533099a46a54019771708ac9aa54e24504cb19e5d3ced5d32"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-BUGFIX-14-VIDEO-SOURCE-SELECTION-2026-08-03.md",
+    "sha256": "4b2bd1f4118a159b9df07a6ee23a87caccc7ec88536f228f6114cdc0ef7e33c9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-BUGFIX-26-QDN-EMBED-RENDERING-2026-08-05.md",
+    "sha256": "1406512a7d4ba03a5c2b14b15a10ad0e9f8391724116858f37737c8a0652b23b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-BUGFIX-27-RICH-TEXT-FORMATTING-RENDERING-2026-08-05.md",
+    "sha256": "58a7b9e5a56be00e64bc6d5b488b4737a45de3ab8f90100a0abdd1c8b642c213"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-FEATURE-32-BLOG-TAG-SYSTEM-2026-08-05.md",
+    "sha256": "0b81c81a836ce7824d353195968c209da964fa13e9825a83bc239a3dbdfc6fe6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-BUGFIX-23-GALLERY-EDIT-MODAL-CLOSE-2026-08-04.md",
+    "sha256": "8d7841915f6df2dc96211e1aaea66a7a293d197f4b9b946f4d5b6944a1d14929"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-BUGFIX-22-GALLERY-EDIT-BATCH-ROUTING-2026-08-04.md",
+    "sha256": "ad8f2b0561098a39810e8b73a56c6513299e4fb5976e12d82ac261a7e8a46ebe"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-BUGFIX-28-INLINE-BLOG-EDITOR-UX-2026-08-05.md",
+    "sha256": "d60dbc7a258e7989b7f2447edcc0d2d02d8461b850a5430691176050a2f2fe46"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-FEATURE-19-GALLERY-TWO-STAGE-BATCH-PUBLISH-2026-08-03.md",
+    "sha256": "ccfc118e30b391cef8ea40ee7c40f2701ef29ae9b4e9a72b2a8c13618bf86710"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-BUGFIX-25-COMPLETE-BLOGS-RICH-TEXT-PORT-2026-08-04.md",
+    "sha256": "6a67e7c20e44db59ec9e612462a988c9164e6be871d29ad5ad598dadf799998c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-BUGFIX-15-OWNER-CONTENT-DELETE-2026-08-03.md",
+    "sha256": "c3c9e0028a1fcc5b403249457a5b21f5a9b96073e95bf8f8fd8216b5d814fd8b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/README.md",
+    "sha256": "6e756a9bd8301bf13ee8e40d42fc56a646b39723d05bf7dcaf2a5f864c2f7d6a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-FEATURE-31-DISCOVERY-COMMENT-COUNTERS-2026-08-05.md",
+    "sha256": "1947b2e61f0d494aa19a1f7d71f16d037363f79db0ec56dfeeb7e6da93c6c687"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-FEATURE-16-PROJECT-MAIN-PROJECT-FILTER-2026-08-03.md",
+    "sha256": "c9b1cb57e8b6416fb433f2f51c89e968cda1a1e32655c65b39f7ae9f83c2a059"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/IFFI-VABA-MEES-FEATURE-20-PUBLISH-PROGRESS-MODAL-2026-08-04.md",
+    "sha256": "b1bcc19b75352b62e88385dd71aa8693c2247ab8c0fac6bf4bc86ceb55d0bf48"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-E2E-REGRESSION-AUDIT-2026-07-24.md",
+    "sha256": "3a8595c4d5a92453bc7417155b934148d0a6b46da7285d87728a5b07b4b9484a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-05-ENGAGEMENT-DATA-2026-07-24.md",
+    "sha256": "7d5b398c147e93b6dd59a032c20e20fbbcb5f4efde821f8e0c12677164cc7994"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-INITIAL-AUDIT-2026-07-23.md",
+    "sha256": "91e3ca40d830d028fff4564a8ffb3cfd4fec9137cdc178d05588b7b5259476b8"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-08-GALLERY-EDIT-AUTH-2026-07-24.md",
+    "sha256": "1eb2491b05fb0206f3463e514fa2374b0875fb09c4ac6a4296517fc2bdfe94dc"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-02-PERSISTENCE-READBACK-2026-07-23.md",
+    "sha256": "e762a1cf8d525d2d988208dbde8dbef1f7a4eecad20d1f7a68e7bd125ede2dd8"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-11-MEDIA-PUBLICATION-2026-07-24.md",
+    "sha256": "0ccaa2f165696744db858e95d648304fa9f1a536b986d787981e9e741737bb3b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-04-SOCIAL-ACTIONS-2026-07-24.md",
+    "sha256": "f6d6d6d916976ae5505c7e667e572706bbad87e4e056ac318212569a285876a2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-01-OWNER-AUTHORITY-2026-07-23.md",
+    "sha256": "75d76e2241103328a6dea43a00271a7da6a254f0f011bc09dc6e3982ba370627"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-07-GALLERY-MODAL-MULTISELECT-2026-07-24.md",
+    "sha256": "1f898ba27bd56e6b8b5198723ed4bafdb70ca3afef86fba737e84601c4c7d197"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-03-GUESTBOOK-PERFORMANCE-2026-07-23.md",
+    "sha256": "cb405a7703487fc12eca1617976eb84880533cb4b6ee68224aa34b8712339ef0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-09-VIDEO-EDIT-AUTH-2026-07-24.md",
+    "sha256": "0e3a0a18819b80b82386b23acbdc39810ddd07ade550132b8063a64b7dd85573"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-13-VIDEO-MODAL-SOURCE-UX-2026-07-24.md",
+    "sha256": "216f2179aa1f3cbb4cec9f8968145a370d66e94bd0537bb74c3730a60b261669"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-06-GALLERY-PUBLISH-EDIT-2026-07-24.md",
+    "sha256": "bd57ecdaf60fe69855aff4249827a416eb7301e702d005b84c62ef135b2e1676"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-12-VIDEO-SOURCE-INTEGRITY-2026-07-24.md",
+    "sha256": "b659ce555744e6e412d19d7a2dd965e5411ccc2ddf9b6e5db1f3f21a84ea5733"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/iffi_vaba_mees/IFFI-VABA-MEES-BUGFIX-10-VIDEO-PAGINATION-2026-07-24.md",
+    "sha256": "3d4e2f7b53f0962bfd9da622ec664f3d6e1d9bec99c055b8d40be51de9aac6d0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/04-bridge-routing-ui-and-qortium-integration.md",
+    "sha256": "eb474a213edb58b6db55b00f3e9bbcfbbfc16ff2ff73933107effb89e6148d43"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/09-executive-summary.md",
+    "sha256": "885c698a3ba67c0c3b808ae767133d160683eb06568941c099e1702c45b0ca1e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/12-resource-schema-and-identifier-plan.md",
+    "sha256": "8ed08b6a5af5fea75d82d103ea54138ce946bce5e46b225299b434ffef91dacb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/21-qucp-ref-005-role-registry-and-moderation.md",
+    "sha256": "5a40487ff654aa21bb552cb1a26f2dffc704284438340599f050cebdf0679125"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/31-qucp-stabilization-001-zero-finding-audit.md",
+    "sha256": "02900c19cdcdf0c641aaab09eb23835d60d889c0c721996bbbbad737be7a30a4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/06-code-quality-build-and-dependencies.md",
+    "sha256": "31b12fde203a08a9d40e89ce1994a2ab7eb50ad695d1cd9ef4c0e2e6dce54131"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/35-qucp-runtime-phase-001a-completion.md",
+    "sha256": "0b1eef4a0e10a1ba496b5164ab439151dd197ec25b0f1de46260b82231a3e0f2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/02-qdn-resource-and-state-model-audit.md",
+    "sha256": "2ddf64058e30ec99156e6074a5f4ab4c445b327d9a3dd017346b8ce95a6a6cba"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/26-qucp-ref-008a-remove-speculative-preferences.md",
+    "sha256": "a6a45b47e88787dc8d5c862a7235aa5f3add370bdf5eb83d8b641202ca57c13d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/03-security-identity-and-authorization-audit.md",
+    "sha256": "dbeec034c7c33e921bfa4d7d21eae71eee48d63fd99a2ab18aa7eb1996d2e518"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/34-qucp-runtime-phase-001.md",
+    "sha256": "934c33cf093b4175e5b881183afce6f31438085b003a19e34eeb75a8c0c00181"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/23-qucp-ref-006-native-poll-architecture.md",
+    "sha256": "0da548334f4b5619b9d2c53488d001f72ac09eee658bde3e0e1a7ee3e8b7f4a5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/11-target-qdn-architecture.md",
+    "sha256": "a60304554ada58cd94f0d3f3ca74b18e5f1a46542f4b68e1154063226c8de87f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/32-qucp-runtime-migration-001.md",
+    "sha256": "c20ec3f6df781db99fca5eab5c6de800c9d598f922d1e9c0d27481c164d30723"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/07-findings-register.md",
+    "sha256": "60de981e672d3a72c318ec4472707f45e425ef4427c80714dacea48e07ceeeba"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/27-qucp-ref-009-media-references.md",
+    "sha256": "0af7143b75336210d719594b29bfd861a3bf480b4f0da262e65111516664a769"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/30-qucp-ref-009c-media-pipeline-quarantine.md",
+    "sha256": "06a4b43135caee2ebae8bfcb28e19250f79127ca4c2dd8813dc8ffc5684dfca1"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/22-qucp-ref-005a-historical-role-authorization.md",
+    "sha256": "e8c3b60dbc4b71b25cdddc890340b20941781bbd562e41fcb35b9671472014b5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/13-refactor-implementation-plan.md",
+    "sha256": "aa3d3b885fa6169436dbb06055423c17987b7c88e3297a8e216f03dfbf2359b0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/33-qucp-session-onboarding-001.md",
+    "sha256": "f40dfed3e1361119c50b9c7c69175e5acd3c45085240ce17a962e4a64d76f0a2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/10-phase-0-safety-baseline.md",
+    "sha256": "5313680b01751fb318df5f16f0cb27260bd5688e654c6030a3cb3c8b785c7e2a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/00-audit-scope-and-baseline.md",
+    "sha256": "2fb0730ab83ac6699232e31595f1983c819d0c308c352be27cd6ca30a2888a7d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/16-qucp-ref-003-comments-replies-and-strict-schemas.md",
+    "sha256": "c925856d0c0f4269822b1b84e91b9d9d65da9a3370d651118e5c91b4e0dc1e1e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/28-qucp-ref-009a-media-integrity-and-removal.md",
+    "sha256": "357f7301f1b61c3905aa152f30a2b6c297cbe60e304d01907cd1a1a1e6b34f71"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/15-qucp-ref-002-core-entity-schemas-and-policies.md",
+    "sha256": "b8e4e5549f82b447251d2a4383b192a674035419ece3d9caa28fec2e0b36983f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/25-qucp-ref-008-user-preferences.md",
+    "sha256": "3cfc403d35eada6378187bdfe7aa9c9f5f265cdbd51e06ce76bbe65dd787d3c4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/08-refactor-roadmap.md",
+    "sha256": "209081a1195409d5fe0843854d1c65a66554e2b7f8e676910a3ae3b1562a5f65"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/18-qucp-ref-004-reactions-and-owner-tombstones.md",
+    "sha256": "42bf2dcdb8f56dfe2923fca01d2493c0759b7e6c8765db05d96f99f256e33f92"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/01-architecture-and-runtime-map.md",
+    "sha256": "b5d9734b6a5f4a04d1778d8fbcf5b4d80dd8f9f1b73e056283760bf71912390e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/36-qucp-runtime-phase-001b-final-completion.md",
+    "sha256": "b979bdcbe97e6fca698d4dd6b4999cae606fa3b792166484e6857eaba5aac9d5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/17-qucp-ref-003a-child-identifier-and-thread-integrity.md",
+    "sha256": "e3aea2ab0b7f888a143b89700e398e5528881f9e47c4a5cd6e1dbd88b8ad9da0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/19-qucp-ref-004a-operation-identifier-collision-resistance.md",
+    "sha256": "b1573a205b4a172ad2732808cc9fcbc0163860f8e6e5bc1f5bb19a3c29d95f22"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/20-qucp-ref-004b-compact-operation-identifiers.md",
+    "sha256": "1272f9c1952bc4007cba2f13107c9a5dcb7428e8b0766bcceed647c9704852b4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/29-qucp-ref-009b-media-policy-test-verification.md",
+    "sha256": "c1ff5e47952e2948719d8c27af88825823a65492f85654d37f6b6043503c36b2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/05-scaling-indexing-and-resilience-audit.md",
+    "sha256": "318e1cd9eca565daa80ac2efa1ab03b941c4b39ca51861734633b3387d4780ba"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/14-qucp-ref-001-shared-qdn-foundation.md",
+    "sha256": "b9ceaaefaec6f1fe4eb9386b521ea1d62881197c63ead3ed797702b073b72a65"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Qortium-Unified-Community/24-qucp-ref-007-notification-system-removal.md",
+    "sha256": "d74551e822652ec89a4dd3e1c25197f74f0d973ba7c8bc3d56e5255cd1c58b46"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-RUNTIME-CROSS-PUBLISHER-IDENTITY-2026-07-23.md",
+    "sha256": "db58056bc6c8b38f438ab14398b73e9c030535cb35d24bdcaa6ea7fbc1b40122"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-BUGFIX-CROSS-PUBLISHER-IDENTITY-2026-07-23.md",
+    "sha256": "d8ec3826d68c902b87274bbe4b68f4e3e9c692b63a3559713bd63d90bbe5c21c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-CROSS-PUBLISHER-RUNTIME-FAILURE-2026-07-23.md",
+    "sha256": "805082a6dd4398fabc84a5439b40004a849aa9cd8d1f5c2e10889688fb275908"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-BUGFIX-BLOG-DEEP-LINK-IDENTITY-2026-07-23.md",
+    "sha256": "452b1361e72cbdc9140f4b655f899344a3cbae6541d410f013ba3e4c23577bc0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-QDN-IMAGE-RECOVERY-CHALLENGE-2026-07-24.md",
+    "sha256": "7d5aa0ed3c3e5360fe2c3f8920f6af02a1229e80b47b7918827e27d3889a9a09"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-BUGFIX-POST-DELETE-2026-07-24.md",
+    "sha256": "ba512330ed1d0c31486fbe293f661983719209528995255f13b144cfc65cc8bb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-BUGFIX-QDN-READ-READINESS-2026-07-23.md",
+    "sha256": "2638de02923b0332d744bb3429c9f8d8261ddd3f10667f0580cfcc72c3cea3af"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-STATIC-FINDINGS-CHALLENGE-2026-07-23.md",
+    "sha256": "e43f9611d97d2be02c4e6c60fb76a52481d87853937707bcdf4dd399b365b629"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-READ-READINESS-CHALLENGE-2026-07-23.md",
+    "sha256": "1881adae82117e531dc03a06888bd8db6093edf5031ffd3cd63c32ef02e51a10"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-QDN-IMAGE-LOADING-INVESTIGATION-2026-07-24.md",
+    "sha256": "13eb78d9258cc7cfe1d48bf46f4967df7510b1dfdb162386ff567e2db9d9fea3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-BUGFIX-LINK-NAVIGATION-AND-AUTOLINK-2026-07-24.md",
+    "sha256": "9b7ea4d31fa55b5444f6bb25527614d047f6da2c85b0093b9724da91730e209d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-MVP-ARCHITECTURE-CLOSURE-AUDIT-2026-07-23.md",
+    "sha256": "5b873199860c2729258ca3c65bf817877e0592669741e279a4170ac64fd5c12b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-BUGFIX-QDN-ERROR-ENVELOPE-2026-07-23.md",
+    "sha256": "343c7218cae1f9c17342f6fefb235043d604001f6024b7fbdbb275ff67e260ac"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-QDN-PARTIAL-AVAILABILITY-2026-07-23.md",
+    "sha256": "ded944177285592d1c4a7e6c5db5b3650feb909528f3d9a4d3183f5293ce0c74"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/deepseek/Blogs/BLOGS-ONBOARDING-2026-07-23.md",
+    "sha256": "07c0fd9ff160035fd7ee50cddfb768738cd23559a8247e2e01ca65177865e2f9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/checkpoints/2026-07-28-QUCP-DONATIONS-CHECKPOINT-001.md",
+    "sha256": "18e283082fe67857bbb5a7299089066bfb3d947d4a639f49e17f986bcd268b80"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/checkpoints/2026-07-28-QUCP-CHECKPOINT-001-canonical-domains.md",
+    "sha256": "2c1b811954d5549e6d2b10afd19b45f6080d3382f4aa12b85124ac9e6982ecea"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/checkpoints/2026-07-28-QUCP-CHECKPOINT-002-commit-push-tag.md",
+    "sha256": "725531fd5735d5ab41ea65c76835f9640a32cd86376724eec655918fa4bd0666"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/handoffs/2026-08-25-beta-1-release-commit-push-handoff.md",
+    "sha256": "e1c36dc2d4fbdf8dc2e54c68e144648cf2976f39eccd42c346737f4cd2fff33d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/handoffs/2026-08-25-release-preparation-beta-1-handoff.md",
+    "sha256": "e6b82fc35691022eb7dd05ab4f45539bab1b83b650b54dac81ce3084853b8381"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/handoffs/2026-08-26-home-text-size-integration-handoff.md",
+    "sha256": "1ff679c606e815e6fb39c92c227bbbd2e8baa82ae7d29754cf7a46c97f47bf59"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/beta/2026-08-22-QUCP-BETA-SMOKE-BUGFIX-001.md",
+    "sha256": "6b205de29427ddea58e41e128170bcc4720be7a01719bd206735a40241237263"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/beta/2026-08-22-QUCP-BETA-READINESS-AUDIT-001.md",
+    "sha256": "2d255dd2c6fe3a0b3f703023906faf4f789fcf3e29789ac8642364841a760a41"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/beta/2026-08-22-QUCP-BETA-HARDENING-001.md",
+    "sha256": "a0ad91370f5064a323db73b13c322c3c7a2cc926ad6a57f860661fe31ee94eb9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/documentation/2026-07-27-QUCP-DOC-001-owner-decisions.md",
+    "sha256": "1c17026395dec4c13e86d4a73271853a0e225e808aa4869081b326d93cd3040d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/documentation/2026-07-27-QUCP-DOC-002-license-statement-correction.md",
+    "sha256": "9fe12f9ea6a9587082dd6fcb8bf3228a6bd5426815b94297495d6903273b8abe"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/closure/2026-07-28-QUCP-WIKI-001-R-final-remediation-and-closure.md",
+    "sha256": "e7034e2e2a3635a099b1da4a54ba969d29954af1b8334e3703d09ed2190cba51"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/closure/2026-07-28-QUCP-DONATIONS-001D-final-domain-closure.md",
+    "sha256": "91bfd4ca46867e294cb9ca374a479cf52f8e2afa3fb1b4ed504b55bff02d1810"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/closure/2026-07-28-QUCP-WIKI-001-C-exact-lookup-and-final-verification.md",
+    "sha256": "6ff1bb3c0b4422a5a9c5e2229a6352156b45c78a1cad0455d67c1a4e5a058b13"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/closure/2026-07-28-QUCP-WIKI-001-complete-domain-rewrite-and-closure.md",
+    "sha256": "9bdcb05f26291b547b00a1e28120f6c9b056aeac9329601fe86bb86013fa4fb4"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-24-qortium-united-community-pre-beta-repair-round-1.md",
+    "sha256": "7d3ae7a46e083c7f7fe2ecc4eac1e57e2e03bd4356a4918394db899f04f553bf"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-09-02-form-entry-typography-implementation.md",
+    "sha256": "b25edf3f23829ec404d6df83db539d673e9ac2d59f1a35bd829cad7c7a188d47"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-24-pre-beta-high-remediation.md",
+    "sha256": "9cfa9a44a4a16a77dd94e640f96ab27c27dc147ff0250e05f88e405fbede925a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-22-admin-panel-content-management.md",
+    "sha256": "c0c73d84acab665788ffe2fa5551afd42f20850951094f7825f9417b62ac7f8a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-24-qortium-united-community-pre-beta-repair-round-3.md",
+    "sha256": "3dc74d3d20d5e28761b2746aa965c54807e0f65af3924559be0009cec4a8bea7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-31-posts-grid-responsive-fix-implementation.md",
+    "sha256": "87b9e50ed5cd54f6c72099e51280b4cdb42b29f24eef3f2445a46b413cc2f68b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-23-dashboard-stats-activity-implementation.md",
+    "sha256": "e31dd7d59929271c87cd18c156351413bdb8e64d8d50ca78e904cf4337071dc5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-23-wiki-accordion-support-close-lifecycle-implementation.md",
+    "sha256": "1bf8800884581c9b85bd7cfb5360f37f9502421da0f8f19df2ec2cc05b0dee90"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-23-events-domain-implementation.md",
+    "sha256": "ff2453bfb26de19f2c25b5b2865e915a1ce52d83f57d2503b99e573fa8c70d9a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-30-responsive-layout-density-pass.md",
+    "sha256": "e237a3cb04f7aa17f974da29732e1406693d29fa89df20b0f37f69470139db6a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementations/2026-08-24-qortium-united-community-pre-beta-repair-round-2.md",
+    "sha256": "bdc205761ad231d48326078f715341b2e5a135e1fcc3b20512468a1bc19ba475"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/bugfix/2026-07-27-QUCP-FORUM-001A-runtime-integrity.md",
+    "sha256": "b2f7a2d9e1fb8d24eb5d90c09e9ce8077447e37b814a27b2bdc74d34b18cccdf"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/bugfix/2026-07-27-QUCP-FORUM-001B-diagnostics-completeness-tests.md",
+    "sha256": "05aff7b8c1b12ad04157a474a1cdcfc0e6a3c55413a0f7df7c1f822b30ed3a75"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/bugfix/2026-07-27-QUCP-BUGFIX-001-typescript-build.md",
+    "sha256": "e6004820d420e6011884a1343742a0e3916e5c6a3bdeca051cb01bba275a7830"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/runtime/2026-09-01-support-page-regression-investigation.md",
+    "sha256": "4083b8feb78b8412f0faef48577d3ed3d936d521ebcc371b3247ac200057ac15"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-28-QUCP-DONATIONS-001C-address-diagnostic-test-inventory-closure.md",
+    "sha256": "eca723f414d0ea1fcf1c68fe4760b1aceee5cac462393796d34bea5fecd2a111"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-27-QUCP-POLLS-001B-contextual-vote-authorization.md",
+    "sha256": "3946ae7ad49ccdbd64bc555c1441fb55f8811cec8dbb956e012d4077d26f342f"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-28-QUCP-PROJECTS-001B-discovery-publication-pagination-closure.md",
+    "sha256": "9cab7d2d7af10aeeed1aa2147c09f0a7ace47ff2f6a4803181b3f63f99f49e1a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-28-QUCP-DONATIONS-001A-transaction-contract-completeness-closure.md",
+    "sha256": "97e68e40c55feb330946d3fd74fc3df18c6ce54b71db9cd1168103dd2fd49729"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-27-QUCP-SUPPORT-001B-category-authority-contract-closure.md",
+    "sha256": "e2b32d66951606683d272da1390df011b01b2925e6a0de682c67ba21abcdc8de"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-28-QUCP-DONATIONS-001C-V-independent-address-verification.md",
+    "sha256": "17d6826d79c0781ef887191f7187445a5bd1d8ab72672f59c3d3c9f686ce0eeb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-27-QUCP-POLLS-001A-runtime-authority-timeline-closure.md",
+    "sha256": "fc7d51f8fc1409c5eacb2d362b34a985abbc13ddca0c775991c94baeed392f67"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-28-QUCP-PROJECTS-001A-runtime-authority-lifecycle-closure.md",
+    "sha256": "0ec7433c1dd47a7a86769d4fa208c7ed379c403d30ebc3598df98347d13d9073"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-27-QUCP-SUPPORT-001C-category-historical-authorization.md",
+    "sha256": "ad4848258456b6cb54fc1e893debee4b299ad8e439ec849be251e29664764d20"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-28-QUCP-DONATIONS-001B-type-diagnostics-pagination-finalization.md",
+    "sha256": "6983862dd2dbb85a4f2072d173efb5eda5860ffa4e58a785b3307919b4b4609e"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/security/2026-07-27-QUCP-FORUM-001C-publisher-authority-determinism.md",
+    "sha256": "f7e1dfd4263eccad5e0b362702b7e51fe8440e7c59b9cc6e6a2d987b23d3db6d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementation/2026-07-27-QUCP-POLLS-001-canonical-poll-vote.md",
+    "sha256": "d3d488e7682f29f298d7a92e51247e6bc3383755c9af4eaeac7213ebdbf645ed"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementation/2026-07-28-QUCP-PROJECTS-001-canonical-projects.md",
+    "sha256": "5fad2badf49a72cdace456acdba01234a68053e7ac48d2eb1ea392a9c23f5605"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementation/2026-07-27-QUCP-SUPPORT-001-support-qdn-categories.md",
+    "sha256": "2d787e2c7a5e940ad58cf1372842068255aff88c77d5d0accbb1a0144a8f7c2c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementation/2026-07-28-QUCP-DONATIONS-001-core-wallet-baseline.md",
+    "sha256": "37e0375fa974bb36414b2648631bef4446d96d9a5644c00db969a61525130d0c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementation/2026-07-27-QUCP-FORUM-001-forum-qdn-migration.md",
+    "sha256": "38ef79b26fe89e35d16a2eaf8bd010edb9bc6db6bc9fbe5f6868b102f05c0799"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementation/2026-07-27-QUCP-SUPPORT-001A-support-ui-admin-tests.md",
+    "sha256": "70599d95c9034780d22471875ab201dbdfff3ef1e1d57a7a207213615b39e972"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/implementation/2026-07-27-QUCP-ARCH-001-identifier-namespace.md",
+    "sha256": "4897c70563a7ef45184182621478ccb6df6c95052d05249cce84cd2f95bdc500"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audits/2026-08-24-qortium-united-community-final-pre-beta-high-closure-report.md",
+    "sha256": "83d55bb84ebc8955a9882decc0745128b9805b83521e495c10818949274e3f8b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audits/2026-08-24-qortium-united-community-independent-pre-beta-release-audit.md",
+    "sha256": "293dc8c863c1d4e936d061ff652f3e6d56c9b747bb6392d4c9506e2bb5b7a74b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audits/2026-08-25-qortium-united-community-final-residual-high-release-gate.md",
+    "sha256": "7ac9a9c2a5dacf6d08a2701195c82a0abe29186b434e8ce6cb1cd87d6ed0639b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audits/2026-08-24-qortium-united-community-targeted-pre-beta-release-re-audit.md",
+    "sha256": "e295b32844b1d6a10c4a0ac3f6438384a33ab542179522c17fc4c6175c65b4ca"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audits/2026-08-24-qortium-united-community-final-targeted-pre-beta-high-re-audit.md",
+    "sha256": "592d658b903066e0a7432fc674f70d81d978599040b004268186d37ed0515833"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/issues/2026-08-22-owner-smoke-bugfix-round-implementation.md",
+    "sha256": "87f4f16015efa952025c3ccf666ff9aaa5b107291d648d12f26ab6b8f4a07091"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/issues/2026-08-27-typography-alignment-lexend.md",
+    "sha256": "1a5d4981b14a1d75e9f4636a074f320e53fbfa0699c9b203745b35e5d4088996"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/issues/2026-08-22-richtext-image-system-integration.md",
+    "sha256": "ec57b0a247962c82af0506924ce5ef4ddc269a3be9f615d6e8079ac575b9d24c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/issues/2026-08-23-pre-audit-critical-bugfix-round-implementation.md",
+    "sha256": "9d1659f851cdd5ad57da3adf2a1c79cc812e7ddf325a6f8780d033f7b2d1435c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audit/2026-07-27-QUCP-SUPPORT-AUDIT-002-post-001A-verification.md",
+    "sha256": "9e23bf2475b3973fc42b9e30b40890b1a397627d0143d3f9385070067f3e8ceb"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audit/2026-07-28-QUCP-WIKI-AUDIT-001-complete-domain-audit.md",
+    "sha256": "30da2606c21aaffacb8a094236dc4edfa602e21c5758941669c953fa8ef1dff2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audit/2026-07-27-QUCP-POLLS-AUDIT-001-domain-foundation.md",
+    "sha256": "7a42a0831b4afac4654e5ebd11e8cea2674f5dc50352f0773b15c8df199cdb26"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audit/2026-07-28-QUCP-DONATIONS-AUDIT-001-domain-foundation.md",
+    "sha256": "8aeb0e568562389e07c68508778f714a47b1662511c2afa20fd6f7170fcc3e5b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audit/2026-07-27-QUCP-PROJECTS-AUDIT-001-domain-foundation.md",
+    "sha256": "e156005addae9745426c068856b08f59610552dec512e020b7b34c3102d57b8d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/docs/qortium-united-community/audit/2026-07-27-QUCP-AUDIT-001-baseline-reconciliation.md",
+    "sha256": "84f6082619af1027b24bcdccedab5eb62c4e638ebc9a78747a5873e8f023b97c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/AGENTS.md",
+    "sha256": "11b14bb31690d52d3ad26c0958d7ce55aca47153a6495ebc57bad3cbac238bc9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/README.md",
+    "sha256": "f5011d261b60656f3a08ca445110e55a44cb8fb1f5b46b99cfcb9551c84b83e3"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/community-discussion-boards.md",
+    "sha256": "158f37d2d4b5e19ac4989ab0b6e1e5966f159c85bbecb8ddff817cc26585e224"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/discussion-boards.md",
+    "sha256": "b4703d314973a87defa1fac827a5e70b2debf252d619c00085c2b30fd1a901d2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/blogs.md",
+    "sha256": "1b818af861917692a2de6aeec501f516ecf8358ff5f6f0201a7bcccbd8f57d37"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/iffi-vaba-mees.md",
+    "sha256": "bcc85b44e9d031b637d5822576ac2e42e347d13ae66d0a5c5e6ae0535428b411"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/nodefm-station.md",
+    "sha256": "469454bfbbb15bfc8fe02b696b638a65afa2ba1a09918970ac46b6e8d6bde725"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/qortium-united-community.md",
+    "sha256": "863747c5f019c888477c4b2b2a8cb56df97419ea314447b096318eff5c11e4ea"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/my-private-room.md",
+    "sha256": "0a235705c81ce6be395007b983a5eba21a5cd85a52224253785564b155ccad36"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/video-center.md",
+    "sha256": "4fe420dab0e8cc03e324c79c870901928dd2673caee92fb659435faf4192bae5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/templates/TASK-CONTROLLER.md",
+    "sha256": "8c9bef5d44739cbd9addb87288a6e067adf1317615658eb7f0bbf39d08961d59"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/templates/AUDIT-ISSUE.md",
+    "sha256": "add154d76a60f61146c1c40666d954a7dafeceedfe8ea8f5af7fefd0040d69e5"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/templates/OWNER-HANDOFF.md",
+    "sha256": "0add1ae3aa8ec4d3e72737241041b2ed5cdeef78a775e98ac3311949f429104d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/templates/DEEPSEEK-REVIEW.md",
+    "sha256": "f7401b78af5dfcf271191350c85562c6ea6a1b813fdcba261ce15e2743eec221"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/templates/IMPLEMENTATION-ISSUE.md",
+    "sha256": "6ff4c24413a27b98dd320d666101cc20b6d23aae974c4a4c6f192a03f458445a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/templates/PROJECT-CONTEXT.md",
+    "sha256": "79e61615c1cf4e95622f51748b768eec0e796e40a7827c1babda3aa81743fdf8"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/templates/DEEPSEEK-TASK.md",
+    "sha256": "72604ecb17eda4225f6e5bba03bb151c0f1020053e71a5959543145113325710"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/docs/architecture/qortium-dapp-development-standard.md",
+    "sha256": "3586fe358ad6582c1ee952be7e7a49d5a2838d178b47cf2ef5da826ad684bc10"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/docs/workflows/workflow-v2.md",
+    "sha256": "3ee9452a7fe1705bc1f2eeedb8956bd7893148155dbbf217f1593cd5c1a131d2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/docs/workflows/report-storage-policy.md",
+    "sha256": "0edc120e07fb2c09aea74be228bcf4d89d395bc4c06370f2f280d8b9d7b7e5b2"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/docs/workflows/deepseek-primary-work-model.md",
+    "sha256": "5291b348d57a1a69e1ac854d4bc79daa2e631a794131875d0c6cd4e5bebfd32c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/docs/governance/source-of-truth-and-lifecycle.md",
+    "sha256": "b8a13da74277e5efdea73dca55e8552d3d2be123c8d0116627d7b927f900363d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/runtime-diagnostics-and-performance.md",
+    "sha256": "909851a8c132f6e9cad0f45acaade1fe6a230d05172556dc643e8d6652cc4c15"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/qdn-publication-discovery-and-scaling.md",
+    "sha256": "c143ccb2dc3640af31280b8129f5e9d2d29df20cd2579b5904a65086009d676a"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/qortium-architecture-and-data-integrity.md",
+    "sha256": "e2a11621bd8b14819664c5487b35c483b3fa6b0024fb78bbb72e6474539ee902"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/qortium-home-and-bridge.md",
+    "sha256": "bd7dedcd49fd8051c283435c5324dcee936ba3ce21d883b4914340985a499685"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/final-report-and-owner-handoff.md",
+    "sha256": "e4f292132841f44f6a6290aa679f36374a28d5f0824b0a2aa70a0dae6d5a54d0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/issue-driven-audit-and-refactor.md",
+    "sha256": "f7ed0e270e9854a5bf9eafc36578fdc5b96f5a74b76aa37c301c742a1a81736c"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/git-generated-files-and-hygiene.md",
+    "sha256": "f3bd7317d5f4d389db2dcc815408f68bb0f5d930685febb3ed0b6a40ebcec6d9"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/README.md",
+    "sha256": "5d9a93ccdcffcd4529f9d2cb245c45c283312e32f27120622289cec12c29a4d7"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/00-SESSION-START.md",
+    "sha256": "bed3de31521c3239b351e962b4c18de6f08331dd2a7428ee1f75758c5f3a43d6"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/qortium-native-app-workflow.md",
+    "sha256": "da024c3ad5a13bc86acaab44f85ebc660905c7c8a2802d5b95d852806d6b10ca"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/01-TASK-CLASSIFICATION.md",
+    "sha256": "267c16e555c6f7cc2d408877f6a055f7d07fed5acf16aa881c8b2466ebc18029"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/live-qdn-validation.md",
+    "sha256": "73b8365c19f8884241632a4c8e8c876b14d7a41aaaa4b38c6549557b89a83852"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/qavs-versioning-and-release.md",
+    "sha256": "c8152606125f61145d858e40b93fedea8d9c2f3073c6fa9798ab3dbad43e2d83"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/roles/DEEPSEEK.md",
+    "sha256": "8de14c345907ad919ea0f54016e520f182e3367de1079aa09e67bf0502dc197b"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/roles/CODEX.md",
+    "sha256": "6c294e03bb58241f3db6dc4a7ae87e8bd9de815b748ae075a0d13227b928ad8d"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/agents/roles/CHATGPT.md",
+    "sha256": "abc3cef41d81531d412dc872a7b8edf4f90ab2764ce8634bf7e453c4550a9bb0"
+  },
+  {
+    "path": "/home/iffi/VsCodec-Projects/shadow-archives/shadow-archives-webportal/QORTAL/README.md",
+    "sha256": "28c28105314e30de50b953a22d86cf31494e927667988335617c468890c29f28"
+  }
+]

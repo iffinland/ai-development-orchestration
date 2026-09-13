@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "project": "",
+  "task": "",
+  "state": "planned",
+  "state_revision": 0,
+  "previous_state": null,
+  "updated_at_utc": null,
+  "next_actor": "codex-local",
+  "application": {
+    "repository": "",
+    "branch": "",
+    "commit": null
+  },
+  "skills": {
+    "loaded": [],
+    "freshness": [],
+    "created_or_updated": []
+  },
+  "handoff_sync": "local_only",
+  "authorization": {
+    "application_commit_push": false,
+    "handoff_commit_push": false,
+    "source": null
+  },
+  "evidence": [],
+  "missing_evidence": [],
+  "owner_acceptance": "pending",
+  "blocker": null
+}
