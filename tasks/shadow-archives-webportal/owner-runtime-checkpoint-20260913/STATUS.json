@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "project": "qortal/shadow-archives-webportal",
+  "task": "owner-runtime-checkpoint-20260913",
+  "executing_agent": "DeepSeek",
+  "report_writer": "Codex Local",
+  "state": "complete",
+  "state_revision": 1,
+  "previous_state": "planned",
+  "updated_at_utc": "2026-09-14T01:00:00Z",
+  "next_actor": "owner",
+  "application": {
+    "repository": "https://github.com/iffinland/shadow-archives-webportal-QORTAL",
+    "branch": "agent/shadow-archives-webportal/owner-runtime-checkpoint-20260913",
+    "commit": "c9ce0716f87c4d083c01601678d0354102f455ac"
+  },
+  "skills": {
+    "loaded": ["skills/shared/capability-harvest/SKILL.md"],
+    "freshness": ["capability-harvest verified-runtime, last checked 2026-09-13; used for candidate decision only"],
+    "created_or_updated": []
+  },
+  "handoff_sync": "pushed",
+  "authorization": {
+    "application_commit_push": true,
+    "handoff_commit_push": true,
+    "source": "Owner request in this task: checkpoint accepted work and commit/push feature/documentation branches."
+  },
+  "evidence": [
+    "Owner-runtime PASS accepted 2026-09-13 for Gallery, Video/Q-Tube, Blog/SubWire and optional Quitter.",
+    "App branch c9ce071 pushed and remote SHA verified.",
+    "Workspace docs branch 6eccf6d pushed and remote SHA verified.",
+    "App lint/build/format passed; workspace structural link check passed."
+  ],
+  "missing_evidence": [
+    "Owner-tested APP ZIP hash and exact consumer runtime revisions were not supplied.",
+    "Automated full test suite is not green: 561/562; focused HomePage.data test 5/6 reproduces async-settlement failure."
+  ],
+  "owner_acceptance": "accepted 2026-09-13; supplied by owner in the checkpoint task",
+  "blocker": null
+}
