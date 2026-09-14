@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "project": "orchestration",
+  "task": "qortal-skill-promotion-20260914",
+  "executing_agent": "DeepSeek",
+  "report_writer": "DeepSeek",
+  "state": "complete",
+  "state_revision": 1,
+  "previous_state": "planned",
+  "updated_at_utc": "2026-09-14T02:30:00Z",
+  "next_actor": "owner",
+  "application": {
+    "repository": "https://github.com/iffinland/ai-development-orchestration",
+    "branch": "agent/orchestration/qortal-skill-promotion-20260914",
+    "commit": null,
+    "note": "Documentation-only task; no application source repository was changed. The commit SHA is recorded in the final handoff after push to avoid a self-referential hash."
+  },
+  "skills": {
+    "loaded": [
+      "skills/shared/capability-harvest/SKILL.md",
+      "skills/qortal/cross-app-video-publishing/SKILL.md"
+    ],
+    "freshness": [
+      "capability-harvest verified-runtime, last checked 2026-09-13; used for the promotion decision and routing rule",
+      "cross-app-video-publishing was candidate before this task; inventoried read-only as the promotion target"
+    ],
+    "created_or_updated": [
+      "skills/qortal/cross-app-video-publishing/SKILL.md (candidate -> verified-runtime)",
+      "skills/qortal/subwire-article-publishing/SKILL.md (new, verified-runtime)",
+      "skills/qortal/quitter-announcement/SKILL.md (new, verified-runtime)",
+      "skills/qortal/qdn-derived-index-coherence/SKILL.md (new, verified-runtime)",
+      "skills/qortal/bridge-fetch-qdn-resource-normalization/SKILL.md (new, verified-runtime)"
+    ]
+  },
+  "handoff_sync": "pushed",
+  "authorization": {
+    "application_commit_push": false,
+    "handoff_commit_push": true,
+    "source": "Task authorization: edit AI-Orchestration skills/docs/indexes and commit/push an agent documentation branch according to orchestration rules. No application source change, QDN publication, deploy/release or main merge."
+  },
+  "evidence": [
+    "Accepted owner-runtime checkpoint 2026-09-13 (Gallery, Video/Q-Tube, Blog/SubWire, optional Quitter = OWNER-RUNTIME PASS).",
+    "Read-only Qortal mainnet nodes 127.0.0.1:24991/:24992, Core qortal-6.1.9-108bf19, heights 2722895-2723000.",
+    "Source pins: q-tube 68c3ea70, Subwire a933a6c4, Quitter 4e4246c3, Core 108bf191, Hub 12a573b2, qapp-core 0f9d6ac5.",
+    "Live-verified prefixes: SubWire 7l1NGsWiY0SgPb-FJVWQM-T60ZadsfPsbLTh-, Quitter MhNiRYdzkaP9dz-kX47dT-XrFXaYetyErMdF-.",
+    "Bridge shim /apps/q-apps.js md5 3ae7deaa55f353dc0ae4e8d13f3c1034 (37604 bytes), byte-identical to the Core clone.",
+    "Structural/link skill check PASS; workspace documentation validator PASS (5 pre-existing warnings); git diff --check PASS."
+  ],
+  "missing_evidence": [
+    "No independent review of this documentation output.",
+    "Evidence links are local workspace paths, not remote URLs.",
+    "No canonical AI-Orchestration skills validator exists; the structural check was purpose-built."
+  ],
+  "owner_acceptance": "not applicable - documentation-only task recording already-accepted 2026-09-13 owner-runtime evidence",
+  "blocker": null
+}

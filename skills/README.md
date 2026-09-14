@@ -58,6 +58,28 @@ A `candidate` can guide investigation but cannot replace validation. A
 bounded compatibility check. A `verified-runtime` is the preferred reusable
 path until its freshness gate fails.
 
+## Skill index
+
+This table is the routing index for the library: match the requirement to a
+skill path, load only the matching skills, then run that skill's own
+freshness/compatibility gate before reuse. `Last checked` is the skill's own
+header date, not the date of the underlying platform revision.
+
+| Skill | Platform | Maturity | Use for | Last checked |
+| --- | --- | --- | --- | --- |
+| [`skills/qortal/cross-app-video-publishing/SKILL.md`](qortal/cross-app-video-publishing/SKILL.md) | `qortal` | `verified-runtime` | Q-Tube-compatible public video publication, `qtube_vid_` identifiers, media/metadata split, discovery and partial-publish semantics. | `2026-09-13` |
+| [`skills/qortal/subwire-article-publishing/SKILL.md`](qortal/subwire-article-publishing/SKILL.md) | `qortal` | `verified-runtime` | SubWire-compatible article `DOCUMENT`: qapp-core identifier math, payload, bare-base64 WebP cover, prefix discovery, unsanitized-renderer constraint. | `2026-09-13` |
+| [`skills/qortal/quitter-announcement/SKILL.md`](qortal/quitter-announcement/SKILL.md) | `qortal` | `verified-runtime` | Optional, separately approved SubWire-style Quitter announcement of a published article. | `2026-09-13` |
+| [`skills/qortal/qdn-derived-index-coherence/SKILL.md`](qortal/qdn-derived-index-coherence/SKILL.md) | `qortal` | `verified-runtime` | Derived QDN index over authoritative entities: reconciliation, bounded discovery, stale/unreadable recovery, convergence/repair. | `2026-09-13` |
+| [`skills/qortal/bridge-fetch-qdn-resource-normalization/SKILL.md`](qortal/bridge-fetch-qdn-resource-normalization/SKILL.md) | `qortal` | `verified-runtime` | Normalizing JSON-parsed `FETCH_QDN_RESOURCE` bridge results at the transport boundary. | `2026-09-13` |
+| [`skills/qortium/qdn-resource-discovery/SKILL.md`](qortium/qdn-resource-discovery/SKILL.md) | `qortium` | `verified-reference` | Qortium publisher enumeration vs search discovery (`LIST_QDN_RESOURCES` vs `SEARCH_QDN_RESOURCES`). | `2026-09-13` |
+| [`skills/qortium/qdn-media-readiness/SKILL.md`](qortium/qdn-media-readiness/SKILL.md) | `qortium` | `verified-reference` | Qortium AUDIO/VIDEO readiness before playback and bounded fetch/poll. | `2026-09-13` |
+| [`skills/shared/app-bootstrap/SKILL.md`](shared/app-bootstrap/SKILL.md) | `shared` | `verified-reference` | Functional app shell before product-specific branding. | `2026-09-13` |
+| [`skills/shared/capability-harvest/SKILL.md`](shared/capability-harvest/SKILL.md) | `shared` | `verified-runtime` | Post-task decision to promote a finding into this library. | `2026-09-13` |
+
+Qortal and Qortium skills are not interchangeable. A Qortal bridge/QDN behavior
+must not be assumed for Qortium, or the reverse.
+
 ## Required skill contents
 
 Use [`_template/SKILL.md`](_template/SKILL.md). Each skill must state:

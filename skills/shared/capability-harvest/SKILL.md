@@ -53,7 +53,8 @@ Do not promote:
 
 ## Procedure
 
-1. Search the existing library for an overlapping skill.
+1. Search the existing library for an overlapping skill, using the routing index
+   in [skills/README.md](../../README.md#skill-index).
 2. Prefer updating one canonical skill over adding a near-duplicate.
 3. Record source revisions and exact paths that prove the reusable contract.
 4. State invalidation triggers and the smallest future compatibility check.
