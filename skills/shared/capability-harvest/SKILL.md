@@ -15,6 +15,19 @@ description: Run after any Qortal or Qortium task that discovered, corrected, or
 Run at the end of every substantial investigation, implementation or runtime
 validation before handoff.
 
+## Do not use when
+
+- The result is only product-specific branding, copy, or business logic with no
+  reusable platform or workflow boundary.
+- The evidence is guessed, stale, credential-bearing, or otherwise unsuitable
+  for the shared library.
+
+## Authoritative evidence
+
+| Source | Revision | Paths / contract proved |
+| --- | --- | --- |
+| This orchestration repository | current checked-out revision | [`AGENTS.md`](../../../AGENTS.md) and [`WORKFLOW.md`](../../../WORKFLOW.md) require reuse-first capability capture after substantial work. |
+
 ## Decision test
 
 Ask in this order:
@@ -28,6 +41,8 @@ Ask in this order:
 
 If 1-3 are yes, create or update a skill. If evidence is incomplete, create a
 `candidate` rather than pretending the contract is verified.
+
+## Reusable contract / procedure
 
 ## Promotion rules
 
@@ -62,7 +77,33 @@ Do not promote:
    skill.
 6. Record the skill path and maturity change in the handoff.
 
-## Completion criterion
+## Freshness and compatibility gate
+
+Before applying this procedure, read the current orchestration contract and the
+selected skill's own freshness gate. If authority, source, or runtime evidence
+has drifted, preserve that uncertainty as `candidate` or `stale` rather than
+promoting it from memory.
+
+## Validation
+
+- Confirm the proposed skill has current source/runtime or donor evidence,
+  explicit platform scope, maturity, invalidation trigger, and a bounded future
+  compatibility check.
+- Run the skills validator before handoff; a promotion is incomplete until its
+  structural routing and metadata checks pass.
+
+## Known failure modes
+
+- Promoting an app-specific implementation as a universal platform contract.
+- Calling unverified source inspection or mocked tests `verified-runtime`.
+- Omitting freshness rules, leaving later agents to reuse stale assumptions.
+
+## Non-goals
+
+- Replacing platform source/runtime authority, creating product documentation,
+  or publishing an application.
+
+## Harvest / maturity update
 
 The handoff contains one of:
 

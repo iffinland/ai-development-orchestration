@@ -10,14 +10,26 @@ description: Use when a Qortium app must enumerate QDN resources by publisher or
 - Last checked: `2026-09-13`
 - Owner: shared capability library
 
-## Authoritative / working evidence
+## Use when
+
+- A Qortium app needs either complete enumeration for a known publisher or
+  search/discovery by identifier, title, metadata, or publisher-independent
+  criteria.
+
+## Do not use when
+
+- The platform is Qortal; its bridge/action semantics need their own current
+  evidence.
+- Coordinates are already known and the task is only readiness or byte fetch.
+
+## Authoritative evidence
 
 | Source | Revision | Evidence |
 | --- | --- | --- |
 | `QortiumDev/qortium-radio` | `870daccb9cd408f175b732e24f56d98e1d63eeeb` | `src/api/qdn.ts` documents and implements publisher AUDIO enumeration with `LIST_QDN_RESOURCES`; the app records a live test where search returned 1 of 19 while list returned all 19. |
 | `QortiumDev/qortium-home` | `155356cdd5f2f91353b387f88f8c591057fd6831` | current Home bridge/action documentation is the authority for supported QDN actions and response contracts. |
 
-## Reusable contract
+## Reusable contract / procedure
 
 Do not treat list and search as interchangeable.
 
@@ -30,7 +42,7 @@ Do not treat list and search as interchangeable.
 - Normalize only response shapes actually returned by the selected action; do
   not assume all bridge actions wrap data identically.
 
-## Compatibility gate
+## Freshness and compatibility gate
 
 Before reuse, compare current Home and the target app's selected runtime with
 these revisions and inspect any changes to list/search bridge actions. A small
@@ -43,7 +55,19 @@ For an app claiming complete publisher enumeration, validate against a real
 publisher with more than one resource and compare count/identifiers to the live
 node. A green mocked test is insufficient.
 
-## Maturity upgrade
+## Known failure modes
+
+- Using search where complete publisher enumeration is required can silently
+  omit published resources.
+- Treating responses from different actions as the same shape can break valid
+  discovery results.
+
+## Non-goals
+
+- A Qortal discovery contract, universal response normalization, or publication
+  protocol.
+
+## Harvest / maturity update
 
 Upgrade to `verified-runtime` after our own target Qortium runtime proves the
 complete-list scenario and the result is recorded in a task handoff.

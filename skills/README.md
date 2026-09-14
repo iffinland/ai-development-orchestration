@@ -97,6 +97,22 @@ Use [`_template/SKILL.md`](_template/SKILL.md). Each skill must state:
 Do not copy large platform source files into this repository. Record the exact
 repo, revision, source path, relevant contract and validation evidence.
 
+## Quality gate
+
+Run this command at the end of every skill creation, normalization, or
+promotion, before handoff:
+
+```bash
+python3 tools/validate_skills.py
+```
+
+The command is dependency-free and enforces canonical metadata/headings,
+platform and maturity boundaries, dated freshness rules for `verified-runtime`
+skills, valid relative links, duplicate detection, and exact index coverage.
+A skill change is incomplete until this command passes. The index is not
+maintained by convention alone: every active skill under `shared/`, `qortal/`,
+and `qortium/` must appear in the table above exactly once.
+
 ## Skill selection
 
 At task start, agents read only skills relevant to the outcome. Do not load the
