@@ -30,14 +30,16 @@ memory. A current verified skill should normally eliminate a full repeat audit.
 
 ## 3. Establish exact baseline
 
-Codex Local records repository, branch, HEAD, full dirty state, reference
-revisions, linked worktrees, environment IDs and permissions. Preserve owner
-changes. Use an isolated worktree when necessary rather than cleaning the owner
-checkout.
+The designated orchestration controller records repository, branch, HEAD, full
+dirty state, reference revisions, linked worktrees, environment IDs and
+permissions. Where available, Codex Local / Work Local performs this controller
+role; the controller surface never establishes executing-agent identity.
+Preserve owner changes. Use an isolated worktree when necessary rather than
+cleaning the owner checkout.
 
-Codex gives the primary implementation agent the compact task controller plus
-exact canonical context/skill paths. Do not paste the whole knowledge base into
-every prompt.
+The controller gives the primary implementation agent the compact task
+controller plus exact canonical context/skill paths. Do not paste the whole
+knowledge base into every prompt.
 
 ## 4. Implement one coherent outcome
 
@@ -58,10 +60,11 @@ Do not silently expand into unrelated refactors or platform modifications.
 
 ## 5. Review and escalation
 
-Codex Local checks the handoff against the exact application revision. Routine
-work gets a bounded handoff review. Independent review is required for high-risk
-authority/data-integrity work, repeated failures and release-critical changes.
-If Codex implemented the change, its own review is not independent.
+The designated controller checks the handoff against the exact application
+revision. Routine work gets a bounded handoff review. Independent review is
+required for high-risk authority/data-integrity work, repeated failures and
+release-critical changes. If the controller implemented the change, its own
+review is not independent.
 
 Escalate after two failed implementation attempts or one failed correction of an
 owner runtime failure. Expensive/high-reasoning agents should be used where risk
@@ -101,9 +104,11 @@ cheaper when the solved knowledge is actually reusable.
 Return a truthful handoff with exact application SHA, evidence by validation
 layer, missing evidence, owner acceptance, external-write state and skill
 harvest result. The handoff must name the agent that actually executed the work;
-identity is never inferred from a template or an orchestration role (see
-[GIT-AND-HANDOFF.md](GIT-AND-HANDOFF.md)). Only verified acceptance permits
-completion. Publishing/merging/releasing is a separate authorized step.
+identity is never inferred from a template, an orchestration role or the CLI/tool
+profile the work ran inside (see [GIT-AND-HANDOFF.md](GIT-AND-HANDOFF.md)). Author
+every platform report from [templates/REPORT.md](templates/REPORT.md). Only
+verified acceptance permits completion. Publishing/merging/releasing is a
+separate authorized step.
 
 Use [GIT-AND-HANDOFF.md](GIT-AND-HANDOFF.md) for machine-readable state. Platform
 application reports stay in their platform-defined canonical locations;

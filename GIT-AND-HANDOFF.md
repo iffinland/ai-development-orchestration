@@ -23,10 +23,12 @@ Durable exchange, once a GitHub remote and branch permissions are configured:
 4. The receiving agent fetches and reads the exact handoff commit and exact
    application SHA. Verify task ID, expected prior revision/state and evidence
    before claiming work. A changed application SHA invalidates prior review.
-5. Codex Local is the single handoff-state writer/coordinator. DeepSeek submits
-   implementation evidence; Codex records the transition. Do not concurrently
-   update STATUS. A stale/conflicting update requires re-read and reconciliation,
-   never force push. Resume idempotently from task ID + application SHA + state.
+5. The designated orchestration controller is the single handoff-state
+   writer/coordinator. Where available, Codex Local / Work Local fulfills that
+   role; DeepSeek submits implementation evidence and the controller records the
+   transition. Do not concurrently update STATUS. A stale/conflicting update
+   requires re-read and reconciliation, never force push. Resume idempotently
+   from task ID + application SHA + state.
 6. Before the terminal handoff, record capability harvest: exact skills created
    or updated, their maturity, or an explicit project-specific/no-harvest result.
    A skill update is orchestration knowledge, not authorization to change or
@@ -61,8 +63,16 @@ Local`, `DeepSeek`, or a future explicitly registered role).
 
 - Identity is evidence, never a default. Never infer the author from a template
   placeholder, a role's nominal responsibilities, the agent a task controller is
-  addressed to, the orchestrator that dispatched the work, or whoever committed
-  the file.
+  addressed to, the orchestrator that dispatched the work, the CLI/tool profile
+  the work ran inside, or whoever committed the file.
+- The orchestration role/profile is not the executor. Work performed through a
+  Codex/`codex` CLI or Work Local profile is still authored by the model that
+  actually did the work (for example `DeepSeek`). `Codex`/`Codex Local` must
+  never be written as the executing agent merely because the task was
+  dispatched, curated, reviewed or run through that orchestration role/profile.
+- Every platform report is authored from
+  [`templates/REPORT.md`](templates/REPORT.md), whose executing-agent field is
+  filled with the executor's own registered role at authoring time.
 - Orchestrator/dispatcher and executing agent are recorded separately. When
   Codex Local writes or curates an artifact on behalf of DeepSeek (or another
   implementer), the artifact states `executing agent = DeepSeek` and
@@ -74,9 +84,9 @@ Local`, `DeepSeek`, or a future explicitly registered role).
 - A correction of a prior misattribution is itself recorded — date, corrected
   field, the prior value and the evidence that establishes the real executor — so
   downstream readers can detect stale copies carrying the wrong attribution.
-- [`templates/HANDOFF.md`](templates/HANDOFF.md), [`templates/TASK.md`](templates/TASK.md)
-  and [`templates/STATUS.json`](templates/STATUS.json) carry explicit
-  executing-agent fields for this purpose.
+- [`templates/REPORT.md`](templates/REPORT.md), [`templates/HANDOFF.md`](templates/HANDOFF.md),
+  [`templates/TASK.md`](templates/TASK.md) and [`templates/STATUS.json`](templates/STATUS.json)
+  carry explicit executing-agent fields for this purpose.
 
 This rule is universal across platforms and agents. Platform report policies may
 add their own disclosure requirements but MUST NOT replace the executed-agent
