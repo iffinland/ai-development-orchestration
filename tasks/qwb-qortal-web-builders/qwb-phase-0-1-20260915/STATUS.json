@@ -1,0 +1,111 @@
+{
+  "schema_version": 2,
+  "project": "qortal/qwb-qortal-web-builders",
+  "task": "phase-0-1-20260915",
+  "executing_agent": "DeepSeek",
+  "executing_agent_evidence": "Repository scaffold, every source module, style sheet, test, the golden-master screenshot comparison, the contrast measurements, the self-audit fixes and the commit contents were produced by the DeepSeek model executing through the local Codex CLI profile; per AI-Orchestration/GIT-AND-HANDOFF.md the CLI/orchestration profile is not the executor.",
+  "report_writer": "DeepSeek",
+  "state": "review_pending",
+  "state_revision": 1,
+  "previous_state": "implementing",
+  "updated_at_utc": "2026-09-15T14:47:00Z",
+  "next_actor": "codex-local",
+  "application": {
+    "repository": "git@github.com:iffinland/QWB-Qortal-Web-Builders.git",
+    "local_path": "/home/iffi/VsCodec-Projects/QWB-Qortal-Web-Builders/qortal-web-builders",
+    "base_commit": null,
+    "branch": "agent/qwb/phase-0-1",
+    "commit": "18d760d011e956829714e7489432949829fa1840",
+    "other_branch_at_same_commit": "main",
+    "remote_verified": true,
+    "remote_verification": "git ls-remote origin -> refs/heads/main and refs/heads/agent/qwb/phase-0-1 both 18d760d011e956829714e7489432949829fa1840",
+    "commits": [
+      "aa222a9 Phase 0: scaffold the QWB development repository",
+      "5879136 Phase 1: public visual baseline from typed seed content",
+      "18d760d Phase 1 self-audit: correct the secondary text colour to clear 4.5:1"
+    ]
+  },
+  "skills": {
+    "loaded": [],
+    "freshness": [],
+    "created_or_updated": [],
+    "note": "No capability skill applied: Phase 0-1 is a presentation-layer rewrite that made no bridge call, no QDN read and no QDN write. Consulted at audit time and not reused here: skills/qortal/qdn-derived-index-coherence, skills/qortal/bridge-fetch-qdn-resource-normalization, skills/qortal/private-chat-contact-form. Reuse-first check found no skill covering a static-site visual rebuild or a golden-master screenshot diff; the audit had already rejected a static-site-to-managed-qapp skill as non-methodological.",
+    "harvest_result": "project_specific_no_harvest"
+  },
+  "handoff_sync": "pushed",
+  "handoff_sync_note": "Dated 2026-09-16 by DeepSeek: the owner authorized committing and pushing the orchestration branch for the Phase 4 checkpoint closure, so these artifacts are now durable on agent/orchestration/qwb-phase-4-checkpoint-20260916. The field was 'pending_authorization' when this record was written and described the state at that time; no other content of this record was changed. See tasks/qwb-qortal-web-builders/qwb-phase-4-checkpoint-20260916/.",
+  "authorization": {
+    "application_commit_push": true,
+    "application_commit_push_source": "Owner task text: 'commit and push the implementation branch'.",
+    "handoff_commit_push": false,
+    "handoff_commit_push_note": "No authorization was granted for committing or pushing AI-Orchestration artifacts. TASK.md, STATUS.json and IMPLEMENTATION.md are prepared locally under tasks/qwb-qortal-web-builders/qwb-phase-0-1-20260915/ and remain untracked.",
+    "source": "Owner task text for qwb-phase-0-1-20260915; no blanket authorization inferred."
+  },
+  "evidence": [
+    {
+      "layer": "golden_master_integrity",
+      "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/qwb-qortal-web-builders/validation/2026-09-15-qwb-golden-master-sha256.txt",
+      "sha256": "18e2a960cc126cb34ab68c432c5a8a1331c980fbb187db38f63d7ad063b95a43",
+      "result": "PASS at 2026-09-15T14:43:57Z: 50/50 SHA-256 digests identical, 8,897,400 bytes, 0 differences; the golden master was never built, formatted, edited or initialised as a repository"
+    },
+    {
+      "layer": "implementation_report",
+      "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/qwb-qortal-web-builders/implementations/2026-09-15-qwb-phase-0-1-implementation.md",
+      "sha256": "3b3e5af213a37f0f139976c36fa35743a92bb1878089ac5e0c84e9aebaab74b8",
+      "result": "authoritative handoff digest of the final 392-line file; it supersedes the 577a8780... body digest recorded inside the report and in TASK.md before the handoff additions"
+    },
+    {
+      "layer": "visual_evidence",
+      "path": "/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/docs/qwb-qortal-web-builders/implementations/2026-09-15-qwb-phase-1-visual-evidence/",
+      "result": "12 comparison PNGs (golden master left / new build right) plus SHA256SUMS.txt and README.md; home 1440 and 390 full page, works, article detail, article header, navbar/hero, featured pair, tab strip and steps, pricing, contact and footer"
+    },
+    {
+      "layer": "typecheck/eslint/format/tests/build",
+      "commands": "npx tsc --noEmit; npx eslint .; npx prettier --check .; npx vitest run; npm run build",
+      "timestamp_utc": "2026-09-15T14:41:56Z",
+      "result": "all clean; 47/47 tests in 5 files; build succeeded (index.html 1.57 kB, CSS 206.70 kB / 30.54 gzip, JS 49.12 kB / 14.45 gzip, 20 files); the rebuild reproduced the reviewed dist byte-for-byte"
+    },
+    {
+      "layer": "reference_pins",
+      "timestamp_utc": "2026-09-15T14:20:00Z",
+      "result": "Core 108bf191d42d710ec617f535af30cfd82fc03c87, Hub 12a573b27246e8a626b24794830c6bc432d1b05d, qapp-core 0f9d6ac5134ef2f82c1444a74e78471ddc7eb7df, qapp-templates 143cc7bffd265f543f96ef25bf1b58ef7bb04472, reference app 64f55bf7b6f4a1a093f19413d3a985e61a9fad37 - all equal to the audit, no delta"
+    },
+    {
+      "layer": "asset_attribution",
+      "path": "/home/iffi/VsCodec-Projects/QWB-Qortal-Web-Builders/qortal-web-builders/docs/attribution.md",
+      "result": "10 copied assets verified byte-identical by SHA-256 against the golden-master manifest (7 brand/structural, 3 unDraw illustrations); fonts pinned to @fontsource packages under SIL OFL 1.1; not carried forward: 4 unknown-provenance stock JPEGs and a PNG variant, 8 portfolio preview screenshots, 8 unreferenced template illustrations, bootstrap-icons, 5 jQuery/plugin scripts"
+    },
+    {
+      "layer": "dependency_audit",
+      "result": "0 hits in dist/ for jquery, bootstrap.bundle, click-scroll, react, mui, emotion, bootstrap-icons; no absolute asset URL"
+    },
+    {
+      "layer": "dependency_audit_handoff",
+      "timestamp_utc": "2026-09-15T14:45:59Z",
+      "result": "re-run against the rebuilt dist: 0 hits for jquery, bootstrap.bundle, click-scroll, react, @mui, emotion, bootstrap-icons; no url(/...) or absolute asset URL; the single case-insensitive 'mui' match is base64 text inside the copied brand asset favicon.svg, not MUI"
+    }
+  ],
+  "missing_evidence": [
+    "Real Qortal host render in embedded Hub/Home (nothing is published yet)",
+    "Owner-mode behaviour for the publishing name's owner vs a visitor (out of Phase 0-1 scope; _qdnName is empty in the dev proxy)",
+    "QDN read path and QDN write round-trip (not implemented; no write authorized)",
+    "Deployment / publication",
+    "Non-Chromium browser matrix (only Chromium 153 and jsdom were available)"
+  ],
+  "owner_acceptance": "pending",
+  "owner_input_requested": [
+    "Confirm the three bundled unDraw illustrations' licence position (recorded as unDraw-assumed, not proven from the files)",
+    "Decide the inherited white-on-gradient navbar link contrast (2.10:1), a Phase 4 design decision",
+    "Confirm the audit's D1-D9 entry decisions before Phase 2"
+  ],
+  "blocker": null,
+  "corrections": [
+    {
+      "date_utc": "2026-09-15",
+      "field": "evidence[3] (report §4 row #24) and evidence[1].sha256",
+      "prior_value": "row #24 asserted a dist-audit time of 17:42 before the command had been executed; the report digest was recorded as 22d5d1c6...",
+      "corrected_value": "the audit was run at 17:45 and the row states that; the authoritative report digest is 3b3e5af2... (392 lines)",
+      "evidence": "terminal output of the audit command at 2026-09-15T14:45:59Z; sha256sum of the final report file"
+    }
+  ]
+}

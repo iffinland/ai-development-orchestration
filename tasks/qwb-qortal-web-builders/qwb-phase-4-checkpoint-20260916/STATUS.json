@@ -1,0 +1,124 @@
+{
+  "schema_version": 2,
+  "project": "qortal/qwb-qortal-web-builders",
+  "task": "qwb-phase-4-checkpoint-20260916",
+  "executing_agent": "DeepSeek",
+  "executing_agent_evidence": "The bootstrap edge-case analysis, the isolated-worktree pre-fix reproduction (in which only the test file was copied and no application source was modified), the gate run, every documentation edit and this record were produced by the DeepSeek model executing through the local Codex CLI profile (CODEX_HOME=/home/iffi/.codex-deepseek, model = \"deepseek-flash\", model_provider = \"deepseek\"). Per AI-Orchestration/GIT-AND-HANDOFF.md the CLI/orchestration profile is not the executor.",
+  "report_writer": "DeepSeek",
+  "state": "review_pending",
+  "state_revision": 1,
+  "previous_state": "planned",
+  "updated_at_utc": "2026-09-16T05:20:00Z",
+  "next_actor": "codex-local",
+  "application": {
+    "repository": "git@github.com:iffinland/QWB-Qortal-Web-Builders.git",
+    "local_path": "/home/iffi/VsCodec-Projects/QWB-Qortal-Web-Builders/qortal-web-builders",
+    "base_commit": "741754becb79a131c699f2468fe096fdacd00c19",
+    "branch": "agent/qwb/phase-4-runtime-fix",
+    "commit": "7fd03fc5b2d39d80b20ccaa9c7a07355d85dc94a",
+    "remote_verified": true,
+    "remote_verification": "git ls-remote origin refs/heads/agent/qwb/phase-4-runtime-fix -> 7fd03fc5b2d39d80b20ccaa9c7a07355d85dc94a; refs/heads/main -> 18d760d011e956829714e7489432949829fa1840 (untouched); refs/heads/agent/qwb/phase-3 -> 911b44f3e57c39c46048c950274c89bdd04596f5 (unchanged)",
+    "commits": [
+      "e7bf3578d8772330f313b468bc808d5c57c8bf22 Phase 4 checkpoint: keep the shipped seed baseline while the owner replaces it",
+      "7fd03fc5b2d39d80b20ccaa9c7a07355d85dc94a Phase 4 checkpoint: record the accepted state in the project docs"
+    ],
+    "unmerged": true,
+    "main_merged": false
+  },
+  "handoff_repositories": {
+    "workspace_docs": {
+      "repository": "git@github.com:iffinland/qortal-dev-workspace.git",
+      "branch": "agent/qwb-qortal-web-builders/phase-4-checkpoint-docs-20260916",
+      "base_commit": "b8fd2f6fbfcff88c0ab9bc8fd116d5548679d2d2",
+      "commit": "8c16550b729a2c5cc858796c24ee4d35fc6f6a46",
+      "remote_verified": true,
+      "remote_verification": "git ls-remote origin refs/heads/agent/qwb-qortal-web-builders/phase-4-checkpoint-docs-20260916 -> 8c16550b729a2c5cc858796c24ee4d35fc6f6a46; refs/heads/main unchanged at b8fd2f6fbfcff88c0ab9bc8fd116d5548679d2d2",
+      "contents": "144 files: the QWB audits, the Phase 0-1 / 2 / 3 / 4 reports with their evidence directories, the Phase 4 checkpoint report and evidence, projects/qwb-qortal-web-builders.md"
+    },
+    "orchestration": {
+      "repository": "git@github.com:iffinland/ai-development-orchestration.git",
+      "branch": "agent/orchestration/qwb-phase-4-checkpoint-20260916",
+      "base_commit": "9a611a21af469478a253fc664ab295d8c37f69d4",
+      "commit": null,
+      "commit_note": "Recorded in the final handoff after push; a branch cannot carry its own commit SHA without rewriting the commit."
+    }
+  },
+  "skills": {
+    "loaded": [
+      "skills/qortal/qdn-content-crud/SKILL.md",
+      "skills/qortal/inline-owner-editing/SKILL.md",
+      "skills/qortal/registered-name-owner-mode/SKILL.md",
+      "skills/shared/capability-harvest/SKILL.md"
+    ],
+    "freshness": [
+      "qdn-content-crud verified-runtime, last checked 2026-09-16; compatible - the fix had to preserve its read/merge and truthfulness rules and does",
+      "inline-owner-editing verified-runtime, last checked 2026-09-16; compatible - it defines the approved one-entity-at-a-time flow the defect blocked",
+      "registered-name-owner-mode verified-runtime, last checked 2026-09-16; compatible - owner-mode logic is untouched by this change",
+      "capability-harvest verified-runtime, last checked 2026-09-13; used for the harvest decision"
+    ],
+    "created_or_updated": [
+      "skills/qortal/qdn-content-crud/SKILL.md (made durable: new, verified-runtime, prepared by the Phase 4 runtime run)",
+      "skills/qortal/registered-name-owner-mode/SKILL.md (made durable: new, verified-runtime)",
+      "skills/qortal/inline-owner-editing/SKILL.md (made durable: new, verified-runtime)",
+      "skills/README.md (index rows for the three skills)"
+    ],
+    "harvest_result": "project_specific_no_harvest",
+    "harvest_note": "The production-bootstrap baseline was deliberately not promoted to a skill: 'this application's shipped seed content is replaced one entity at a time by its owner' is a QWB product rule, not a reusable Qortal platform contract.",
+    "validator": "python3 tools/validate_skills.py -> Skills validation passed: 13 active skills indexed exactly once"
+  },
+  "handoff_sync": "pushed",
+  "authorization": {
+    "application_commit_push": true,
+    "application_commit_push_source": "Owner task text: durable release-candidate branch/SHA with remote verification is required for the final handoff, and the bootstrap fix was to be implemented only if clearly required (it was).",
+    "handoff_commit_push": true,
+    "handoff_commit_push_source": "Owner task text: 'Commit/push only the appropriate workspace/orchestration branches.'",
+    "not_authorized": [
+      "production publication",
+      "any write to WEBSITE / Qortal Web Builders / default",
+      "merge to main in any repository",
+      "tag or release",
+      "QDN write of any kind"
+    ]
+  },
+  "evidence": [
+    {
+      "layer": "pre-fix reproduction",
+      "path": "qortal-dev-workspace docs/qwb-qortal-web-builders/implementations/2026-09-16-qwb-phase-4-checkpoint-evidence/bootstrap-transition-prefix-failure.txt",
+      "result": "At 741754b, in a detached worktree with only the fix's test file copied in: 2 of 3 bootstrap cases FAIL ('expected [ ... ] to have a length of 2 but got 1' after the first write; a tombstoned shipped item resurrected). No application source was modified."
+    },
+    {
+      "layer": "post-fix transition validation",
+      "path": "qortal-dev-workspace docs/qwb-qortal-web-builders/implementations/2026-09-16-qwb-phase-4-checkpoint-evidence/bootstrap-transition-test.txt",
+      "result": "At 7fd03fc: zero -> first write -> reload -> second write keeps every untouched shipped item; a tombstoned shipped item is not resurrected; the baseline stops contributing once every identifier is reported. 3 passed."
+    },
+    {
+      "layer": "gate",
+      "path": "qortal-dev-workspace docs/qwb-qortal-web-builders/implementations/2026-09-16-qwb-phase-4-checkpoint-evidence/gates-checkpoint.txt",
+      "result": "tsc --noEmit clean; eslint . clean; prettier --check . clean; 25 files / 294 tests passed; npm run build succeeded emitting dist/assets/index-Cc7rTXmF.js"
+    },
+    {
+      "layer": "git state",
+      "path": "qortal-dev-workspace docs/qwb-qortal-web-builders/implementations/2026-09-16-qwb-phase-4-checkpoint-evidence/git-state.txt",
+      "result": "clean worktree, git diff --check clean over 741754b..HEAD, remote refs recorded"
+    },
+    {
+      "layer": "application commits",
+      "path": "qortal-dev-workspace docs/qwb-qortal-web-builders/implementations/2026-09-16-qwb-phase-4-checkpoint-evidence/application-commits.patch",
+      "result": "git format-patch of e7bf357 and 7fd03fc"
+    },
+    {
+      "layer": "inherited owner-runtime evidence (not re-run)",
+      "path": "qortal-dev-workspace docs/qwb-qortal-web-builders/implementations/2026-09-16-qwb-phase-4-owner-runtime-validation.md",
+      "result": "Phase 4 §14 steps 1-13 PASS in Qortal Hub 3.0.3 against WEBSITE / Q-Website / default at 741754b"
+    }
+  ],
+  "missing_evidence": [
+    "No independent review of this checkpoint: the controller has not verified the pushed SHAs or the documentation synchronization.",
+    "No owner-runtime run of the new release candidate. The fix is a read-path merge rule and no write/owner-mode contract changed, but the runtime-validated artifact (741754b) predates it, so the visible render behaviour once content is published differs from the run that produced the owner-runtime evidence. A bounded owner staging confirmation is recommended (report §6.2).",
+    "Phase 4 §14 step 6 failure half still not exercised; step 13's literal in-form refusal notice still unreachable in Hub 3.0.3 (carried over, unchanged).",
+    "git diff --check over the workspace documentation commit reports trailing whitespace inside captured evidence artefacts only (terminal output, format-patch output, saved DOM dumps); preserved verbatim on purpose."
+  ],
+  "owner_acceptance": "not applicable to this checkpoint (documentation + read-path fix). The owner-runtime acceptance it inherits was given 2026-09-16 and D1-D9 are approved. The remaining owner-only step - authorization to publish WEBSITE / Qortal Web Builders / default - belongs to the separate publication task.",
+  "blocker": null,
+  "next_step_note": "codex-local: verify the three pushed branch SHAs, then record the transition. Production publication itself remains owner-authorized and out of scope for this task."
+}
