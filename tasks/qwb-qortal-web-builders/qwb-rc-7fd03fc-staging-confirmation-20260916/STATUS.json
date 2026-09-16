@@ -1,0 +1,139 @@
+{
+  "schema_version": 2,
+  "project": "qortal/qwb-qortal-web-builders",
+  "task": "qwb-rc-7fd03fc-staging-confirmation-20260916",
+  "executing_agent": "DeepSeek",
+  "executing_agent_evidence": "The Hub session (Qortal Hub 3.0.3, CDP-attached), the staging WEBSITE publish issued from the Hub renderer, the five bounded runtime checks, every node read-back, all documentation edits and this record were produced by the DeepSeek model executing through the local Codex CLI profile (CODEX_HOME=/home/iffi/.codex-deepseek, model = \"deepseek-flash\", model_provider = \"deepseek\"). Per AI-Orchestration/GIT-AND-HANDOFF.md the CLI/orchestration profile is not the executor.",
+  "report_writer": "DeepSeek",
+  "state": "review_pending",
+  "state_revision": 1,
+  "previous_state": "planned",
+  "updated_at_utc": "2026-09-16T05:55:00Z",
+  "next_actor": "codex-local",
+  "application": {
+    "repository": "git@github.com:iffinland/QWB-Qortal-Web-Builders.git",
+    "local_path": "/home/iffi/VsCodec-Projects/QWB-Qortal-Web-Builders/qortal-web-builders",
+    "base_commit": "7fd03fc5b2d39d80b20ccaa9c7a07355d85dc94a",
+    "branch": "agent/qwb/phase-4-runtime-fix",
+    "commit": "7fd03fc5b2d39d80b20ccaa9c7a07355d85dc94a",
+    "commit_note": "No new commit: no source changed. HEAD was verified unmoved and the worktree clean before and after the run.",
+    "remote_verified": true,
+    "remote_verification": "git ls-remote origin refs/heads/agent/qwb/phase-4-runtime-fix -> 7fd03fc5b2d39d80b20ccaa9c7a07355d85dc94a; refs/heads/main -> 18d760d011e956829714e7489432949829fa1840 (untouched)",
+    "unmerged": true,
+    "main_merged": false
+  },
+  "staging_revision": {
+    "resource": "WEBSITE / Q-Website / default",
+    "signature": "2egexP3JFzX5pkyVKkPrt9Pidcv9QWvcrvYoxCb8KDtmZa1iY76TUjd4CxLG128xUszoJV2rxKCmyza1gDFJ9sLd",
+    "previous_signature": "5qU9BKTpZycWToRwuZrkjoJDahNwvRLf2Uq2uSYLZH8Tra2ovQSKPg3TGRJX6Cg12gLh1KKamHQx61YYwN4cgb4i",
+    "size_bytes": 880368,
+    "properties_bytes": 1210698,
+    "status": "READY",
+    "served_chunk": "assets/index-Cc7rTXmF.js",
+    "served_chunk_sha256": "19c6ff7143b6baffa1fa04550819d8ed76efc7b6403be93f1e15d90c0fcd6084",
+    "transaction": {
+      "type": "ARBITRARY",
+      "method": "PUT",
+      "blockHeight": 2725989,
+      "fee": "0.01000000",
+      "creatorAddress": "QNwV9VV82UUZmMkDZZbEMAKPpCx7otnnsi",
+      "nodeApiKeyUsed": false
+    },
+    "production_resource_written": false,
+    "production_resource": "WEBSITE / Qortal Web Builders / default — read-only inspected, metadata identical to the Phase 4 record, still the 2026-07-07 placeholder"
+  },
+  "checks": [
+    { "id": 1, "requirement": "existing synthetic QDN entities still render", "result": "pass" },
+    { "id": 2, "requirement": "untouched shipped seed items render beside them", "result": "pass" },
+    { "id": 3, "requirement": "those items still expose the owner inline controls", "result": "pass" },
+    { "id": 4, "requirement": "hard reload preserves both", "result": "pass" },
+    { "id": 5, "requirement": "no tombstoned item is resurrected", "result": "pass" }
+  ],
+  "handoff_repositories": {
+    "workspace_docs": {
+      "repository": "git@github.com:iffinland/qortal-dev-workspace.git",
+      "branch": "agent/qwb-qortal-web-builders/phase-4-checkpoint-docs-20260916",
+      "base_commit": "8c16550b729a2c5cc858796c24ee4d35fc6f6a46",
+      "commit": null,
+      "commit_note": "Recorded in the final handoff after push; a branch cannot carry its own commit SHA without rewriting the commit.",
+      "contents": "the validation report, its 30-artefact evidence directory with SHA256SUMS.txt, the Phase 4 checkpoint closure addendum and the project-context status update"
+    },
+    "orchestration": {
+      "repository": "git@github.com:iffinland/ai-development-orchestration.git",
+      "branch": "agent/orchestration/qwb-rc-7fd03fc-staging-confirmation-20260916",
+      "base_commit": "1320e1648d4c18a50630b9db746b69f83c8b0e4d",
+      "commit": null,
+      "commit_note": "Recorded in the final handoff after push."
+    }
+  },
+  "skills": {
+    "loaded": [
+      "skills/qortal/qdn-content-crud/SKILL.md",
+      "skills/qortal/registered-name-owner-mode/SKILL.md",
+      "skills/qortal/inline-owner-editing/SKILL.md",
+      "skills/shared/capability-harvest/SKILL.md"
+    ],
+    "freshness": [
+      "qdn-content-crud verified-runtime, last checked 2026-09-16; compatible - the staging publish and every read-back followed its contract and nothing in it had to change",
+      "registered-name-owner-mode verified-runtime, last checked 2026-09-16; compatible - owner mode was live in the Hub for the control checks and behaved exactly as recorded",
+      "inline-owner-editing verified-runtime, last checked 2026-09-16; compatible - the confirmed fix is what makes its one-entity-at-a-time flow possible; the skill itself needed no change",
+      "capability-harvest verified-runtime, last checked 2026-09-16; used for the harvest decision"
+    ],
+    "created_or_updated": [],
+    "harvest_result": "project_specific_no_harvest",
+    "harvest_note": "The shipped-seed baseline (\"this application's seed content is replaced one entity at a time by its owner\") is a QWB product rule, not a reusable Qortal platform contract, so no skill was created or updated. No platform-level contract in the loaded skills was found to be wrong, so none needed a correction either.",
+    "validator": "not re-run (no skill file changed)"
+  },
+  "handoff_sync": "pushed",
+  "authorization": {
+    "application_commit_push": true,
+    "application_commit_push_source": "Owner task text explicitly authorized committing/pushing only the appropriate workspace/orchestration branches and forbade merging application main; no application commit was needed because no source changed.",
+    "handoff_commit_push": true,
+    "handoff_commit_push_source": "Owner task text: \"If the bounded confirmation passes: record the runtime evidence and exact staging WEBSITE revision\" and the FINAL HANDOFF requires durable workspace/orchestration commits with remote SHAs.",
+    "qdn_write": "one staging WEBSITE publish to WEBSITE / Q-Website / default, authorized by the task text; production publication explicitly forbidden and not performed",
+    "main_merge": false,
+    "tags_or_releases": false
+  },
+  "evidence": [
+    {
+      "layer": "staging publish",
+      "path": "workspace docs .../validation/2026-09-16-qwb-rc-7fd03fc-staging-confirmation-evidence/publish-invocation.json",
+      "result": "Hub renderer -> window.sendMessage('publishOnQDN') -> publishData(uploadType zip); first attempt rejected on category, retry accepted; on-chain in block 2725989"
+    },
+    {
+      "layer": "served bytes",
+      "path": ".../served-files-verify-after.json",
+      "result": "19/19 published files fetched and hashed against the local dist/ of 7fd03fc; 18 byte-identical, index.html shell-only difference"
+    },
+    {
+      "layer": "runtime",
+      "path": ".../runtime-after-fix-measure.json, .../runtime-after-fix-hard-reload.json, .../runtime-checklist-after-fix.json",
+      "result": "the five checks PASS, reproduced after a Hub hard reload"
+    },
+    {
+      "layer": "pre-fix defect, live",
+      "path": ".../runtime-before-fix-measure.json, .../screen-before-fix-staging-741754b.png",
+      "result": "build 741754b rendered 0 highlights / 0 featured works / 0 prices / 2 services / 1 step with 3 item control rows"
+    },
+    {
+      "layer": "nothing else disturbed",
+      "path": ".../staging-entity-state-after.json",
+      "result": "every synthetic entity still at its Phase 4 revision, order and state; THUMBNAIL still 3016 B"
+    },
+    {
+      "layer": "production untouched",
+      "path": ".../production-resource-search-after.json",
+      "result": "latestSignature iFSzUWnUqm3NYhDQ6cvzukAZPs73BTxEPVH4DbpxkL1Eu3vxtTxDieSxJATsy4CdSybaq6azoRYvXRG3jhRjbb1, 21360 B, metadata identical to the Phase 4 record"
+    }
+  ],
+  "missing_evidence": [
+    "No independent review of this confirmation: the controller has not verified the pushed SHAs, the staging revision or the documentation synchronization.",
+    "Check 5 was confirmed only in its general form: no shipped identifier is tombstoned on this node, so no shipped-tombstone instance existed to observe. The shipped-tombstone case is covered by tests/qdn-source.test.ts and was deliberately not re-created (that would need an entity write).",
+    "The Phase 4 §14 step 6 failure half is still not exercised and step 13's literal in-form refusal notice is still unreachable in Hub 3.0.3 (carried over unchanged from the Phase 4 report).",
+    "No visitor-browser pass was repeated for this confirmation (the Phase 4 run already proved the visitor surface), by instruction to keep the confirmation bounded.",
+    "git diff --check over the workspace documentation commit reports trailing whitespace inside captured evidence artefacts only (node JSON/HTML output and saved DOM dumps); preserved verbatim on purpose."
+  ],
+  "owner_acceptance": "Not applicable to the confirmation itself: it is a staging runtime check performed for the owner and it changed no product behaviour. The owner-only step that remains is the authorization to publish WEBSITE / Qortal Web Builders / default, which belongs to a separate publication task.",
+  "blocker": null,
+  "next_step_note": "codex-local: verify the pushed workspace and orchestration SHAs and the staging revision, then record the transition. Release candidate 7fd03fc is production-ready; production publication itself remains owner-authorized and out of scope for this task."
+}

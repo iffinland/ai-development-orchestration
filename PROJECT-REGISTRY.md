@@ -5,7 +5,7 @@ linked context.
 
 | ID | Platform | Actual local path | Canonical context |
 | --- | --- | --- | --- |
-| qortal/qwb-qortal-web-builders | Qortal | `/home/iffi/VsCodec-Projects/QWB-Qortal-Web-Builders/qortal-web-builders` (created 2026-09-15; production publication pending) | [qwb-qortal-web-builders](/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/projects/qwb-qortal-web-builders.md) |
+| qortal/qwb-qortal-web-builders | Qortal | `/home/iffi/VsCodec-Projects/QWB-Qortal-Web-Builders/qortal-web-builders` (created 2026-09-15; release candidate `7fd03fc` staging-confirmed 2026-09-16 and production-ready; production publication pending owner authorization) | [qwb-qortal-web-builders](/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/projects/qwb-qortal-web-builders.md) |
 | qortal/shadow-archives-webportal | Qortal | `/home/iffi/VsCodec-Projects/shadow-archives/shadow-archives-webportal/QORTAL` | [shadow-archives-webportal](/home/iffi/VsCodec-Projects/Qortal/qortal-dev-workspace/projects/shadow-archives-webportal.md) |
 | qortium/blogs | Qortium | `/home/iffi/VsCodec-Projects/Qortium/projects/Blogs` | [blogs](/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/blogs.md) |
 | qortium/community-discussion-boards | Qortium | `/home/iffi/VsCodec-Projects/Qortium/projects/community-discussion-boards` | [community-discussion-boards](/home/iffi/VsCodec-Projects/Qortium/qortium-dev-workspace/projects/community-discussion-boards.md) |
