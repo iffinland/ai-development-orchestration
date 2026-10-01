@@ -58,6 +58,33 @@ The implementer:
 
 Do not silently expand into unrelated refactors or platform modifications.
 
+### Validation cadence: bounded fix vs checkpoint
+
+Match validation effort to the change.
+
+A bounded fix:
+
+1. inspects the defect;
+2. makes the smallest coherent patch;
+3. runs only the focused regression tests and directly related checks;
+4. runs `git diff --check`;
+5. stops.
+
+Do not follow every bounded fix with the entire test suite, the full build, a
+complete runtime validation, another QDN publication, or another project-wide
+audit. Those belong to an explicit checkpoint or final release gate, where the
+accumulated change is validated once.
+
+Keep targeted implementation validation and final release validation separate.
+Do not repeat an already proven runtime matrix unless the changed code can
+materially affect the behavior that matrix proves. A non-blocking observation
+found during a bounded fix is recorded as a follow-up for later classification,
+not converted into another implementation cycle.
+
+At a final release gate, prove which bytes are actually served by comparing the
+served bundle hash with the locally built release artifact, and record the exact
+release artifact.
+
 ## 5. Review and escalation
 
 The designated controller checks the handoff against the exact application
