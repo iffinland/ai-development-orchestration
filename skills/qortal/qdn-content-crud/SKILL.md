@@ -7,7 +7,7 @@ description: Use when a Qortal dApp publishes, updates, reorders or tombstones i
 
 - Platform: `qortal`
 - Maturity: `verified-runtime`
-- Last checked: `2026-09-16`
+- Last checked: `2026-10-01`
 - Owner: shared capability library
 
 ## Use when
@@ -42,6 +42,7 @@ description: Use when a Qortal dApp publishes, updates, reorders or tombstones i
 | Qortal Web Builders (donor app, real host) | `agent/qwb/phase-3` @ `911b44f3e57c39c46048c950274c89bdd04596f5`; runtime-fix branch `agent/qwb/phase-4-runtime-fix` @ `741754becb79a131c699f2468fe096fdacd00c19` (the revision all runtime evidence above was produced at, pushed); read path extended at `7fd03fc5b2d39d80b20ccaa9c7a07355d85dc94a` (local, Phase 4 checkpoint - see the workspace report named under *Harvest / maturity update*) | `src/content/media.ts` (`qdnMediaUrl`), `src/qortal/bridge.ts`, `src/owner/flows.ts`, `src/owner/writes.ts` - publish/verify/tombstone/reorder and media URL construction; `src/content/qdn-source.ts` - discovery and the per-entity shipped-default baseline (contract 8). |
 | Qortal Core 6.1.9 (node authority) | `qortal-6.1.9-108bf19`, mainnet, `127.0.0.1:24991` (node A) and `127.0.0.1:24992` (node B), `syncPercent` 100 | `/arbitrary/…` serve + metadata + `resource/status` + `resources/search` behaviour recorded below. |
 | Qortal Hub 3.0.3 (host authority) | Linux/Electron build, 2026-09-16 | `PUBLISH_QDN_RESOURCE` approval dialog, flat `0.01 QORT` fee for these writes, decline semantics. |
+| Shadow Archives (owner runtime) | `agent/shadow-archives/blog-publish-partial-outcome-20261001` @ `adfb91f841f10c796b462e045fc6520f6682b126`, mainnet node `127.0.0.1:24992`, 2026-10-01 | Hub can resolve `PUBLISH_MULTIPLE_QDN_RESOURCES` with `error.unsuccessfulPublishes`; the app must normalize that as partial/failed before claiming success. Owner then published a new canonical Blog `DOCUMENT`, confirmed by read-only node discovery. |
 
 Real-host runtime evidence (why maturity is `verified-runtime`), 2026-09-16,
 staging target `WEBSITE / Q-Website / default`, owner `QNwV9VV82UUZmMkDZZbEMAKPpCx7otnnsi`,
@@ -97,6 +98,14 @@ prefix query and cross-app collisions are impossible.
 **3. Publish.** One `PUBLISH_QDN_RESOURCE` per entity revision; the host surfaces
 one approval dialog per request, and the app must not treat the dialog as the
 result.
+
+**3a. Grouped publish outcome.** `PUBLISH_MULTIPLE_QDN_RESOURCES` is a grouped
+approval over independent writes. The Hub may reject its promise with an
+`error.unsuccessfulPublishes` list **or resolve** with an object containing that
+same list. Normalize either shape into `partial` or `failed` before generic
+success handling. Preserve the identities of resources that did land, do not
+claim the batch succeeded, and never automatically retry an ambiguous or
+partial result.
 
 **4. Verify before claiming.** After approval, re-read the resource through the
 bridge and only report published when the read-back revision matches the
@@ -180,6 +189,8 @@ above remain the real-host-verified ones.
   from `/arbitrary/…`; no write claimed before its read-back matched.
 - Negative: a declined approval must produce a truthful rejection, an unchanged
   node revision and no automatic retry.
+- Negative: a resolved grouped response with `error.unsuccessfulPublishes` must
+  produce `partial`/`failed`, not `submitted`.
 
 ## Known failure modes
 
@@ -193,6 +204,9 @@ above remain the real-host-verified ones.
 - Treating a tombstone as a real delete and expecting the bytes to vanish.
 - Auto-retrying an ambiguous write; the correct behaviour is to stop and let the
   user re-issue it explicitly.
+- Treating a resolved Hub `error.unsuccessfulPublishes` object as an ordinary
+  submission, which can report a missing canonical entity or derived companion
+  resource as published.
 - Replacing a kind's whole rendered list with its discovery result while the owner
   is still replacing shipped content: the first write hides every untouched
   shipped item - including its edit control - and the seeded site can no longer
@@ -221,6 +235,12 @@ above remain the real-host-verified ones.
   `docs/qwb-qortal-web-builders/implementations/2026-09-16-qwb-phase-4-checkpoint.md`
   with the application commit series in
   `…/2026-09-16-qwb-phase-4-checkpoint-evidence/`.
+- Grouped-result normalization added on 2026-10-01 from Shadow Archives Blog
+  owner-runtime evidence. The application fix is
+  `src/qortal/publish.ts`; its focused tests cover resolved partial and
+  all-failed responses. The owner published canonical resource
+  `saw_post_lr6vjv48uo4u`, confirmed by node `127.0.0.1:24992`; this proves the
+  target Blog post path, not the optional SubWire consumer path.
 - Downgrade to `stale` if Core `/arbitrary/` routing, `resources/search` modes or
   the Hub approval flow change; the bounded compatibility check above is the
   promotion gate back to `verified-runtime`.
